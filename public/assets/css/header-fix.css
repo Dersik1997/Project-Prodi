@@ -1,0 +1,122 @@
+/* ==========================================================
+   HEADER FIX - taruh PALING BAWAH di assets/css/style.css
+   (atau file css custom, dimuat setelah style.css)
+   ========================================================== */
+
+/* ---------- 1. SEARCH di header atas ---------- */
+.header-top .header-right-wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 18px;
+}
+.header-top .header-search {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 12px;
+    height: 32px;
+    border: 1px solid rgba(255, 255, 255, .35);
+    border-radius: 4px;
+    background: rgba(255, 255, 255, .1);
+}
+.header-top .header-search input {
+    width: 150px;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 13px;
+    color: #fff;
+}
+.header-top .header-search input::placeholder {
+    color: rgba(255, 255, 255, .75);
+}
+.header-top .header-search button {
+    padding: 0 0 0 8px;
+    border: 0;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ---------- 2. MENU AREA satu baris ---------- */
+.menu-area .menu-bar {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0;
+}
+
+/* Tombol Get More Info (lebih ramping) */
+.menu-area .menu-cta {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+.menu-area .menu-cta .th-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 22px;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+/* Nav mengisi sisa ruang, tidak boleh turun baris */
+.menu-area .main-menu {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+.menu-area .main-menu > ul {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.menu-area .main-menu > ul > li {
+    margin: 0 !important;
+    flex: 0 0 auto;
+}
+.menu-area .main-menu > ul > li > a {
+    padding: 22px 10px !important;
+    font-size: 15px;
+}
+
+/* Tombol grid / hamburger di kanan */
+.menu-area .menu-tools {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+
+/* ---------- 3. Layar laptop kecil (1200 - 1399px) ---------- */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .menu-area .menu-cta .th-btn {
+        padding: 14px 16px;
+        font-size: 14px;
+    }
+    .menu-area .main-menu > ul > li > a {
+        padding: 22px 7px !important;
+        font-size: 14px;
+    }
+}
+
+/* ---------- 4. Mobile / tablet ---------- */
+@media (max-width: 1199.98px) {
+    .menu-area .menu-bar {
+        justify-content: space-between;
+    }
+    .header-top .header-search input {
+        width: 110px;
+    }
+}
+@media (max-width: 575.98px) {
+    .header-top .header-right-wrap {
+        gap: 12px;
+    }
+}
