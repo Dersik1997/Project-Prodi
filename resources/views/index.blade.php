@@ -4,12 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Stadum - University Education HTML Template - Home One</title>
-    <meta name="author" content="Stadum">
-    <meta name="description" content="Stadum - University Education HTML Template">
-    <meta name="keywords" content="Stadum - University Education HTML Template">
-    <meta name="robots" content="INDEX,FOLLOW">
-
+    <title>Teknik Informatika | Universitas Muhammadiyah Sukabumi</title>
+    <meta name="author" content="Program Studi Teknik Informatika UMMI">
+    <meta name="description" content="Website resmi Program Studi Teknik Informatika Universitas Muhammadiyah Sukabumi">
+    <meta name="keywords" content="Teknik Informatika, UMMI, Universitas Muhammadiyah Sukabumi">
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -52,6 +50,23 @@
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        .marquee-area {
+            margin-top: 0 !important;
+            padding-top: 30px !important;
+            padding-bottom: 30px !important;
+        }
+       .marquee-card .color-masking {
+    background-color: transparent !important;
+}
+.marquee-card .color-masking img {
+    filter: hue-rotate(235deg) saturate(1.2);
+}
+    </style>
+</head>
 
 </head>
 
@@ -597,8 +612,8 @@ Hero Area
                         <div class="box-icon">
                             <img src="assets/img/icon/feature-icon1-1.svg" alt="icon">
                         </div>
-                        <h3 class="box-title">University Life</h3>
-                        <p class="box-text style2">On the other hand denounce with righteous indignation dislike.</p>
+                        <h3 class="box-title">Profil Prodi</h3>
+                        <p class="box-text style2">Visi, misi, dan tujuan Program Studi Teknik Informatika.</p>
                         <a href="program.html" class="th-btn style-border2 th-icon">Learn More</a>
                     </div>
                 </div>
@@ -607,8 +622,8 @@ Hero Area
                         <div class="box-icon">
                             <img src="assets/img/icon/feature-icon1-2.svg" alt="icon">
                         </div>
-                        <h3 class="box-title">Research</h3>
-                        <p class="box-text style2">On the other hand denounce with righteous indignation dislike.</p>
+                        <h3 class="box-title">Penelitian</h3>
+                        <p class="box-text style2">Publikasi dan riset dosen serta mahasiswa.</p>
                         <a href="program.html" class="th-btn style-border2 th-icon">Learn More</a>
                     </div>
                 </div>
@@ -617,8 +632,8 @@ Hero Area
                         <div class="box-icon">
                             <img src="assets/img/icon/feature-icon1-3.svg" alt="icon">
                         </div>
-                        <h3 class="box-title">Athletics</h3>
-                        <p class="box-text style2">On the other hand denounce with righteous indignation dislike.</p>
+                        <h3 class="box-title">Pengabdian</h3>
+                        <p class="box-text style2">Kegiatan pengabdian kepada masyarakat (PkM).</p>
                         <a href="program.html" class="th-btn style-border2 th-icon">Learn More</a>
                     </div>
                 </div>
@@ -627,14 +642,16 @@ Hero Area
                         <div class="box-icon">
                             <img src="assets/img/icon/feature-icon1-4.svg" alt="icon">
                         </div>
-                        <h3 class="box-title">Academics</h3>
-                        <p class="box-text style2">On the other hand denounce with righteous indignation dislike.</p>
+                        <h3 class="box-title">Akademik</h3>
+                        <p class="box-text style2">Kurikulum, silabus, dan informasi perkuliahan.</p>
                         <a href="program.html" class="th-btn style-border2 th-icon">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div><!--==============================
+    </div>
+    
+<!--==============================
 About Area  
 ==============================-->
     <div class="about1-area position-relative overflow-hidden space-bottom" id="about-sec">
@@ -659,56 +676,74 @@ About Area
                                 </div>
                             </div>
                             <div class="about-wrapp">
-                                <div class="discount-wrapp">
-                                    <div class="logo">
-                                        <img src="assets/img/circle-logo.svg" alt="img">
-                                    </div>
-                                    <div class="discount-tag">
-                                        <span class="discount-anime">* 1996 EST * 25 Years Quality Teaching</span>
-                                    </div>
-                                </div>
-                            </div>
+                                                    </div>
 
                         </div>
                     </div>
                     <div class="col-xl-6">
-                        <div class="about-content ms-xxl-4 ps-xxl-2 ms-xl-2">
-                            <div class="title-area">
-                                <span class="sub-title text-anim">About Us</span>
-                                <h2 class="sec-title text-anim2"> We Offer best program for Shaping the best Future
-                                </h2>
+                       <div class="about-content ms-xxl-4 ps-xxl-2 ms-xl-2">
+    <div class="title-area">
+        <span class="sub-title text-anim">Selamat Datang</span>
+        <h2 class="sec-title text-anim2"> Program Studi Teknik Informatika
+        </h2>
 
-                                <p class="sec-text mt-25 mb-0 wow fadeInUp" data-wow-delay=".2s">We are committed
-                                    to leaving the world a better place. We pursue new technology, encourage
-                                    creativity, engage
-                                    with our communities, and share an entrepreneurial mindset.</p>
-                            </div>
-                            <div class="about-feature-box">
-                                <div class="about-feature wow fadeInUp" data-wow-delay=".3s">
-                                    <span class="box-icon">
-                                        <img src="assets/img/icon/ab-users.svg" alt="icon">
-                                    </span>
-                                    <div class="box-content">
-                                        <h3 class="box-title">Three MBA degrees</h3>
-                                        <p class="box-text">Our team is ready for any challenge! We put our joint efforts to
-                                            generate brave business ideas.</p>
-                                    </div>
-                                </div>
-                                <div class="about-feature wow fadeInUp" data-wow-delay=".4s">
-                                    <span class="box-icon">
-                                        <img src="assets/img/icon/ab-message.svg" alt="icon">
-                                    </span>
-                                    <div class="box-content">
-                                        <h3 class="box-title">Choose From 98+ Degrees</h3>
-                                        <p class="box-text">Our team is ready for any challenge! We put our joint efforts to
-                                            generate brave business ideas.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="btn-wrap wow fadeInUp" data-wow-delay=".5s">
-                                <a href="about.html" class="th-btn th-icon">Learn More</a>
-                            </div>
-                        </div>
+        <p class="sec-text mt-25 mb-0 wow fadeInUp" data-wow-delay=".2s">Selamat datang di website resmi
+            Program Studi Teknik Informatika Universitas Muhammadiyah Sukabumi. Program Studi
+            Teknik Informatika menyelenggarakan pendidikan di bidang software engineering yang
+            unggul, dalam arti mampu menguasai keilmuan dan pemanfaatan teknologi terkini.</p>
+    </div>
+  <div class="about-feature-box">
+    <div class="row gy-4 w-100 mx-0">
+        <div class="col-md-6">
+            <div class="about-feature wow fadeInUp" data-wow-delay=".3s">
+                <span class="box-icon">
+                    <img src="assets/img/icon/ab-code.svg" alt="icon">
+                </span>
+                <div class="box-content">
+                    <h3 class="box-title">Software Engineering</h3>
+                    <p class="box-text">Fokus pada pengembangan perangkat lunak.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="about-feature wow fadeInUp" data-wow-delay=".4s">
+                <span class="box-icon">
+                    <img src="assets/img/icon/ab-cap.svg" alt="icon">
+                </span>
+                <div class="box-content">
+                    <h3 class="box-title">Akreditasi B</h3>
+                    <p class="box-text">Kualitas pendidikan terakreditasi.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="about-feature wow fadeInUp" data-wow-delay=".5s">
+                <span class="box-icon">
+                    <img src="assets/img/icon/ab-users.svg" alt="icon">
+                </span>
+                <div class="box-content">
+                    <h3 class="box-title">Dosen Berkualitas</h3>
+                    <p class="box-text">Tenaga pengajar profesional.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="about-feature wow fadeInUp" data-wow-delay=".6s">
+                <span class="box-icon">
+                    <img src="assets/img/icon/ab-laptop.svg" alt="icon">
+                </span>
+                <div class="box-content">
+                    <h3 class="box-title">Fasilitas Modern</h3>
+                    <p class="box-text">Lab dan peralatan terkini.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="btn-wrap wow fadeInUp" data-wow-delay=".7s">
+    <a href="about.html" class="th-btn th-icon">Pelajari Lebih Lanjut</a>
+</div>
+</div>
                     </div>
                 </div>
             </div>
@@ -1175,7 +1210,71 @@ Why Choose Us Area
 
             </div>
         </div>
-    </section><!--==============================
+    </section>
+        <section class="chancellor-area position-relative space">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-xl-6">
+                    <div class="chancellor-thumb">
+                        <img src="assets/img/chancellor/chancellor-img-home-1.jpg" alt="image">
+                        <div class="ripple-shape style2">
+                            <span class="ripple-1"></span>
+                            <span class="ripple-2"></span>
+                            <span class="ripple-3"></span>
+                            <span class="ripple-4"></span>
+                            <span class="ripple-5"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="chancellor-wrapp">
+                        <div class="chancellor-titlebox title-area">
+                            <span class="sub-title text-anim">DOSEN & TENAGA PENDIDIK</span>
+                            <h2 class="sec-title text-anim2">Dosen Teknik Informatika
+                            </h2>
+                            <p class="box-text mt-25 wow fadeInUp" data-wow-delay=".4s">Dosen Program Studi Teknik Informatika berpengalaman di bidang rekayasa perangkat lunak dan siap membimbing mahasiswa menguasai teknologi terkini.</p>
+                        </div>
+                        <div class="chancellor-content">
+                            <div class="skill-feature wow fadeInUp" data-wow-delay=".2s">
+                                <h3 class="skill-feature-title">Faculty Skilled</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 95%;">
+                                        <div class="progress-value">95%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-feature wow fadeInUp" data-wow-delay=".4s">
+                                <h3 class="skill-feature-title">Computer Science</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 98%;">
+                                        <div class="progress-value">98%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-feature wow fadeInUp" data-wow-delay=".6s">
+                                <h3 class="skill-feature-title">Communication</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 95%;">
+                                        <div class="progress-value">95%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chancellor-bottom">
+                                <div class="chancellor-action">
+                                    <a href="contact.html" class="th-btn th-icon">Lihat Dosen</a>
+                                </div>
+                                <div class="chancellor-signature-box text-sm-center">
+                                    <p class="box-text">Prof. Dr. Simons Doe, Ph.D</p>
+                                    <img src="assets/img/icon/signature.png" class="chancellor-signature" alt="signature">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==============================
 Story Area  
 ==============================-->
     <div class="story-area-1 overflow-hidden">
@@ -1632,10 +1731,11 @@ Story Area
                 </div>
             </div>
         </div>
-    </div><!--==============================
+    </div>
+    <!--==============================
 Event Area 1
 ==============================-->
-    <section class="event-area-1 position-relative overflow-hidden space" id="event-sec">
+       <section class="event-area-1 position-relative overflow-hidden space" id="event-sec">
         <div class="event-shape shape-mockup d-none d-xxl-block" data-top="0%" data-left="0%">
             <img src="assets/img/shape/shape-2.png" alt="">
         </div>
@@ -1646,13 +1746,13 @@ Event Area 1
             <div class="row justify-content-lg-between justify-content-center align-items-center">
                 <div class="col-lg-8 col-12">
                     <div class="title-area text-center text-lg-start">
-                        <span class="sub-title text-anim">STUDENT EVENTS</span>
-                        <h2 class="sec-title text-anim2">Alumni Events</h2>
+                        <span class="sub-title text-anim">KEGIATAN</span>
+                        <h2 class="sec-title text-anim2">Agenda</h2>
                     </div>
                 </div>
                 <div class="col-auto align-self-end">
                     <div class="sec-btn wow fadeInUp" data-wow-delay=".3s">
-                        <a href="event.html" class="th-btn style-border1 th-icon">Explore All</a>
+                        <a href="event.html" class="th-btn style-border1 th-icon">Lihat Semua Agenda</a>
                     </div>
                 </div>
             </div>
@@ -1660,123 +1760,67 @@ Event Area 1
                 <div class="event-card wow fadeInUp" data-wow-delay=".2s">
                     <div class="event-card-img global-img">
                         <img src="assets/img/event/event-1-1.jpg" alt="event">
-                        <p class="event-card-tag"><span class="tag-number">12</span>Jan</p>
+                        <p class="event-card-tag"><span class="tag-number">27</span>Jun</p>
                     </div>
                     <div class="event-content">
                         <div class="event-wrapp">
-                            <h3 class="box-title text-anim2"><a href="event-details.html">Programming languages for a better world</a></h3>
-                            <p class="box-text">Come for a quick session on how this question has crucially helped humanity with achieving one of its most impressive feats yet: orchestrating electric currents.</p>
+                            <h3 class="box-title text-anim2"><a href="event-details.html">Audit Mutu Internal Siklus IX</a></h3>
+                            <p class="box-text">Kegiatan audit mutu internal siklus IX di lingkungan Universitas Muhammadiyah Sukabumi.</p>
                             <div class="blog-meta">
                                 <a class="location" href="#">
                                     <i class="fa-solid fa-location-dot"></i>
-                                    25 Circular Road, New York City </a>
+                                    Universitas Muhammadiyah Sukabumi </a>
                                 <a class="date" href="#">
                                     <i class="fa-regular fa-calendar-days"></i>
-                                    25.02.2025 </a>
+                                    Senin </a>
                                 <a class="time" href="#">
                                     <i class="fa-solid fa-clock"></i>
-                                    09:00am - 12:00pm </a>
+                                    00:00 - 00:00 </a>
                             </div>
                         </div>
                         <div class="btn-wrap">
-                            <a class="th-btn style-border1 th-icon" href="event-details.html">Details</a>
+                            <a class="th-btn style-border1 th-icon" href="event-details.html">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
-
-                <div class="event-card wow fadeInUp" data-wow-delay=".4s">
-                    <div class="event-card-img global-img">
-                        <img src="assets/img/event/event-1-2.jpg" alt="event">
-                        <p class="event-card-tag"><span class="tag-number">07</span>Feb</p>
-                    </div>
-                    <div class="event-content">
-                        <div class="event-wrapp">
-                            <h3 class="box-title text-anim2"><a href="event-details.html">Center for Subjectivity Research 2024</a></h3>
-                            <p class="box-text">Center for subjectivity research at the university of copenhagen was established in 2002 on the basis of a grant from national research.</p>
-                            <div class="blog-meta">
-                                <a class="location" href="#">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    25 Circular Road, New York City </a>
-                                <a class="date" href="#">
-                                    <i class="fa-regular fa-calendar-days"></i>
-                                    03.08.2025 </a>
-                                <a class="time" href="#">
-                                    <i class="fa-solid fa-clock"></i>
-                                    10:00am - 03:20pm </a>
-                            </div>
-                        </div>
-                        <div class="btn-wrap">
-                            <a class="th-btn style-border1 th-icon" href="event-details.html">Details</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="event-card wow fadeInUp" data-wow-delay=".6s">
-                    <div class="event-card-img global-img">
-                        <img src="assets/img/event/event-1-3.jpg" alt="event">
-                        <p class="event-card-tag"><span class="tag-number">22</span>Sep</p>
-                    </div>
-                    <div class="event-content">
-                        <div class="event-wrapp">
-                            <h3 class="box-title text-anim2"><a href="event-details.html">The Future of Archives in the Digital Age</a></h3>
-                            <p class="box-text">This talk explores the potential future of archives in the digital age, using one of the oldest philosophical archives and research institutes for philosophy in Germany</p>
-                            <div class="blog-meta">
-                                <a class="location" href="#">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    25 Circular Road, New York City </a>
-                                <a class="date" href="#">
-                                    <i class="fa-regular fa-calendar-days"></i>
-                                    14.11.2025 </a>
-                                <a class="time" href="#">
-                                    <i class="fa-solid fa-clock"></i>
-                                    11:00am - 04:00pm </a>
-                            </div>
-                        </div>
-                        <div class="btn-wrap">
-                            <a class="th-btn style-border1 th-icon" href="event-details.html">Details</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
-    <section class="apply-stadum-area bg-title position-relative space overflow-hidden">
+       <section class="apply-stadum-area bg-title position-relative space overflow-hidden">
         <div class="container">
             <div class="row gy-4 align-items-center justify-content-between">
                 <div class="col-xl-6 order-1 order-xl-0">
                     <div class="apply-stadum-titlebox title-area ">
                         <div class="sec-title-wrap">
-                            <span class="sub-title text-anim">APPLY TO STADUM</span>
-                            <h2 class="sec-title text-white text-anim2">We are one of the largest university</h2>
+                            <span class="sub-title text-anim">PENERIMAAN MAHASISWA BARU</span>
+                            <h2 class="sec-title text-white text-anim2">Bangun Masa Depan Bersama Teknik Informatika</h2>
                         </div>
                         <div class="box-text-wrap">
-                            <p class="box-text text-white mt-25 wow fadeInUp" data-wow-delay=".2s">A place to provide students with enough knowledge and skills in a complex world. Are you looking for exceptional education experience? Stadum might be the place for you.
-                            <p>
+                            <p class="box-text text-white mt-25 wow fadeInUp" data-wow-delay=".2s">Kembangkan potensi, kuasai teknologi, dan wujudkan inovasi untuk masa depan bersama Program Studi Teknik Informatika Universitas Muhammadiyah Sukabumi.</p>
                         </div>
                     </div>
                     <div class="apply-stadum-wrapp">
                         <div class="apply-stadum-box">
                             <div class="checklist">
                                 <ul class="list-unstyled">
-                                    <li class="wow fadeInUp" data-wow-delay=".2s"> Undergraduate Admissions</li>
-                                    <li class="wow fadeInUp" data-wow-delay=".3s"> Graduate Admissions</li>
-                                    <li class="wow fadeInUp" data-wow-delay=".4s"> International Students </li>
-                                    <li class="wow fadeInUp" data-wow-delay=".5s"> Scholarship Opportunities </li>
+                                    <li class="wow fadeInUp" data-wow-delay=".2s"> Informasi Pendaftaran</li>
+                                    <li class="wow fadeInUp" data-wow-delay=".3s"> Jalur Penerimaan</li>
+                                    <li class="wow fadeInUp" data-wow-delay=".4s"> Persyaratan Pendaftaran </li>
+                                    <li class="wow fadeInUp" data-wow-delay=".5s"> Jadwal Penerimaan </li>
                                 </ul>
                             </div>
                             <div class="checklist">
                                 <ul class="list-unstyled">
-                                    <li class="wow fadeInUp" data-wow-delay=".6s"> Transfer Admissions</li>
-                                    <li class="wow fadeInUp" data-wow-delay=".7s"> Financial Aid Applications</li>
-                                    <li class="wow fadeInUp" data-wow-delay=".8s"> Scholarship Opportunities </li>
-                                    <li class="wow fadeInUp" data-wow-delay=".9s">Campus Visit Scheduling </li>
+                                    <li class="wow fadeInUp" data-wow-delay=".6s"> Biaya Pendidikan</li>
+                                    <li class="wow fadeInUp" data-wow-delay=".7s"> Beasiswa</li>
+                                    <li class="wow fadeInUp" data-wow-delay=".8s"> Fasilitas Kampus </li>
+                                    <li class="wow fadeInUp" data-wow-delay=".9s"> Kontak Admisi </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="apply-stadum-action th-btn-wrap wow fadeInUp" data-wow-delay=".10s">
-                            <a href="contact.html" class="th-btn th-icon white-hover">
-                                More About Admission </a>
+                            <a href="https://pmb.ummi.ac.id" target="_blank" class="th-btn th-icon white-hover">
+                                Informasi PMB </a>
                         </div>
                     </div>
                 </div>
@@ -1788,76 +1832,6 @@ Event Area 1
             </div>
         </div>
         <span class="apply-stadum-shape wow fadeInRight" data-wow-delay=".3s"></span>
-    </section>
-    <section class="chancellor-area position-relative space">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-xl-6">
-                    <div class="chancellor-thumb">
-                        <img src="assets/img/chancellor/chancellor-img-home-1.jpg" alt="image">
-                        <div class="ripple-shape style2">
-                            <span class="ripple-1"></span>
-                            <span class="ripple-2"></span>
-                            <span class="ripple-3"></span>
-                            <span class="ripple-4"></span>
-                            <span class="ripple-5"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="chancellor-wrapp">
-                        <div class="chancellor-titlebox title-area">
-                            <span class="sub-title text-anim">OUR CHANCELLOR & LECTURE</span>
-                            <h2 class="sec-title text-anim2">Chancellor & Lecturer
-                            </h2>
-                            <p class="box-text mt-25 wow fadeInUp" data-wow-delay=".4s">A place to provide
-                                students with enough knowledge and skills in a complex world. Are you looking for
-                                exceptional
-                                education experience? Stadum might be the place for you.</p>
-                        </div>
-                        <div class="chancellor-content">
-                            <!--==============================
-Skill Area Home 1 
-==============================-->
-
-                            <div class="skill-feature wow fadeInUp" data-wow-delay=".2s">
-                                <h3 class="skill-feature-title">Faculty Skilled</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" style="width: 95%;">
-                                        <div class="progress-value">95%</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-feature wow fadeInUp" data-wow-delay=".4s">
-                                <h3 class="skill-feature-title">Computer Science</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" style="width: 98%;">
-                                        <div class="progress-value">98%</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill-feature wow fadeInUp" data-wow-delay=".6s">
-                                <h3 class="skill-feature-title">Communication</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" style="width: 95%;">
-                                        <div class="progress-value">95%</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="chancellor-bottom">
-                                <div class="chancellor-action">
-                                    <a href="contact.html" class="th-btn th-icon">Lecturer at Faculty</a>
-                                </div>
-                                <div class="chancellor-signature-box text-sm-center">
-                                    <p class="box-text">Prof. Dr. Simons Doe, Ph.D</p>
-                                    <img src="assets/img/icon/signature.png" class="chancellor-signature" alt="signature">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section><!--==============================
 Marquee Area  
 ==============================-->
@@ -1870,7 +1844,7 @@ Marquee Area
                             <div class="color-masking">
                                 <img src="assets/img/icon/open-book.svg" alt="icon">
                             </div>
-                            <a target="_blank" href="#">CREATION</a>
+                            <a target="_blank" href="#">INOVASI</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -1878,7 +1852,7 @@ Marquee Area
                             <div class="color-masking">
                                 <img src="assets/img/icon/scollarship.svg" alt="icon">
                             </div>
-                            <a target="_blank" href="#">DISCOVER</a>
+                            <a target="_blank" href="#">TEKNOLOGI</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -1886,7 +1860,7 @@ Marquee Area
                             <div class="color-masking">
                                 <img src="assets/img/icon/open-book.svg" alt="icon">
                             </div>
-                            <a target="_blank" href="#">INNOVATE</a>
+                            <a target="_blank" href="#">KREATIF</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -1894,7 +1868,7 @@ Marquee Area
                             <div class="color-masking">
                                 <img src="assets/img/icon/open-book.svg" alt="icon">
                             </div>
-                            <a target="_blank" href="#">EDUCATION</a>
+                            <a target="_blank" href="#">PENDIDIKAN</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -1902,7 +1876,7 @@ Marquee Area
                             <div class="color-masking">
                                 <img src="assets/img/icon/scollarship.svg" alt="icon">
                             </div>
-                            <a target="_blank" href="#">CASE STUDIES</a>
+                            <a target="_blank" href="#">RISET</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -1910,7 +1884,7 @@ Marquee Area
                             <div class="color-masking">
                                 <img src="assets/img/icon/open-book.svg" alt="icon">
                             </div>
-                            <a target="_blank" href="#">CREATION</a>
+                            <a target="_blank" href="#">INOVASI</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -1918,7 +1892,7 @@ Marquee Area
                             <div class="color-masking">
                                 <img src="assets/img/icon/open-book.svg" alt="icon">
                             </div>
-                            <a target="_blank" href="#">DISCOVER</a>
+                            <a target="_blank" href="#">TEKNOLOGI</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -1926,7 +1900,71 @@ Marquee Area
                             <div class="color-masking">
                                 <img src="assets/img/icon/scollarship.svg" alt="icon">
                             </div>
-                            <a target="_blank" href="#">INNOVATE</a>
+                            <a target="_blank" href="#">KREATIF</a>
+                                                <div class="swiper-slide">
+                        <div class="marquee-card">
+                            <div class="color-masking">
+                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                            </div>
+                            <a target="_blank" href="#">PENDIDIKAN</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="marquee-card">
+                            <div class="color-masking">
+                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                            </div>
+                            <a target="_blank" href="#">RISET</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="marquee-card">
+                            <div class="color-masking">
+                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                            </div>
+                            <a target="_blank" href="#">INOVASI</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="marquee-card">
+                            <div class="color-masking">
+                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                            </div>
+                            <a target="_blank" href="#">TEKNOLOGI</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="marquee-card">
+                            <div class="color-masking">
+                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                            </div>
+                            <a target="_blank" href="#">KREATIF</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="marquee-card">
+                            <div class="color-masking">
+                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                            </div>
+                            <a target="_blank" href="#">PENDIDIKAN</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="marquee-card">
+                            <div class="color-masking">
+                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                            </div>
+                            <a target="_blank" href="#">RISET</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="marquee-card">
+                            <div class="color-masking">
+                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                            </div>
+                            <a target="_blank" href="#">INOVASI</a>
+                        </div>
+                    </div>
                         </div>
                     </div>
                 </div>
@@ -2080,7 +2118,12 @@ Faq Area
                 </div>
             </div>
         </div>
-    </section><!--==============================
+    </section>
+    
+    <!--==============================
+Blog Area 1
+==============================-->
+  <!--==============================
 Blog Area 1
 ==============================-->
     <section class="blog-area-1 overflow-hidden space" id="blog-sec">
@@ -2088,13 +2131,13 @@ Blog Area 1
             <div class="row justify-content-lg-between justify-content-center align-items-center">
                 <div class="col-lg-8 col-12">
                     <div class="title-area text-center text-lg-start">
-                        <span class="sub-title text-anim">LATEST NEWS & BLOG</span>
-                        <h2 class="sec-title text-anim2">Blog & Insights</h2>
+                        <span class="sub-title text-anim">INFORMASI</span>
+                        <h2 class="sec-title text-anim2">Pengumuman</h2>
                     </div>
                 </div>
                 <div class="col-auto align-self-end">
                     <div class="sec-btn wow fadeInUp" data-wow-delay=".3s">
-                        <a href="blog.html" class="th-btn style-border1 th-icon"> Our Blogs </a>
+                        <a href="blog.html" class="th-btn style-border1 th-icon"> Lihat Semua Pengumuman </a>
                     </div>
                 </div>
             </div>
@@ -2109,21 +2152,21 @@ Blog Area 1
                                 </div>
                             </a>
                             <div class="blog-date">
-                                <h5 class="blog-date-title">24</h5>
-                                <p class="blog-date-text">FEB,2025</p>
+                                <h5 class="blog-date-title">15</h5>
+                                <p class="blog-date-text">FEB,2021</p>
                             </div>
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
                                 <a class="author" href="blog.html">
-                                    <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>By themeholy</a>
-                                <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment
+                                    <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>By Admin</a>
+                                <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-calendar"></i></span> 15 Februari 2021
                                 </a>
                             </div>
-                            <h3 class="box-title"><a href="blog-details.html">Platform Innovation Centre & Parkade for generation</a></h3>
-                            <p class="box-text">Studam fuels student success through smart tools and guides for academic excellence.</p>
+                            <h3 class="box-title"><a href="blog-details.html">Batas Pembayaran dan Pengisian KRS Genap</a></h3>
+                            <p class="box-text">Informasi batas akhir pembayaran dan pengisian KRS semester genap.</p>
                             <div class="btn-wrap">
-                                <a href="blog-details.html" class="th-btn style-border1 th-icon">Read More</a>
+                                <a href="blog-details.html" class="th-btn style-border1 th-icon">Selengkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -2139,21 +2182,21 @@ Blog Area 1
                                 </div>
                             </a>
                             <div class="blog-date">
-                                <h5 class="blog-date-title">29</h5>
-                                <p class="blog-date-text">JAN,2025</p>
+                                <h5 class="blog-date-title">08</h5>
+                                <p class="blog-date-text">FEB,2021</p>
                             </div>
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
                                 <a class="author" href="blog.html">
-                                    <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>By themeholy</a>
-                                <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment
+                                    <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>By Admin</a>
+                                <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-calendar"></i></span> 08 Februari 2021
                                 </a>
                             </div>
-                            <h3 class="box-title"><a href="blog-details.html">Olympic Plaza Transformar Advence project</a></h3>
-                            <p class="box-text">Studam enables learners with powerful tools and support for every education phase.</p>
+                            <h3 class="box-title"><a href="blog-details.html">Info Pendaftaran Sidang UP Semester Ganjil Tahun Akademik 2020/2021</a></h3>
+                            <p class="box-text">Informasi pendaftaran sidang UP untuk semester ganjil tahun akademik 2020/2021.</p>
                             <div class="btn-wrap">
-                                <a href="blog-details.html" class="th-btn style-border1 th-icon">Read More</a>
+                                <a href="blog-details.html" class="th-btn style-border1 th-icon">Selengkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -2169,82 +2212,148 @@ Blog Area 1
                                 </div>
                             </a>
                             <div class="blog-date">
-                                <h5 class="blog-date-title">18</h5>
-                                <p class="blog-date-text">FEB,2025</p>
+                                <h5 class="blog-date-title">07</h5>
+                                <p class="blog-date-text">FEB,2021</p>
                             </div>
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
                                 <a class="author" href="blog.html">
-                                    <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>By themeholy</a>
-                                <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment
+                                    <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>By Admin</a>
+                                <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-calendar"></i></span> 07 Februari 2021
                                 </a>
                             </div>
-                            <h3 class="box-title"><a href="blog-details.html">Calgary Municipal Land Corporation launches</a></h3>
-                            <p class="box-text">Studam builds strong student networks and platforms for academic transformation daily.</p>
+                            <h3 class="box-title"><a href="blog-details.html">Membuka Rekrutmen Asistensi Praktikum</a></h3>
+                            <p class="box-text">Pembukaan rekrutmen asisten untuk kegiatan praktikum.</p>
                             <div class="btn-wrap">
-                                <a href="blog-details.html" class="th-btn style-border1 th-icon">Read More</a>
+                                <a href="blog-details.html" class="th-btn style-border1 th-icon">Selengkapnya</a>
                             </div>
                         </div>
                     </div>
                 </div>
-
 
             </div>
         </div>
-    </section><!--==============================
+    </section>
+    <!--==============================
 	Footer Area
 ==============================-->
-    <footer class="footer-wrapper footer-default footer-overlay" data-bg-src="assets/img/bg/footer-bg-1.jpg">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row gy-40 align-items-center justify-content-between">
-                    <div class="col-xl-auto">
-                        <div class="footer-logo z-index-common" data-cue="slideInLeft">
-                            <a href="home-university.html">
-                                <img src="assets/img/logo-white.svg" alt="Stadum">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-xl-auto">
-                        <div class="client-group-wrap z-index-common" data-cue="slideInRight">
-                            <img src="assets/img/normal/client-group1.png" alt="img">
-                            <h4 class="title">Have any question?
-                                <a href="contact.html"><img src="assets/img/icon/chat2.svg" alt=""> <span class="text-theme">Live</span></a> chat now
-                            </h4>
-                        </div>
-                    </div>
+<footer class="footer-wrapper footer-default"
+    style="background-color: #111827; background-image: none;">
+       <footer class="footer-wrapper footer-default"
+    style="background-color: #111827; background-image: none;">
+
+    <!-- FOOTER TOP BARU -->
+    <div class="footer-top" style="
+        background: linear-gradient(120deg, #172B50, #203F78);
+        padding: 60px 0;
+    ">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-8">
+                    <span style="color: #8DB8FF; font-size: 13px; font-weight: 700; letter-spacing: 2px;">
+                        PENERIMAAN MAHASISWA BARU
+                    </span>
+
+                    <h2 style="color: #ffffff; font-size: 34px; margin: 12px 0;">
+                        Bangun Masa Depan Bersama Teknologi
+                    </h2>
+
+                    <h4 style="color: #DCE8FF; font-size: 19px;">
+                        Program Studi Teknik Informatika UMMI
+                    </h4>
+
+                    <p style="color: #DCE8FF; max-width: 650px; margin-top: 15px; line-height: 1.8;">
+                        Kembangkan potensi, kuasai teknologi,
+                        dan wujudkan inovasi untuk masa depan
+                        bersama Teknik Informatika.
+                    </p>
                 </div>
+
+                <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+                    <a href="https://pmb.ummi.ac.id" target="_blank"
+                       style="display: inline-block; padding: 15px 25px;
+                       background: #2454D6; color: #ffffff;
+                       border-radius: 5px; font-weight: 600;">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        Informasi PMB
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
             </div>
         </div>
-        <div class="container">
-            <div class="widget-area">
+    </div>
+
+    <!-- FOOTER UTAMA TETAP -->
+           <div class="container">
+            <div class="widget-area" style="padding-top: 20px; padding-bottom: 40px;">
                 <div class="row justify-content-between">
                     <div class="col-md-6 col-xl-auto">
                         <div class="widget footer-widget">
-                            <div class="th-widget-about">
-                                <h3 class="widget_title">About Stadum</h3>
-                                <p class="about-text">Since 1999, when the newly minted Stadum team embraced its mandate to breathe new life into the downtrodden neighbourhood, East Village’s transformation has been nothing short of remarkable. </p>
-                                <div class="footer-info">
-                                    <a href="#">
-                                        <span class="footer-info-icon"><i class="fa-solid fa-location-dot"></i></span> 45 New Eskaton Road, Austria
-                                    </a>
-                                    <a href="mailto:infomail@example.com">
-                                        <span class="footer-info-icon"><i class="fa-solid fa-envelope"></i></span> infomail@example.com
-                                    </a>
-                                </div>
-                            </div>
+                               <!-- Logo Teknik Informatika UMMI -->
+   <div class="footer-logo" style="margin-bottom: 15px;">
+     <a href="home-university.html">
+        <img
+            src="{{ asset('assets/img/logoprodifooter.png') }}"
+            alt="Logo Teknik Informatika UMMI"
+            style="
+                width: 320px;
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0;
+            "
+        >
+    </a>
+</div>
+                           
+<div class="th-widget-about">
+    <h3 class="widget_title">Tentang Kami</h3>
+
+    <p class="about-text">
+        Program Studi Teknik Informatika Universitas
+        Muhammadiyah Sukabumi, unggul dalam bidang
+        rekayasa perangkat lunak dengan berbudaya
+        tekno religi.
+    </p>
+
+    <div class="footer-info">
+        <a href="#">
+            <span class="footer-info-icon">
+                <i class="fa-solid fa-location-dot"></i>
+            </span>
+            Jalan R. Syamsudin, SH No. 50 Kota Sukabumi 43113
+        </a>
+
+        <a href="tel:081280408246">
+            <span class="footer-info-icon">
+                <i class="fa-solid fa-phone"></i>
+            </span>
+            081280408246
+        </a>
+
+        <a href="mailto:ti@ummi.ac.id">
+            <span class="footer-info-icon">
+                <i class="fa-solid fa-envelope"></i>
+            </span>
+            ti@ummi.ac.id
+        </a>
+    </div>
+</div>
+
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xl-auto">
+                   <div class="col-lg-2 col-md-6" style="padding-top: 120px;">
                         <div class="widget widget_nav_menu footer-widget">
                             <h3 class="widget_title">Useful Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="index.html">Students</a></li>
-                                    <li><a href="about.html">Admission</a></li>
-                                    <li><a href="pricing.html">Faculty & Stuffs</a></li>
-                                    <li><a href="service.html">Media Relations</a></li>
+                                    <li><a href="index.html">Profile</a></li>
+                                    <li><a href="about.html">Visi dan Misi</a></li>
+                                    <li><a href="pricing.html">Struktur Organisasi</a></li>
+                                    <li><a href="service.html">Staff Pengajar</a></li>
                                     <li><a href="about.html">Alumni</a></li>
                                     <li><a href="about.html">All Awards</a></li>
                                     <li><a href="contact.html">Recent Events</a></li>
@@ -2252,7 +2361,7 @@ Blog Area 1
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xl-auto">
+                    <div class="col-lg-2 col-md-6" style="padding-top: 120px;">
                         <div class="widget widget_nav_menu footer-widget">
                             <h3 class="widget_title">Our Programs</h3>
                             <div class="menu-all-pages-container">
@@ -2268,7 +2377,7 @@ Blog Area 1
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-auto">
+                    <div class="col-lg-2 col-md-6" style="padding-top: 120px;">
                         <div class="widget th-widget-instagram footer-widget">
                             <h3 class="widget_title">Instagram</h3>
                             <div class="instagram-feeds">
@@ -2319,15 +2428,18 @@ Blog Area 1
                 <div class="row justify-content-center gy-3 align-items-center">
                     <div class="col-lg-6">
                         <p class="copyright-text">
-                            <i class="fal fa-copyright"></i> Copyright 2025 <a href="home-university.html">Stadum</a>. All Rights Reserved.
+                          <i class="fal fa-copyright"></i>
+Copyright 2026
+<a href="home-university.html">Program Studi Teknik Informatika UMMI</a>.
+All Rights Reserved.
                         </p>
                     </div>
                     <div class="col-lg-6 text-lg-end text-center">
                         <div class="footer-links">
                             <ul>
-                                <li><a href="about.html">Privacy Policy</a></li>
-                                <li><a href="about.html">Terms of services</a></li>
-                                <li><a href="about.html">Disclaimer</a></li>
+                                  <li><a href="https://ummi.ac.id/">UMMI</a></li>
+        <li><a href="#">SIAK</a></li>
+        <li><a href="#">E-Learning</a></li>
                             </ul>
                         </div>
                     </div>
