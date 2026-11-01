@@ -371,7 +371,6 @@ Sukabumi 43113</a>
                                                 <a href="index.html">Beranda</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="index.html">Beranda Utama</a></li>
-                                                    <li><a href="home-university.html">Home University</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
