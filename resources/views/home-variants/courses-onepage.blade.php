@@ -87,7 +87,7 @@
             <div class="widget footer-widget">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="home-university.html">
+                        <a href="{{ route('home.university') }}">
                             <img src="assets/img/logo2.svg" alt="Stadum">
                         </a>
                     </div>
@@ -107,38 +107,38 @@
                 <div class="recent-post-wrap">
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title">
-                                <a class="text-inherit" href="blog-details.html">Trailblazers in Faculty Perspectives</a>
+                                <a class="text-inherit" href="{{ route('blog.details') }}">Trailblazers in Faculty Perspectives</a>
                             </h4>
                             <div class="recent-post-meta">
-                                <a href="blog.html"><i class="far fa-calendar"></i>26/6/2025</a>
+                                <a href="{{ route('blog.index') }}"><i class="far fa-calendar"></i>26/6/2025</a>
                             </div>
                         </div>
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Future Focus Preparing for Tomorrow</a></h4>
+                            <h4 class="post-title"><a class="text-inherit" href="{{ route('blog.details') }}">Future Focus Preparing for Tomorrow</a></h4>
                             <div class="recent-post-meta">
-                                <a href="blog.html"><i class="far fa-calendar"></i>24/6/2025</a>
+                                <a href="{{ route('blog.index') }}"><i class="far fa-calendar"></i>24/6/2025</a>
                             </div>
                         </div>
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title">
-                                <a class="text-inherit" href="blog-details.html">The Green Initiative Sustainability in Action</a>
+                                <a class="text-inherit" href="{{ route('blog.details') }}">The Green Initiative Sustainability in Action</a>
                             </h4>
                             <div class="recent-post-meta">
-                                <a href="blog.html"><i class="far fa-calendar"></i>24/6/2025</a>
+                                <a href="{{ route('blog.index') }}"><i class="far fa-calendar"></i>24/6/2025</a>
                             </div>
                         </div>
                     </div>
@@ -169,26 +169,26 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="home-university.html"><img src="assets/img/logo.svg" alt="Stadum"></a>
+                <a href="{{ route('home.university') }}"><img src="assets/img/logo.svg" alt="Stadum"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children">
-                        <a href="home-university.html">Home</a>
+                        <a href="{{ route('home.university') }}">Home</a>
                         <ul class="sub-menu">
-                            <li><a href="index.html">University Home</a></li>
-                            <li><a href="home-admission.html">Admission Home</a></li>
-                            <li><a href="home-courses.html">Course Home</a></li>
+                            <li><a href="{{ route('home') }}">University Home</a></li>
+                            <li><a href="{{ route('home.admission') }}">Admission Home</a></li>
+                            <li><a href="{{ route('home.courses') }}">Course Home</a></li>
                         </ul>
                     </li>
-                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="{{ route('about') }}">About Us</a></li>
                     <li class="menu-item-has-children">
                         <a href="#">Programs</a>
                         <ul class="sub-menu">
-                            <li><a href="program.html">Programs Style 1</a></li>
-                            <li><a href="program-2.html">Programs Style 2</a></li>
-                            <li><a href="program-details.html">Program Details</a></li>
-                            <li><a href="program-details-sidebar.html">Program Details With Sidebar</a></li>
+                            <li><a href="{{ route('program.index') }}">Programs Style 1</a></li>
+                            <li><a href="{{ route('program.program-2') }}">Programs Style 2</a></li>
+                            <li><a href="{{ route('program.details') }}">Program Details</a></li>
+                            <li><a href="{{ route('program.details-sidebar') }}">Program Details With Sidebar</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
@@ -197,59 +197,59 @@
                             <li class="menu-item-has-children">
                                 <a href="#">Shop</a>
                                 <ul class="sub-menu">
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                    <li><a href="cart.html">Cart Page</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                    <li><a href="wishlist.html">Wishlist</a></li>
+                                    <li><a href="{{ route('shop.index') }}">Shop</a></li>
+                                    <li><a href="{{ route('shop.details') }}">Shop Details</a></li>
+                                    <li><a href="{{ route('shop.cart') }}">Cart Page</a></li>
+                                    <li><a href="{{ route('shop.checkout') }}">Checkout</a></li>
+                                    <li><a href="{{ route('shop.wishlist') }}">Wishlist</a></li>
                                 </ul>
                             </li>
 
                             <li class="menu-item-has-children">
                                 <a href="#">Faculties</a>
                                 <ul class="sub-menu">
-                                    <li><a href="faculty.html">Faculty</a></li>
-                                    <li><a href="faculty-details.html">Faculty Details</a></li>
+                                    <li><a href="{{ route('faculty.index') }}">Faculty</a></li>
+                                    <li><a href="{{ route('faculty.details') }}">Faculty Details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="alumni.html">Alumni Page</a></li>
+                            <li><a href="{{ route('alumni') }}">Alumni Page</a></li>
                             <li class="menu-item-has-children">
                                 <a href="#">Researches</a>
                                 <ul class="sub-menu">
-                                    <li><a href="research.html">Research</a></li>
-                                    <li><a href="research-details.html">Research Details</a></li>
+                                    <li><a href="{{ route('research.index') }}">Research</a></li>
+                                    <li><a href="{{ route('research.details') }}">Research Details</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">Teachers</a>
                                 <ul class="sub-menu">
-                                    <li><a href="teacher.html">Teacher</a></li>
-                                    <li><a href="teacher-details.html">Teacher Details</a></li>
+                                    <li><a href="{{ route('teacher.index') }}">Teacher</a></li>
+                                    <li><a href="{{ route('teacher.details') }}">Teacher Details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="campus.html">Campus Life</a></li>
-                            <li><a href="pricing.html">Pricing Plan</a></li>
-                            <li><a href="faq.html">Faqs Page</a></li>
-                            <li><a href="error.html">Error Page</a></li>
+                            <li><a href="{{ route('campus') }}">Campus Life</a></li>
+                            <li><a href="{{ route('pricing') }}">Pricing Plan</a></li>
+                            <li><a href="{{ route('faq') }}">Faqs Page</a></li>
+                            <li><a href="{{ route('error') }}">Error Page</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
                         <a href="#">Events</a>
                         <ul class="sub-menu">
-                            <li><a href="event.html">Events Page</a></li>
-                            <li><a href="event-details.html">Event Details</a></li>
+                            <li><a href="{{ route('event.index') }}">Events Page</a></li>
+                            <li><a href="{{ route('event.details') }}">Event Details</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
                         <a href="#">Blogs</a>
                         <ul class="sub-menu">
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="blog-details.html">Blog Details</a></li>
-                            <li><a href="blog-details-sidebar.html">Blog Details With Sidebar</a></li>
+                            <li><a href="{{ route('blog.index') }}">Blog</a></li>
+                            <li><a href="{{ route('blog.details') }}">Blog Details</a></li>
+                            <li><a href="{{ route('blog.details-sidebar') }}">Blog Details With Sidebar</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="{{ route('contact') }}">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -275,7 +275,7 @@
                                 <li><i class="fa-solid fa-user"></i><a href="#login-form" class="popup-content">Login /
                                         Register</a></li>
                                 <li>
-                                    <i class="fas fa-comments"></i><a href="faq.html">FAQ</a>
+                                    <i class="fas fa-comments"></i><a href="{{ route('faq') }}">FAQ</a>
                                 </li>
                                 <li>
                                     <div class="dropdown-link">
@@ -305,7 +305,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="home-university.html">
+                                <a href="{{ route('home.university') }}">
                                     <img src="assets/img/light-white-logo.svg" alt="Stadum">
                                 </a>
                             </div>
@@ -324,11 +324,11 @@
                                                                 <div class="mega-menu-img">
                                                                     <img src="assets/img/pages/home-university.jpg" alt="Home One">
                                                                     <div class="btn-wrap">
-                                                                        <a href="home-university.html" class="th-btn">Multipage</a>
-                                                                        <a href="home-university-op.html" class="th-btn">Onepage</a>
+                                                                        <a href="{{ route('home.university') }}" class="th-btn">Multipage</a>
+                                                                        <a href="{{ route('home.university-onepage') }}" class="th-btn">Onepage</a>
                                                                     </div>
                                                                 </div>
-                                                                <h3 class="mega-menu-title"><a href="home-university.html">Home University</a></h3>
+                                                                <h3 class="mega-menu-title"><a href="{{ route('home.university') }}">Home University</a></h3>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-4">
@@ -336,11 +336,11 @@
                                                                 <div class="mega-menu-img">
                                                                     <img src="assets/img/pages/home-admission.jpg" alt="Home Two">
                                                                     <div class="btn-wrap">
-                                                                        <a href="home-admission.html" class="th-btn">Multipage</a>
-                                                                        <a href="home-admission-op.html" class="th-btn">Onepage</a>
+                                                                        <a href="{{ route('home.admission') }}" class="th-btn">Multipage</a>
+                                                                        <a href="{{ route('home.admission-onepage') }}" class="th-btn">Onepage</a>
                                                                     </div>
                                                                 </div>
-                                                                <h3 class="mega-menu-title"><a href="home-admission.html">Home Admission</a></h3>
+                                                                <h3 class="mega-menu-title"><a href="{{ route('home.admission') }}">Home Admission</a></h3>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-4">
@@ -348,11 +348,11 @@
                                                                 <div class="mega-menu-img">
                                                                     <img src="assets/img/pages/home-courses.jpg" alt="Home Three">
                                                                     <div class="btn-wrap">
-                                                                        <a href="home-courses.html" class="th-btn">Multipage</a>
-                                                                        <a href="home-courses-op.html" class="th-btn">Onepage</a>
+                                                                        <a href="{{ route('home.courses') }}" class="th-btn">Multipage</a>
+                                                                        <a href="{{ route('home.courses-onepage') }}" class="th-btn">Onepage</a>
                                                                     </div>
                                                                 </div>
-                                                                <h3 class="mega-menu-title"><a href="home-courses.html">Home Courses</a>
+                                                                <h3 class="mega-menu-title"><a href="{{ route('home.courses') }}">Home Courses</a>
                                                                 </h3>
                                                             </div>
                                                         </div>
@@ -373,7 +373,7 @@
                         </div>
                         <div class="col-auto">
                             <div class="header-action d-none d-lg-block">
-                                <a href="contact.html" class="th-btn th-icon"> contact Us</a>
+                                <a href="{{ route('contact') }}" class="th-btn th-icon"> contact Us</a>
                             </div>
                             <button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
                         </div>
@@ -608,7 +608,7 @@ About Area  3
 
                         </div>
                         <div class="btn-wrap mt-60 wow fadeInUp" data-wow-delay=".9s">
-                            <a href="about.html" class="th-btn th-icon">Apply To Stadum</a>
+                            <a href="{{ route('about') }}" class="th-btn th-icon">Apply To Stadum</a>
                         </div>
                     </div>
                 </div>
@@ -772,7 +772,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Engineering</a></div>
-                                        <h3 class="box-title"><a href="program.html">Master Degree Technology Elevate Your Career</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Master Degree Technology Elevate Your Career</a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -787,10 +787,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-1.jpg" alt="Stadum">
-                                                <p><a href="program.html">Michel John</a></p>
+                                                <p><a href="{{ route('program.index') }}">Michel John</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -805,7 +805,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Language</a></div>
-                                        <h3 class="box-title"><a href="program.html">A Practical Course for Speaking English Correctly </a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">A Practical Course for Speaking English Correctly </a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -820,10 +820,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-2.jpg" alt="Stadum">
-                                                <p><a href="program.html">Albert James</a></p>
+                                                <p><a href="{{ route('program.index') }}">Albert James</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -838,7 +838,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Web Development</a></div>
-                                        <h3 class="box-title"><a href="program.html">Web Development Fundamental Building your Career</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Web Development Fundamental Building your Career</a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -853,10 +853,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-3.jpg" alt="Stadum">
-                                                <p><a href="program.html">Rebeka Smith</a></p>
+                                                <p><a href="{{ route('program.index') }}">Rebeka Smith</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -871,7 +871,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Fine of Arts</a></div>
-                                        <h3 class="box-title"><a href="program.html">Boost Your Creativity & Expand the Your Career</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Boost Your Creativity & Expand the Your Career</a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -886,10 +886,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-4.jpg" alt="Stadum">
-                                                <p><a href="program.html">Jenny Wilson</a></p>
+                                                <p><a href="{{ route('program.index') }}">Jenny Wilson</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -904,7 +904,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Development</a></div>
-                                        <h3 class="box-title"><a href="program.html">Computer Science and Engineering Building </a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Computer Science and Engineering Building </a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -919,10 +919,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-5.jpg" alt="Stadum">
-                                                <p><a href="program.html">Leslie Alexander</a></p>
+                                                <p><a href="{{ route('program.index') }}">Leslie Alexander</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -937,7 +937,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Engineering</a></div>
-                                        <h3 class="box-title"><a href="program.html">Programming (Python, Java, C++) Building </a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Programming (Python, Java, C++) Building </a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -952,10 +952,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-6.jpg" alt="Stadum">
-                                                <p><a href="program.html">Maliha Doe</a></p>
+                                                <p><a href="{{ route('program.index') }}">Maliha Doe</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -976,7 +976,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Engineering</a></div>
-                                        <h3 class="box-title"><a href="program.html">Master Degree Technology Elevate Your Career</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Master Degree Technology Elevate Your Career</a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -991,10 +991,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-1.jpg" alt="Stadum">
-                                                <p><a href="program.html">Michel John</a></p>
+                                                <p><a href="{{ route('program.index') }}">Michel John</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1009,7 +1009,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Language</a></div>
-                                        <h3 class="box-title"><a href="program.html">A Practical Course for Speaking English Correctly </a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">A Practical Course for Speaking English Correctly </a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1024,10 +1024,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-2.jpg" alt="Stadum">
-                                                <p><a href="program.html">Albert James</a></p>
+                                                <p><a href="{{ route('program.index') }}">Albert James</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1042,7 +1042,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Web Development</a></div>
-                                        <h3 class="box-title"><a href="program.html">Web Development Fundamental Building your Career</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Web Development Fundamental Building your Career</a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1057,10 +1057,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-3.jpg" alt="Stadum">
-                                                <p><a href="program.html">Rebeka Smith</a></p>
+                                                <p><a href="{{ route('program.index') }}">Rebeka Smith</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1075,7 +1075,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Fine of Arts</a></div>
-                                        <h3 class="box-title"><a href="program.html">Boost Your Creativity & Expand the Your Career</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Boost Your Creativity & Expand the Your Career</a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1090,10 +1090,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-4.jpg" alt="Stadum">
-                                                <p><a href="program.html">Jenny Wilson</a></p>
+                                                <p><a href="{{ route('program.index') }}">Jenny Wilson</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1108,7 +1108,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Development</a></div>
-                                        <h3 class="box-title"><a href="program.html">Computer Science and Engineering Building </a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Computer Science and Engineering Building </a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1123,10 +1123,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-5.jpg" alt="Stadum">
-                                                <p><a href="program.html">Leslie Alexander</a></p>
+                                                <p><a href="{{ route('program.index') }}">Leslie Alexander</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1141,7 +1141,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Engineering</a></div>
-                                        <h3 class="box-title"><a href="program.html">Programming (Python, Java, C++) Building </a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Programming (Python, Java, C++) Building </a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1156,10 +1156,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-6.jpg" alt="Stadum">
-                                                <p><a href="program.html">Maliha Doe</a></p>
+                                                <p><a href="{{ route('program.index') }}">Maliha Doe</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1180,7 +1180,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Engineering</a></div>
-                                        <h3 class="box-title"><a href="program.html">Master Degree Technology Elevate Your Career</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Master Degree Technology Elevate Your Career</a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1195,10 +1195,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-1.jpg" alt="Stadum">
-                                                <p><a href="program.html">Michel John</a></p>
+                                                <p><a href="{{ route('program.index') }}">Michel John</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1213,7 +1213,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Language</a></div>
-                                        <h3 class="box-title"><a href="program.html">A Practical Course for Speaking English Correctly </a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">A Practical Course for Speaking English Correctly </a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1228,10 +1228,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-2.jpg" alt="Stadum">
-                                                <p><a href="program.html">Albert James</a></p>
+                                                <p><a href="{{ route('program.index') }}">Albert James</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1246,7 +1246,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Web Development</a></div>
-                                        <h3 class="box-title"><a href="program.html">Web Development Fundamental Building your Career</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Web Development Fundamental Building your Career</a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1261,10 +1261,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-3.jpg" alt="Stadum">
-                                                <p><a href="program.html">Rebeka Smith</a></p>
+                                                <p><a href="{{ route('program.index') }}">Rebeka Smith</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1279,7 +1279,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Fine of Arts</a></div>
-                                        <h3 class="box-title"><a href="program.html">Boost Your Creativity & Expand the Your Career</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Boost Your Creativity & Expand the Your Career</a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1294,10 +1294,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-4.jpg" alt="Stadum">
-                                                <p><a href="program.html">Jenny Wilson</a></p>
+                                                <p><a href="{{ route('program.index') }}">Jenny Wilson</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1312,7 +1312,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Development</a></div>
-                                        <h3 class="box-title"><a href="program.html">Computer Science and Engineering Building </a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Computer Science and Engineering Building </a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1327,10 +1327,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-5.jpg" alt="Stadum">
-                                                <p><a href="program.html">Leslie Alexander</a></p>
+                                                <p><a href="{{ route('program.index') }}">Leslie Alexander</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1345,7 +1345,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Engineering</a></div>
-                                        <h3 class="box-title"><a href="program.html">Programming (Python, Java, C++) Building </a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Programming (Python, Java, C++) Building </a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1360,10 +1360,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-6.jpg" alt="Stadum">
-                                                <p><a href="program.html">Maliha Doe</a></p>
+                                                <p><a href="{{ route('program.index') }}">Maliha Doe</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1384,7 +1384,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Engineering</a></div>
-                                        <h3 class="box-title"><a href="program.html">Master Degree Technology Elevate Your Career</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Master Degree Technology Elevate Your Career</a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1399,10 +1399,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-1.jpg" alt="Stadum">
-                                                <p><a href="program.html">Michel John</a></p>
+                                                <p><a href="{{ route('program.index') }}">Michel John</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1417,7 +1417,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Language</a></div>
-                                        <h3 class="box-title"><a href="program.html">A Practical Course for Speaking English Correctly </a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">A Practical Course for Speaking English Correctly </a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1432,10 +1432,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-2.jpg" alt="Stadum">
-                                                <p><a href="program.html">Albert James</a></p>
+                                                <p><a href="{{ route('program.index') }}">Albert James</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1450,7 +1450,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Web Development</a></div>
-                                        <h3 class="box-title"><a href="program.html">Web Development Fundamental Building your Career</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Web Development Fundamental Building your Career</a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1465,10 +1465,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-3.jpg" alt="Stadum">
-                                                <p><a href="program.html">Rebeka Smith</a></p>
+                                                <p><a href="{{ route('program.index') }}">Rebeka Smith</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1483,7 +1483,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Fine of Arts</a></div>
-                                        <h3 class="box-title"><a href="program.html">Boost Your Creativity & Expand the Your Career</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Boost Your Creativity & Expand the Your Career</a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1498,10 +1498,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-4.jpg" alt="Stadum">
-                                                <p><a href="program.html">Jenny Wilson</a></p>
+                                                <p><a href="{{ route('program.index') }}">Jenny Wilson</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1516,7 +1516,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Development</a></div>
-                                        <h3 class="box-title"><a href="program.html">Computer Science and Engineering Building </a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Computer Science and Engineering Building </a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1531,10 +1531,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-5.jpg" alt="Stadum">
-                                                <p><a href="program.html">Leslie Alexander</a></p>
+                                                <p><a href="{{ route('program.index') }}">Leslie Alexander</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1549,7 +1549,7 @@ Cta Area
                                     </div>
                                     <div class="card-content">
                                         <div class="tag"><a href="#">Engineering</a></div>
-                                        <h3 class="box-title"><a href="program.html">Programming (Python, Java, C++) Building </a></h3>
+                                        <h3 class="box-title"><a href="{{ route('program.index') }}">Programming (Python, Java, C++) Building </a></h3>
                                         <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
                                                 <span class="rating-icon"></span>
@@ -1564,10 +1564,10 @@ Cta Area
                                         <div class="card-content-bottom">
                                             <div class="author">
                                                 <img src="assets/img/popular-course/course-mentor-3-6.jpg" alt="Stadum">
-                                                <p><a href="program.html">Maliha Doe</a></p>
+                                                <p><a href="{{ route('program.index') }}">Maliha Doe</a></p>
                                             </div>
                                             <div class="btn-wrap">
-                                                <a class="th-btn th-icon style-border1" href="program.html">Enroll Now</a>
+                                                <a class="th-btn th-icon style-border1" href="{{ route('program.index') }}">Enroll Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1610,7 +1610,7 @@ Cta Area
                             </ul>
                         </div>
                         <div class="btn-wrap mt-50 wow fadeInUp" data-wow-delay=".7s">
-                            <a href="about.html" class="th-btn th-icon">Get More Info</a>
+                            <a href="{{ route('about') }}" class="th-btn th-icon">Get More Info</a>
                         </div>
                     </div>
                 </div>
@@ -1750,9 +1750,9 @@ Team Area
                                     <img src="assets/img/mentor/3-1.png" alt="Stadum">
                                 </div>
                                 <div class="box-content">
-                                    <a href="teacher.html" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
+                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="teacher.html">Kristin Watson</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('teacher.index') }}">Kristin Watson</a></h3>
                                         <span class="instr-desig">Teacher of Development</span>
                                     </div>
                                     <div class="th-social style3">
@@ -1772,9 +1772,9 @@ Team Area
                                     <img src="assets/img/mentor/3-2.png" alt="Stadum">
                                 </div>
                                 <div class="box-content">
-                                    <a href="teacher.html" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
+                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="teacher.html">Ralph Edwards</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('teacher.index') }}">Ralph Edwards</a></h3>
                                         <span class="instr-desig">Teacher of Development</span>
                                     </div>
                                     <div class="th-social style3">
@@ -1794,9 +1794,9 @@ Team Area
                                     <img src="assets/img/mentor/3-3.png" alt="Stadum">
                                 </div>
                                 <div class="box-content">
-                                    <a href="teacher.html" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
+                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="teacher.html">Jerome Bell</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('teacher.index') }}">Jerome Bell</a></h3>
                                         <span class="instr-desig">Teacher of Development</span>
                                     </div>
                                     <div class="th-social style3">
@@ -1816,9 +1816,9 @@ Team Area
                                     <img src="assets/img/mentor/3-4.png" alt="Stadum">
                                 </div>
                                 <div class="box-content">
-                                    <a href="teacher.html" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
+                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="teacher.html">Leslie Alexander</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('teacher.index') }}">Leslie Alexander</a></h3>
                                         <span class="instr-desig">Teacher of Development</span>
                                     </div>
                                     <div class="th-social style3">
@@ -1838,9 +1838,9 @@ Team Area
                                     <img src="assets/img/mentor/3-5.png" alt="Stadum">
                                 </div>
                                 <div class="box-content">
-                                    <a href="teacher.html" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
+                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="teacher.html">Priya Ray</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('teacher.index') }}">Priya Ray</a></h3>
                                         <span class="instr-desig">Teacher of Development</span>
                                     </div>
                                     <div class="th-social style3">
@@ -1860,9 +1860,9 @@ Team Area
                                     <img src="assets/img/mentor/3-6.png" alt="Stadum">
                                 </div>
                                 <div class="box-content">
-                                    <a href="teacher.html" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
+                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="teacher.html">Ralph Edwards</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('teacher.index') }}">Ralph Edwards</a></h3>
                                         <span class="instr-desig">Teacher of Development</span>
                                     </div>
                                     <div class="th-social style3">
@@ -1882,9 +1882,9 @@ Team Area
                                     <img src="assets/img/mentor/3-7.png" alt="Stadum">
                                 </div>
                                 <div class="box-content">
-                                    <a href="teacher.html" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
+                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="teacher.html">Jerome Bell</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('teacher.index') }}">Jerome Bell</a></h3>
                                         <span class="instr-desig">Teacher of Development</span>
                                     </div>
                                     <div class="th-social style3">
@@ -1904,9 +1904,9 @@ Team Area
                                     <img src="assets/img/mentor/3-8.png" alt="Stadum">
                                 </div>
                                 <div class="box-content">
-                                    <a href="teacher.html" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
+                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="teacher.html">Alisa Smith</a></h3>
+                                        <h3 class="box-title"><a href="{{ route('teacher.index') }}">Alisa Smith</a></h3>
                                         <span class="instr-desig">Teacher of Development</span>
                                     </div>
                                     <div class="th-social style3">
@@ -1941,7 +1941,7 @@ Team Area
                         <p class="sec-text mb-0">At Stadum University we are committed to providing a high-quality education</p>
                     </div>
                     <div class="btn-wrap justify-content-center justify-content-xl-start">
-                        <a href="contact.html" class="th-btn th-icon">Start Learning</a>
+                        <a href="{{ route('contact') }}" class="th-btn th-icon">Start Learning</a>
                     </div>
                 </div>
                 <div class="col-xxl-9 col-xl-8 col-lg-12">
@@ -2034,7 +2034,7 @@ Team Area
                                 </div>
                                 <div class="card-content">
                                     <h3 class="box-title">
-                                        <a href="program-details.html">Exclusive Coach</a>
+                                        <a href="{{ route('program.details') }}">Exclusive Coach</a>
                                     </h3>
                                     <p class="box-text">We believe in the power of knowledge to transform</p>
                                 </div>
@@ -2046,7 +2046,7 @@ Team Area
                                 </div>
                                 <div class="card-content">
                                     <h3 class="box-title">
-                                        <a href="program-details.html">Creative Minds</a>
+                                        <a href="{{ route('program.details') }}">Creative Minds</a>
                                     </h3>
                                     <p class="box-text">We believe in the power of knowledge to transform</p>
                                 </div>
@@ -2058,7 +2058,7 @@ Team Area
                                 </div>
                                 <div class="card-content">
                                     <h3 class="box-title">
-                                        <a href="program-details.html">Video Tutorials</a>
+                                        <a href="{{ route('program.details') }}">Video Tutorials</a>
                                     </h3>
                                     <p class="box-text">We believe in the power of knowledge to transform</p>
                                 </div>
@@ -2070,7 +2070,7 @@ Team Area
                                 </div>
                                 <div class="card-content">
                                     <h3 class="box-title">
-                                        <a href="program-details.html">Great Resources</a>
+                                        <a href="{{ route('program.details') }}">Great Resources</a>
                                     </h3>
                                     <p class="box-text">We believe in the power of knowledge to transform</p>
                                 </div>
@@ -2113,7 +2113,7 @@ Mentorship Area Home 3
                             </h3>
                             <p class="box-text">Top 20 courses among our 1350+ free online courses by experts</p>
                             <div class="btn-wrap justify-content-center">
-                                <a href="contact.html" class="th-btn th-icon"> Get More Info</a>
+                                <a href="{{ route('contact') }}" class="th-btn th-icon"> Get More Info</a>
                             </div>
                         </div>
                     </div>
@@ -2130,7 +2130,7 @@ Mentorship Area Home 3
                             </h3>
                             <p class="box-text">Top 20 courses among our 1350+ free online courses by experts</p>
                             <div class="btn-wrap justify-content-center">
-                                <a href="contact.html" class="th-btn th-icon"> Get More Info</a>
+                                <a href="{{ route('contact') }}" class="th-btn th-icon"> Get More Info</a>
                             </div>
                         </div>
                     </div>
@@ -2179,7 +2179,7 @@ Blog Area 3
                 </div>
                 <div class="col-auto align-self-end">
                     <div class="sec-btn wow fadeInUp" data-wow-delay=".2s">
-                        <a href="blog.html" class="th-btn style-border1 th-icon"> Explore All </a>
+                        <a href="{{ route('blog.index') }}" class="th-btn style-border1 th-icon"> Explore All </a>
                     </div>
                 </div>
             </div>
@@ -2191,7 +2191,7 @@ Blog Area 3
                         <div class="swiper-slide fadeinup wow">
                             <div class="blog-card blog-card2">
                                 <div class="blog-img2 position-relative">
-                                    <a href="blog-details.html">
+                                    <a href="{{ route('blog.details') }}">
                                         <div class="blog-img-box2 position-relative">
                                             <img src="assets/img/blog/blog_3_1.jpg" alt="blog image">
                                         </div>
@@ -2203,16 +2203,16 @@ Blog Area 3
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a class="author" href="blog.html">
+                                        <a class="author" href="{{ route('blog.index') }}">
                                             <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>
                                             By themeholy
                                         </a>
-                                        <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
+                                        <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">How Motivated When Learning Something New</a></h3>
+                                    <h3 class="box-title"><a href="{{ route('blog.details') }}">How Motivated When Learning Something New</a></h3>
                                     <p class="box-text">At Stadum University we are committed to providing a high-quality education.</p>
                                     <div class="btn-wrap">
-                                        <a href="blog-details.html" class="th-btn th-icon style-border1">Read More</a>
+                                        <a href="{{ route('blog.details') }}" class="th-btn th-icon style-border1">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -2221,7 +2221,7 @@ Blog Area 3
                         <div class="swiper-slide fadeinup wow">
                             <div class="blog-card blog-card2">
                                 <div class="blog-img2 position-relative">
-                                    <a href="blog-details.html">
+                                    <a href="{{ route('blog.details') }}">
                                         <div class="blog-img-box2 position-relative">
                                             <img src="assets/img/blog/blog_3_2.jpg" alt="blog image">
                                         </div>
@@ -2233,16 +2233,16 @@ Blog Area 3
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a class="author" href="blog.html">
+                                        <a class="author" href="{{ route('blog.index') }}">
                                             <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>
                                             By themeholy
                                         </a>
-                                        <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
+                                        <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">What's the Secret to Reading Books Effectively?</a></h3>
+                                    <h3 class="box-title"><a href="{{ route('blog.details') }}">What's the Secret to Reading Books Effectively?</a></h3>
                                     <p class="box-text">At Stadum University we are committed to providing a high-quality education.</p>
                                     <div class="btn-wrap">
-                                        <a href="blog-details.html" class="th-btn th-icon style-border1">Read More</a>
+                                        <a href="{{ route('blog.details') }}" class="th-btn th-icon style-border1">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -2251,7 +2251,7 @@ Blog Area 3
                         <div class="swiper-slide fadeinup wow">
                             <div class="blog-card blog-card2">
                                 <div class="blog-img2 position-relative">
-                                    <a href="blog-details.html">
+                                    <a href="{{ route('blog.details') }}">
                                         <div class="blog-img-box2 position-relative">
                                             <img src="assets/img/blog/blog_3_3.jpg" alt="blog image">
                                         </div>
@@ -2263,16 +2263,16 @@ Blog Area 3
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a class="author" href="blog.html">
+                                        <a class="author" href="{{ route('blog.index') }}">
                                             <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>
                                             By themeholy
                                         </a>
-                                        <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
+                                        <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">Why Setting Goals Can Improve Your Learning Skills</a></h3>
+                                    <h3 class="box-title"><a href="{{ route('blog.details') }}">Why Setting Goals Can Improve Your Learning Skills</a></h3>
                                     <p class="box-text">At Stadum University we are committed to providing a high-quality education.</p>
                                     <div class="btn-wrap">
-                                        <a href="blog-details.html" class="th-btn th-icon style-border1">Read More</a>
+                                        <a href="{{ route('blog.details') }}" class="th-btn th-icon style-border1">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -2281,7 +2281,7 @@ Blog Area 3
                         <div class="swiper-slide fadeinup wow">
                             <div class="blog-card blog-card2">
                                 <div class="blog-img2 position-relative">
-                                    <a href="blog-details.html">
+                                    <a href="{{ route('blog.details') }}">
                                         <div class="blog-img-box2 position-relative">
                                             <img src="assets/img/blog/blog_3_1.jpg" alt="blog image">
                                         </div>
@@ -2293,16 +2293,16 @@ Blog Area 3
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a class="author" href="blog.html">
+                                        <a class="author" href="{{ route('blog.index') }}">
                                             <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>
                                             By themeholy
                                         </a>
-                                        <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
+                                        <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">How to Stay Motivated When Learning Something New</a></h3>
+                                    <h3 class="box-title"><a href="{{ route('blog.details') }}">How to Stay Motivated When Learning Something New</a></h3>
                                     <p class="box-text">At Stadum University we are committed to providing a high-quality education.</p>
                                     <div class="btn-wrap">
-                                        <a href="blog-details.html" class="th-btn th-icon style-border1">Read More</a>
+                                        <a href="{{ route('blog.details') }}" class="th-btn th-icon style-border1">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -2311,7 +2311,7 @@ Blog Area 3
                         <div class="swiper-slide fadeinup wow">
                             <div class="blog-card blog-card2">
                                 <div class="blog-img2 position-relative">
-                                    <a href="blog-details.html">
+                                    <a href="{{ route('blog.details') }}">
                                         <div class="blog-img-box2 position-relative">
                                             <img src="assets/img/blog/blog_3_2.jpg" alt="blog image">
                                         </div>
@@ -2323,16 +2323,16 @@ Blog Area 3
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a class="author" href="blog.html">
+                                        <a class="author" href="{{ route('blog.index') }}">
                                             <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>
                                             By themeholy
                                         </a>
-                                        <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
+                                        <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">What's the Secret to Reading Books Effectively?</a></h3>
+                                    <h3 class="box-title"><a href="{{ route('blog.details') }}">What's the Secret to Reading Books Effectively?</a></h3>
                                     <p class="box-text">At Stadum University we are committed to providing a high-quality education.</p>
                                     <div class="btn-wrap">
-                                        <a href="blog-details.html" class="th-btn th-icon style-border1">Read More</a>
+                                        <a href="{{ route('blog.details') }}" class="th-btn th-icon style-border1">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -2341,7 +2341,7 @@ Blog Area 3
                         <div class="swiper-slide fadeinup wow">
                             <div class="blog-card blog-card2">
                                 <div class="blog-img2 position-relative">
-                                    <a href="blog-details.html">
+                                    <a href="{{ route('blog.details') }}">
                                         <div class="blog-img-box2 position-relative">
                                             <img src="assets/img/blog/blog_3_3.jpg" alt="blog image">
                                         </div>
@@ -2353,16 +2353,16 @@ Blog Area 3
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a class="author" href="blog.html">
+                                        <a class="author" href="{{ route('blog.index') }}">
                                             <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>
                                             By themeholy
                                         </a>
-                                        <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
+                                        <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">Why Setting Goals Can Improve Your Learning Skills</a></h3>
+                                    <h3 class="box-title"><a href="{{ route('blog.details') }}">Why Setting Goals Can Improve Your Learning Skills</a></h3>
                                     <p class="box-text">At Stadum University we are committed to providing a high-quality education.</p>
                                     <div class="btn-wrap">
-                                        <a href="blog-details.html" class="th-btn th-icon style-border1">Read More</a>
+                                        <a href="{{ route('blog.details') }}" class="th-btn th-icon style-border1">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -2371,7 +2371,7 @@ Blog Area 3
                         <div class="swiper-slide fadeinup wow">
                             <div class="blog-card blog-card2">
                                 <div class="blog-img2 position-relative">
-                                    <a href="blog-details.html">
+                                    <a href="{{ route('blog.details') }}">
                                         <div class="blog-img-box2 position-relative">
                                             <img src="assets/img/blog/blog_3_1.jpg" alt="blog image">
                                         </div>
@@ -2383,16 +2383,16 @@ Blog Area 3
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a class="author" href="blog.html">
+                                        <a class="author" href="{{ route('blog.index') }}">
                                             <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>
                                             By themeholy
                                         </a>
-                                        <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
+                                        <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">How to Stay Motivated When Learning Something New</a></h3>
+                                    <h3 class="box-title"><a href="{{ route('blog.details') }}">How to Stay Motivated When Learning Something New</a></h3>
                                     <p class="box-text">At Stadum University we are committed to providing a high-quality education.</p>
                                     <div class="btn-wrap">
-                                        <a href="blog-details.html" class="th-btn th-icon style-border1">Read More</a>
+                                        <a href="{{ route('blog.details') }}" class="th-btn th-icon style-border1">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -2401,7 +2401,7 @@ Blog Area 3
                         <div class="swiper-slide fadeinup wow">
                             <div class="blog-card blog-card2">
                                 <div class="blog-img2 position-relative">
-                                    <a href="blog-details.html">
+                                    <a href="{{ route('blog.details') }}">
                                         <div class="blog-img-box2 position-relative">
                                             <img src="assets/img/blog/blog_3_2.jpg" alt="blog image">
                                         </div>
@@ -2413,16 +2413,16 @@ Blog Area 3
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
-                                        <a class="author" href="blog.html">
+                                        <a class="author" href="{{ route('blog.index') }}">
                                             <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>
                                             By themeholy
                                         </a>
-                                        <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
+                                        <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
                                     </div>
-                                    <h3 class="box-title"><a href="blog-details.html">What's the Secret to Reading Books Effectively?</a></h3>
+                                    <h3 class="box-title"><a href="{{ route('blog.details') }}">What's the Secret to Reading Books Effectively?</a></h3>
                                     <p class="box-text">At Stadum University we are committed to providing a high-quality education</p>
                                     <div class="btn-wrap">
-                                        <a href="blog-details.html" class="th-btn th-icon style-border1">Read More</a>
+                                        <a href="{{ route('blog.details') }}" class="th-btn th-icon style-border1">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -2569,7 +2569,7 @@ Contact Area
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="home-university.html">
+                                    <a href="{{ route('home.university') }}">
                                         <img src="assets/img/logo2.svg" alt="Stadum">
                                     </a>
                                 </div>
@@ -2590,13 +2590,13 @@ Contact Area
                             <h3 class="widget_title">Useful Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="index.html">Students</a></li>
-                                    <li><a href="about.html">Admission</a></li>
-                                    <li><a href="pricing.html">Faculty & Stuffs</a></li>
-                                    <li><a href="service.html">Media Relations</a></li>
-                                    <li><a href="about.html">Alumni</a></li>
-                                    <li><a href="about.html">All Awards</a></li>
-                                    <li><a href="contact.html">Recent Events</a></li>
+                                    <li><a href="{{ route('home') }}">Students</a></li>
+                                    <li><a href="{{ route('about') }}">Admission</a></li>
+                                    <li><a href="{{ route('pricing') }}">Faculty & Stuffs</a></li>
+                                    <li><a href="#">Media Relations</a></li>
+                                    <li><a href="{{ route('about') }}">Alumni</a></li>
+                                    <li><a href="{{ route('about') }}">All Awards</a></li>
+                                    <li><a href="{{ route('contact') }}">Recent Events</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -2606,13 +2606,13 @@ Contact Area
                             <h3 class="widget_title">Our Programs</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="about.html">Ungraduate Programs</a></li>
-                                    <li><a href="about.html">Graduate Programs</a></li>
-                                    <li><a href="about.html">Certificate Programs</a></li>
-                                    <li><a href="about.html">Accelerate Programs</a></li>
-                                    <li><a href="about.html">Online Programs</a></li>
-                                    <li><a href="about.html">Financial Planning</a></li>
-                                    <li><a href="about.html">Business Advisory</a></li>
+                                    <li><a href="{{ route('about') }}">Ungraduate Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Graduate Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Certificate Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Accelerate Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Online Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Financial Planning</a></li>
+                                    <li><a href="{{ route('about') }}">Business Advisory</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -2668,7 +2668,7 @@ Contact Area
                 <div class="row justify-content-center gy-3 align-items-center">
                     <div class="col-md-7">
                         <p class="copyright-text">
-                            <i class="fal fa-copyright"></i> Copyright 2025 <a href="home-university.html">Stadum</a>. All Rights Reserved.
+                            <i class="fal fa-copyright"></i> Copyright 2025 <a href="{{ route('home.university') }}">Stadum</a>. All Rights Reserved.
                         </p>
                     </div>
                     <div class="col-md-5 text-md-end text-center">
@@ -2727,7 +2727,7 @@ modal Area
                             </div>
                         </div>
                         <div id="forgot_url">
-                            <a href="my-account.html">Forgot password?</a>
+                            <a href="#">Forgot password?</a>
                         </div>
                         <p class="form-messages mb-0 mt-3"></p>
                     </form>

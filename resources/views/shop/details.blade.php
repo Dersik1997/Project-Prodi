@@ -95,7 +95,7 @@ Product Lightbox
                         <h2 class="product-title">Floating Pen</h2>
                         <div class="product-rating">
                             <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span></div>
-                            <a href="shop-details.html" class="woocommerce-review-link">(<span class="count">4</span> customer reviews)</a>
+                            <a href="{{ route('shop.details') }}" class="woocommerce-review-link">(<span class="count">4</span> customer reviews)</a>
                         </div>
                         <p class="text">Syndicate customized growth strategies prospective human capital leverage other's optimal e-markets without transparent catalysts for change. Credibly coordinate highly efficient methods of empowerment cross unit solutions.</p>
                         <div class="mt-2 link-inherit">
@@ -111,12 +111,12 @@ Product Lightbox
                                 <button class="quantity-minus qty-btn"><i class="far fa-chevron-down"></i></button>
                             </div>
                             <button class="th-btn">Add to Cart</button>
-                            <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                            <a href="{{ route('shop.wishlist') }}" class="icon-btn"><i class="far fa-heart"></i></a>
                         </div>
                         <div class="product_meta">
                             <span class="sku_wrapper">SKU: <span class="sku">Cement-metal-roofing</span></span>
-                            <span class="posted_in">Category: <a href="shop.html">Roof & Cement-roof</a></span>
-                            <span>Tags: <a href="shop.html">Roof servicesRoof Construction</a></span>
+                            <span class="posted_in">Category: <a href="{{ route('shop.index') }}">Roof & Cement-roof</a></span>
+                            <span>Tags: <a href="{{ route('shop.index') }}">Roof servicesRoof Construction</a></span>
                         </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@ Product Lightbox
             <div class="widget footer-widget">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="home-university.html">
+                        <a href="{{ route('home.university') }}">
                             <img src="assets/img/logo2.svg" alt="Stadum">
                         </a>
                     </div>
@@ -152,38 +152,38 @@ Product Lightbox
                 <div class="recent-post-wrap">
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title">
-                                <a class="text-inherit" href="blog-details.html">Trailblazers in Faculty Perspectives</a>
+                                <a class="text-inherit" href="{{ route('blog.details') }}">Trailblazers in Faculty Perspectives</a>
                             </h4>
                             <div class="recent-post-meta">
-                                <a href="blog.html"><i class="far fa-calendar"></i>26/6/2025</a>
+                                <a href="{{ route('blog.index') }}"><i class="far fa-calendar"></i>26/6/2025</a>
                             </div>
                         </div>
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Future Focus Preparing for Tomorrow</a></h4>
+                            <h4 class="post-title"><a class="text-inherit" href="{{ route('blog.details') }}">Future Focus Preparing for Tomorrow</a></h4>
                             <div class="recent-post-meta">
-                                <a href="blog.html"><i class="far fa-calendar"></i>24/6/2025</a>
+                                <a href="{{ route('blog.index') }}"><i class="far fa-calendar"></i>24/6/2025</a>
                             </div>
                         </div>
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title">
-                                <a class="text-inherit" href="blog-details.html">The Green Initiative Sustainability in Action</a>
+                                <a class="text-inherit" href="{{ route('blog.details') }}">The Green Initiative Sustainability in Action</a>
                             </h4>
                             <div class="recent-post-meta">
-                                <a href="blog.html"><i class="far fa-calendar"></i>24/6/2025</a>
+                                <a href="{{ route('blog.index') }}"><i class="far fa-calendar"></i>24/6/2025</a>
                             </div>
                         </div>
                     </div>
@@ -214,26 +214,26 @@ Product Lightbox
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="home-university.html"><img src="assets/img/logo.svg" alt="Stadum"></a>
+                <a href="{{ route('home.university') }}"><img src="assets/img/logo.svg" alt="Stadum"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children">
-                        <a href="home-university.html">Home</a>
+                        <a href="{{ route('home.university') }}">Home</a>
                         <ul class="sub-menu">
-                            <li><a href="index.html">University Home</a></li>
-                            <li><a href="home-admission.html">Admission Home</a></li>
-                            <li><a href="home-courses.html">Course Home</a></li>
+                            <li><a href="{{ route('home') }}">University Home</a></li>
+                            <li><a href="{{ route('home.admission') }}">Admission Home</a></li>
+                            <li><a href="{{ route('home.courses') }}">Course Home</a></li>
                         </ul>
                     </li>
-                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="{{ route('about') }}">About Us</a></li>
                     <li class="menu-item-has-children">
                         <a href="#">Programs</a>
                         <ul class="sub-menu">
-                            <li><a href="program.html">Programs Style 1</a></li>
-                            <li><a href="program-2.html">Programs Style 2</a></li>
-                            <li><a href="program-details.html">Program Details</a></li>
-                            <li><a href="program-details-sidebar.html">Program Details With Sidebar</a></li>
+                            <li><a href="{{ route('program.index') }}">Programs Style 1</a></li>
+                            <li><a href="{{ route('program.program-2') }}">Programs Style 2</a></li>
+                            <li><a href="{{ route('program.details') }}">Program Details</a></li>
+                            <li><a href="{{ route('program.details-sidebar') }}">Program Details With Sidebar</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
@@ -242,59 +242,59 @@ Product Lightbox
                             <li class="menu-item-has-children">
                                 <a href="#">Shop</a>
                                 <ul class="sub-menu">
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                    <li><a href="cart.html">Cart Page</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                    <li><a href="wishlist.html">Wishlist</a></li>
+                                    <li><a href="{{ route('shop.index') }}">Shop</a></li>
+                                    <li><a href="{{ route('shop.details') }}">Shop Details</a></li>
+                                    <li><a href="{{ route('shop.cart') }}">Cart Page</a></li>
+                                    <li><a href="{{ route('shop.checkout') }}">Checkout</a></li>
+                                    <li><a href="{{ route('shop.wishlist') }}">Wishlist</a></li>
                                 </ul>
                             </li>
 
                             <li class="menu-item-has-children">
                                 <a href="#">Faculties</a>
                                 <ul class="sub-menu">
-                                    <li><a href="faculty.html">Faculty</a></li>
-                                    <li><a href="faculty-details.html">Faculty Details</a></li>
+                                    <li><a href="{{ route('faculty.index') }}">Faculty</a></li>
+                                    <li><a href="{{ route('faculty.details') }}">Faculty Details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="alumni.html">Alumni Page</a></li>
+                            <li><a href="{{ route('alumni') }}">Alumni Page</a></li>
                             <li class="menu-item-has-children">
                                 <a href="#">Researches</a>
                                 <ul class="sub-menu">
-                                    <li><a href="research.html">Research</a></li>
-                                    <li><a href="research-details.html">Research Details</a></li>
+                                    <li><a href="{{ route('research.index') }}">Research</a></li>
+                                    <li><a href="{{ route('research.details') }}">Research Details</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">Teachers</a>
                                 <ul class="sub-menu">
-                                    <li><a href="teacher.html">Teacher</a></li>
-                                    <li><a href="teacher-details.html">Teacher Details</a></li>
+                                    <li><a href="{{ route('teacher.index') }}">Teacher</a></li>
+                                    <li><a href="{{ route('teacher.details') }}">Teacher Details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="campus.html">Campus Life</a></li>
-                            <li><a href="pricing.html">Pricing Plan</a></li>
-                            <li><a href="faq.html">Faqs Page</a></li>
-                            <li><a href="error.html">Error Page</a></li>
+                            <li><a href="{{ route('campus') }}">Campus Life</a></li>
+                            <li><a href="{{ route('pricing') }}">Pricing Plan</a></li>
+                            <li><a href="{{ route('faq') }}">Faqs Page</a></li>
+                            <li><a href="{{ route('error') }}">Error Page</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
                         <a href="#">Events</a>
                         <ul class="sub-menu">
-                            <li><a href="event.html">Events Page</a></li>
-                            <li><a href="event-details.html">Event Details</a></li>
+                            <li><a href="{{ route('event.index') }}">Events Page</a></li>
+                            <li><a href="{{ route('event.details') }}">Event Details</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
                         <a href="#">Blogs</a>
                         <ul class="sub-menu">
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="blog-details.html">Blog Details</a></li>
-                            <li><a href="blog-details-sidebar.html">Blog Details With Sidebar</a></li>
+                            <li><a href="{{ route('blog.index') }}">Blog</a></li>
+                            <li><a href="{{ route('blog.details') }}">Blog Details</a></li>
+                            <li><a href="{{ route('blog.details-sidebar') }}">Blog Details With Sidebar</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="{{ route('contact') }}">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -322,10 +322,10 @@ Product Lightbox
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="contact.html">Staff</a></li>
-                                <li><a href="alumni.html">Alumni</a></li>
-                                <li><a href="faculty.html">Faculty</a> </li>
-                                <li><a href="contact.html">Community</a></li>
+                                <li><a href="{{ route('contact') }}">Staff</a></li>
+                                <li><a href="{{ route('alumni') }}">Alumni</a></li>
+                                <li><a href="{{ route('faculty.index') }}">Faculty</a> </li>
+                                <li><a href="{{ route('contact') }}">Community</a></li>
                             </ul>
                         </div>
                     </div>
@@ -333,7 +333,7 @@ Product Lightbox
                         <div class="header-links">
                             <ul class="header-right-wrap">
                                 <li><i class="fa-solid fa-user"></i><a href="#login-form" class="popup-content">Login / Register</a></li>
-                                <li><i class="fas fa-comments"></i><a href="faq.html">FAQ</a></li>
+                                <li><i class="fas fa-comments"></i><a href="{{ route('faq') }}">FAQ</a></li>
                                 <li>
                                     <div class="dropdown-link">
                                         <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false"><img src="assets/img/icon/lang.svg" alt=""> </a>
@@ -362,7 +362,7 @@ Product Lightbox
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="home-university.html">
+                                <a href="{{ route('home.university') }}">
                                     <img src="assets/img/light-white-logo.svg" alt="Stadum">
                                 </a>
                             </div>
@@ -371,7 +371,7 @@ Product Lightbox
                             <nav class="main-menu">
                                 <ul>
                                     <li class="menu-item-has-children">
-                                        <a href="home-university.html">Home</a>
+                                        <a href="{{ route('home.university') }}">Home</a>
                                         <ul class="mega-menu mega-menu-content mega-scroll">
                                             <li>
                                                 <div class="container">
@@ -381,11 +381,11 @@ Product Lightbox
                                                                 <div class="mega-menu-img">
                                                                     <img src="assets/img/pages/home-university.jpg" alt="Home One">
                                                                     <div class="btn-wrap">
-                                                                        <a href="home-university.html" class="th-btn">Multipage</a>
-                                                                        <a href="home-university-op.html" class="th-btn">Onepage</a>
+                                                                        <a href="{{ route('home.university') }}" class="th-btn">Multipage</a>
+                                                                        <a href="{{ route('home.university-onepage') }}" class="th-btn">Onepage</a>
                                                                     </div>
                                                                 </div>
-                                                                <h3 class="mega-menu-title"><a href="home-university.html">Home University</a></h3>
+                                                                <h3 class="mega-menu-title"><a href="{{ route('home.university') }}">Home University</a></h3>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-4">
@@ -393,11 +393,11 @@ Product Lightbox
                                                                 <div class="mega-menu-img">
                                                                     <img src="assets/img/pages/home-admission.jpg" alt="Home Two">
                                                                     <div class="btn-wrap">
-                                                                        <a href="home-admission.html" class="th-btn">Multipage</a>
-                                                                        <a href="home-admission-op.html" class="th-btn">Onepage</a>
+                                                                        <a href="{{ route('home.admission') }}" class="th-btn">Multipage</a>
+                                                                        <a href="{{ route('home.admission-onepage') }}" class="th-btn">Onepage</a>
                                                                     </div>
                                                                 </div>
-                                                                <h3 class="mega-menu-title"><a href="home-admission.html">Home Admission</a></h3>
+                                                                <h3 class="mega-menu-title"><a href="{{ route('home.admission') }}">Home Admission</a></h3>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-4">
@@ -405,11 +405,11 @@ Product Lightbox
                                                                 <div class="mega-menu-img">
                                                                     <img src="assets/img/pages/home-courses.jpg" alt="Home Three">
                                                                     <div class="btn-wrap">
-                                                                        <a href="home-courses.html" class="th-btn">Multipage</a>
-                                                                        <a href="home-courses-op.html" class="th-btn">Onepage</a>
+                                                                        <a href="{{ route('home.courses') }}" class="th-btn">Multipage</a>
+                                                                        <a href="{{ route('home.courses-onepage') }}" class="th-btn">Onepage</a>
                                                                     </div>
                                                                 </div>
-                                                                <h3 class="mega-menu-title"><a href="home-courses.html">Home Courses</a>
+                                                                <h3 class="mega-menu-title"><a href="{{ route('home.courses') }}">Home Courses</a>
                                                                 </h3>
                                                             </div>
                                                         </div>
@@ -418,14 +418,14 @@ Product Lightbox
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="{{ route('about') }}">About Us</a></li>
                                     <li class="menu-item-has-children">
                                         <a href="#">Programs</a>
                                         <ul class="sub-menu">
-                                            <li><a href="program.html">Programs Style 1</a></li>
-                                            <li><a href="program-2.html">Programs Style 2</a></li>
-                                            <li><a href="program-details.html">Program Details</a></li>
-                                            <li><a href="program-details-sidebar.html">Program Details With Sidebar</a></li>
+                                            <li><a href="{{ route('program.index') }}">Programs Style 1</a></li>
+                                            <li><a href="{{ route('program.program-2') }}">Programs Style 2</a></li>
+                                            <li><a href="{{ route('program.details') }}">Program Details</a></li>
+                                            <li><a href="{{ route('program.details-sidebar') }}">Program Details With Sidebar</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
@@ -434,59 +434,59 @@ Product Lightbox
                                             <li class="menu-item-has-children">
                                                 <a href="#">Shop</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="shop.html">Shop</a></li>
-                                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                                    <li><a href="cart.html">Cart Page</a></li>
-                                                    <li><a href="checkout.html">Checkout</a></li>
-                                                    <li><a href="wishlist.html">Wishlist</a></li>
+                                                    <li><a href="{{ route('shop.index') }}">Shop</a></li>
+                                                    <li><a href="{{ route('shop.details') }}">Shop Details</a></li>
+                                                    <li><a href="{{ route('shop.cart') }}">Cart Page</a></li>
+                                                    <li><a href="{{ route('shop.checkout') }}">Checkout</a></li>
+                                                    <li><a href="{{ route('shop.wishlist') }}">Wishlist</a></li>
                                                 </ul>
                                             </li>
 
                                             <li class="menu-item-has-children">
                                                 <a href="#">Faculties</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="faculty.html">Faculty</a></li>
-                                                    <li><a href="faculty-details.html">Faculty Details</a></li>
+                                                    <li><a href="{{ route('faculty.index') }}">Faculty</a></li>
+                                                    <li><a href="{{ route('faculty.details') }}">Faculty Details</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="alumni.html">Alumni Page</a></li>
+                                            <li><a href="{{ route('alumni') }}">Alumni Page</a></li>
                                             <li class="menu-item-has-children">
                                                 <a href="#">Researches</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="research.html">Research</a></li>
-                                                    <li><a href="research-details.html">Research Details</a></li>
+                                                    <li><a href="{{ route('research.index') }}">Research</a></li>
+                                                    <li><a href="{{ route('research.details') }}">Research Details</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
                                                 <a href="#">Teachers</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="teacher.html">Teacher</a></li>
-                                                    <li><a href="teacher-details.html">Teacher Details</a></li>
+                                                    <li><a href="{{ route('teacher.index') }}">Teacher</a></li>
+                                                    <li><a href="{{ route('teacher.details') }}">Teacher Details</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="campus.html">Campus Life</a></li>
-                                            <li><a href="pricing.html">Pricing Plan</a></li>
-                                            <li><a href="faq.html">Faqs Page</a></li>
-                                            <li><a href="error.html">Error Page</a></li>
+                                            <li><a href="{{ route('campus') }}">Campus Life</a></li>
+                                            <li><a href="{{ route('pricing') }}">Pricing Plan</a></li>
+                                            <li><a href="{{ route('faq') }}">Faqs Page</a></li>
+                                            <li><a href="{{ route('error') }}">Error Page</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">Events</a>
                                         <ul class="sub-menu">
-                                            <li><a href="event.html">Events Page</a></li>
-                                            <li><a href="event-details.html">Event Details</a></li>
+                                            <li><a href="{{ route('event.index') }}">Events Page</a></li>
+                                            <li><a href="{{ route('event.details') }}">Event Details</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">Blogs</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                            <li><a href="blog-details-sidebar.html">Blog Details With Sidebar</a></li>
+                                            <li><a href="{{ route('blog.index') }}">Blog</a></li>
+                                            <li><a href="{{ route('blog.details') }}">Blog Details</a></li>
+                                            <li><a href="{{ route('blog.details-sidebar') }}">Blog Details With Sidebar</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="contact.html">Contact Us</a>
+                                        <a href="{{ route('contact') }}">Contact Us</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -498,7 +498,7 @@ Product Lightbox
                                 </button>
                                 <a href="#" class="icon-btn sideMenuToggler d-none d-xl-block"><img src="assets/img/icon/grid.svg" alt=""></a>
                                 <div class="header-action">
-                                    <a href="contact.html" class="th-btn th-icon"> Apply Now</a>
+                                    <a href="{{ route('contact') }}" class="th-btn th-icon"> Apply Now</a>
                                 </div>
                                 <button type="button" class="th-menu-toggle d-inline-block d-xl-none"><i class="far fa-bars"></i></button>
                             </div>
@@ -523,7 +523,7 @@ Product Lightbox
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">Shop Details</h1>
                         <ul class="breadcumb-menu">
-                            <li><a href="home-university.html">Home</a></li>
+                            <li><a href="{{ route('home.university') }}">Home</a></li>
                             <li>Shop Details</li>
                         </ul>
                     </div>
@@ -547,7 +547,7 @@ Product Lightbox
                         <h2 class="product-title">Fountain Ballpoint Pen</h2>
                         <div class="product-rating">
                             <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span></div>
-                            <a href="shop-details.html" class="woocommerce-review-link">(<span class="count">4</span> customer reviews)</a>
+                            <a href="{{ route('shop.details') }}" class="woocommerce-review-link">(<span class="count">4</span> customer reviews)</a>
                         </div>
                         <p class="text">Prepare to embark on a sensory journey with the Bosco Apple, a fruit that transcends the ordinary and promises an unparalleled taste experience. These apples are nothing short of nature’s masterpiece, celebrated for their distinctive blend of flavors and their captivating visual allure.</p>
                         <div class="mt-2 link-inherit">
@@ -563,12 +563,12 @@ Product Lightbox
                                 <button class="quantity-minus qty-btn"><i class="far fa-chevron-down"></i></button>
                             </div>
                             <button class="th-btn">Add to Cart</button>
-                            <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                            <a href="{{ route('shop.wishlist') }}" class="icon-btn"><i class="far fa-heart"></i></a>
                         </div>
                         <div class="product_meta">
                             <span class="sku_wrapper">SKU: <span class="sku">Business-fits-chevy-camaro</span></span>
-                            <span class="posted_in">Category: <a href="shop.html">3D Business Board</a></span>
-                            <span>Tags: <a href="shop.html">3D</a><a href="shop.html">Board</a></span>
+                            <span class="posted_in">Category: <a href="{{ route('shop.index') }}">3D Business Board</a></span>
+                            <span>Tags: <a href="{{ route('shop.index') }}">3D</a><a href="{{ route('shop.index') }}">Board</a></span>
                         </div>
                     </div>
                 </div>
@@ -724,17 +724,17 @@ Product Lightbox
                                     <span class="product-tag">Hot</span>
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                        <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="{{ route('shop.cart') }}" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="{{ route('shop.wishlist') }}" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
-                                    <!-- <a href="shop-details.html" class="product-category"><br />
+                                    <!-- <a href="{{ route('shop.details') }}" class="product-category"><br />
 <b>Warning</b>:  Undefined variable $cat in <b>E:\web-dev\angfuzsoft\html\stadum-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 <br />
 <b>Warning</b>:  Trying to access array offset on value of type null in <b>E:\web-dev\angfuzsoft\html\stadum-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 </a> -->
-                                    <h3 class="product-title"><a href="shop-details.html">Pense Positivo Book</a></h3>
+                                    <h3 class="product-title"><a href="{{ route('shop.details') }}">Pense Positivo Book</a></h3>
                                     <span class="price">$177.85</span>
                                     <div class="woocommerce-product-rating">
                                         <span class="count">(120 Reviews)</span>
@@ -754,17 +754,17 @@ Product Lightbox
                                     <span class="product-tag">New</span>
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                        <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="{{ route('shop.cart') }}" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="{{ route('shop.wishlist') }}" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
-                                    <!-- <a href="shop-details.html" class="product-category"><br />
+                                    <!-- <a href="{{ route('shop.details') }}" class="product-category"><br />
 <b>Warning</b>:  Undefined variable $cat in <b>E:\web-dev\angfuzsoft\html\stadum-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 <br />
 <b>Warning</b>:  Trying to access array offset on value of type null in <b>E:\web-dev\angfuzsoft\html\stadum-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 </a> -->
-                                    <h3 class="product-title"><a href="shop-details.html">Blog Planer Book</a></h3>
+                                    <h3 class="product-title"><a href="{{ route('shop.details') }}">Blog Planer Book</a></h3>
                                     <span class="price">$39.85</span>
                                     <div class="woocommerce-product-rating">
                                         <span class="count">(120 Reviews)</span>
@@ -784,17 +784,17 @@ Product Lightbox
                                     <span class="product-tag">Hot</span>
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                        <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="{{ route('shop.cart') }}" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="{{ route('shop.wishlist') }}" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
-                                    <!-- <a href="shop-details.html" class="product-category"><br />
+                                    <!-- <a href="{{ route('shop.details') }}" class="product-category"><br />
 <b>Warning</b>:  Undefined variable $cat in <b>E:\web-dev\angfuzsoft\html\stadum-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 <br />
 <b>Warning</b>:  Trying to access array offset on value of type null in <b>E:\web-dev\angfuzsoft\html\stadum-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 </a> -->
-                                    <h3 class="product-title"><a href="shop-details.html">Euclidean Color Black Pen</a></h3>
+                                    <h3 class="product-title"><a href="{{ route('shop.details') }}">Euclidean Color Black Pen</a></h3>
                                     <span class="price">$96.85</span>
                                     <div class="woocommerce-product-rating">
                                         <span class="count">(120 Reviews)</span>
@@ -814,17 +814,17 @@ Product Lightbox
                                     <span class="product-tag">Sale</span>
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                        <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="{{ route('shop.cart') }}" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="{{ route('shop.wishlist') }}" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
-                                    <!-- <a href="shop-details.html" class="product-category"><br />
+                                    <!-- <a href="{{ route('shop.details') }}" class="product-category"><br />
 <b>Warning</b>:  Undefined variable $cat in <b>E:\web-dev\angfuzsoft\html\stadum-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 <br />
 <b>Warning</b>:  Trying to access array offset on value of type null in <b>E:\web-dev\angfuzsoft\html\stadum-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 </a> -->
-                                    <h3 class="product-title"><a href="shop-details.html">Fountain Ballpoint Pen</a></h3>
+                                    <h3 class="product-title"><a href="{{ route('shop.details') }}">Fountain Ballpoint Pen</a></h3>
                                     <span class="price">$08.85<del>$06.99</del></span>
                                     <div class="woocommerce-product-rating">
                                         <span class="count">(120 Reviews)</span>
@@ -844,17 +844,17 @@ Product Lightbox
                                     <span class="product-tag">New</span>
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                        <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="{{ route('shop.cart') }}" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="{{ route('shop.wishlist') }}" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
-                                    <!-- <a href="shop-details.html" class="product-category"><br />
+                                    <!-- <a href="{{ route('shop.details') }}" class="product-category"><br />
 <b>Warning</b>:  Undefined variable $cat in <b>E:\web-dev\angfuzsoft\html\stadum-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 <br />
 <b>Warning</b>:  Trying to access array offset on value of type null in <b>E:\web-dev\angfuzsoft\html\stadum-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 </a> -->
-                                    <h3 class="product-title"><a href="shop-details.html">How to Saving Energy</a></h3>
+                                    <h3 class="product-title"><a href="{{ route('shop.details') }}">How to Saving Energy</a></h3>
                                     <span class="price">$32.85</span>
                                     <div class="woocommerce-product-rating">
                                         <span class="count">(120 Reviews)</span>
@@ -874,17 +874,17 @@ Product Lightbox
                                     <span class="product-tag">Hot</span>
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                        <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="{{ route('shop.cart') }}" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="{{ route('shop.wishlist') }}" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
-                                    <!-- <a href="shop-details.html" class="product-category"><br />
+                                    <!-- <a href="{{ route('shop.details') }}" class="product-category"><br />
 <b>Warning</b>:  Undefined variable $cat in <b>E:\web-dev\angfuzsoft\html\stadum-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 <br />
 <b>Warning</b>:  Trying to access array offset on value of type null in <b>E:\web-dev\angfuzsoft\html\stadum-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 </a> -->
-                                    <h3 class="product-title"><a href="shop-details.html">Nueva Ley de Amparo</a></h3>
+                                    <h3 class="product-title"><a href="{{ route('shop.details') }}">Nueva Ley de Amparo</a></h3>
                                     <span class="price">$30.85</span>
                                     <div class="woocommerce-product-rating">
                                         <span class="count">(120 Reviews)</span>
@@ -904,17 +904,17 @@ Product Lightbox
                                     <span class="product-tag">New</span>
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                        <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="{{ route('shop.cart') }}" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="{{ route('shop.wishlist') }}" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
-                                    <!-- <a href="shop-details.html" class="product-category"><br />
+                                    <!-- <a href="{{ route('shop.details') }}" class="product-category"><br />
 <b>Warning</b>:  Undefined variable $cat in <b>E:\web-dev\angfuzsoft\html\stadum-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 <br />
 <b>Warning</b>:  Trying to access array offset on value of type null in <b>E:\web-dev\angfuzsoft\html\stadum-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 </a> -->
-                                    <h3 class="product-title"><a href="shop-details.html">Paper Mate Eraser</a></h3>
+                                    <h3 class="product-title"><a href="{{ route('shop.details') }}">Paper Mate Eraser</a></h3>
                                     <span class="price">$232.85</span>
                                     <div class="woocommerce-product-rating">
                                         <span class="count">(120 Reviews)</span>
@@ -934,17 +934,17 @@ Product Lightbox
                                     <span class="product-tag">Hot</span>
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i class="far fa-eye"></i></a>
-                                        <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="{{ route('shop.cart') }}" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="{{ route('shop.wishlist') }}" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
-                                    <!-- <a href="shop-details.html" class="product-category"><br />
+                                    <!-- <a href="{{ route('shop.details') }}" class="product-category"><br />
 <b>Warning</b>:  Undefined variable $cat in <b>E:\web-dev\angfuzsoft\html\stadum-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 <br />
 <b>Warning</b>:  Trying to access array offset on value of type null in <b>E:\web-dev\angfuzsoft\html\stadum-html\build\inc\sections\product-grid.php</b> on line <b>88</b><br />
 </a> -->
-                                    <h3 class="product-title"><a href="shop-details.html">Pen Wood Stationery</a></h3>
+                                    <h3 class="product-title"><a href="{{ route('shop.details') }}">Pen Wood Stationery</a></h3>
                                     <span class="price">$30.85</span>
                                     <div class="woocommerce-product-rating">
                                         <span class="count">(120 Reviews)</span>
@@ -975,7 +975,7 @@ Product Lightbox
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="home-university.html">
+                                    <a href="{{ route('home.university') }}">
                                         <img src="assets/img/logo2.svg" alt="Stadum">
                                     </a>
                                 </div>
@@ -996,13 +996,13 @@ Product Lightbox
                             <h3 class="widget_title">Useful Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="index.html">Students</a></li>
-                                    <li><a href="about.html">Admission</a></li>
-                                    <li><a href="pricing.html">Faculty & Stuffs</a></li>
-                                    <li><a href="service.html">Media Relations</a></li>
-                                    <li><a href="about.html">Alumni</a></li>
-                                    <li><a href="about.html">All Awards</a></li>
-                                    <li><a href="contact.html">Recent Events</a></li>
+                                    <li><a href="{{ route('home') }}">Students</a></li>
+                                    <li><a href="{{ route('about') }}">Admission</a></li>
+                                    <li><a href="{{ route('pricing') }}">Faculty & Stuffs</a></li>
+                                    <li><a href="#">Media Relations</a></li>
+                                    <li><a href="{{ route('about') }}">Alumni</a></li>
+                                    <li><a href="{{ route('about') }}">All Awards</a></li>
+                                    <li><a href="{{ route('contact') }}">Recent Events</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1012,13 +1012,13 @@ Product Lightbox
                             <h3 class="widget_title">Our Programs</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="about.html">Ungraduate Programs</a></li>
-                                    <li><a href="about.html">Graduate Programs</a></li>
-                                    <li><a href="about.html">Certificate Programs</a></li>
-                                    <li><a href="about.html">Accelerate Programs</a></li>
-                                    <li><a href="about.html">Online Programs</a></li>
-                                    <li><a href="about.html">Financial Planning</a></li>
-                                    <li><a href="about.html">Business Advisory</a></li>
+                                    <li><a href="{{ route('about') }}">Ungraduate Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Graduate Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Certificate Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Accelerate Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Online Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Financial Planning</a></li>
+                                    <li><a href="{{ route('about') }}">Business Advisory</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1074,7 +1074,7 @@ Product Lightbox
                 <div class="row justify-content-center gy-3 align-items-center">
                     <div class="col-md-7">
                         <p class="copyright-text">
-                            <i class="fal fa-copyright"></i> Copyright 2025 <a href="home-university.html">Stadum</a>. All Rights Reserved.
+                            <i class="fal fa-copyright"></i> Copyright 2025 <a href="{{ route('home.university') }}">Stadum</a>. All Rights Reserved.
                         </p>
                     </div>
                     <div class="col-md-5 text-md-end text-center">
@@ -1133,7 +1133,7 @@ modal Area
                             </div>
                         </div>
                         <div id="forgot_url">
-                            <a href="my-account.html">Forgot password?</a>
+                            <a href="#">Forgot password?</a>
                         </div>
                         <p class="form-messages mb-0 mt-3"></p>
                     </form>

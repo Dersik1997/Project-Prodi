@@ -327,13 +327,13 @@
                             <h3 class="widget_title">Useful Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="index.html">Students</a></li>
-                                    <li><a href="about.html">Admission</a></li>
-                                    <li><a href="pricing.html">Faculty & Stuffs</a></li>
-                                    <li><a href="service.html">Media Relations</a></li>
-                                    <li><a href="about.html">Alumni</a></li>
-                                    <li><a href="about.html">All Awards</a></li>
-                                    <li><a href="contact.html">Recent Events</a></li>
+                                    <li><a href="{{ route('home') }}">Students</a></li>
+                                    <li><a href="{{ route('about') }}">Admission</a></li>
+                                    <li><a href="{{ route('pricing') }}">Faculty & Stuffs</a></li>
+                                    <li><a href="#">Media Relations</a></li>
+                                    <li><a href="{{ route('about') }}">Alumni</a></li>
+                                    <li><a href="{{ route('about') }}">All Awards</a></li>
+                                    <li><a href="{{ route('contact') }}">Recent Events</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -343,13 +343,13 @@
                             <h3 class="widget_title">Our Programs</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="about.html">Ungraduate Programs</a></li>
-                                    <li><a href="about.html">Graduate Programs</a></li>
-                                    <li><a href="about.html">Certificate Programs</a></li>
-                                    <li><a href="about.html">Accelerate Programs</a></li>
-                                    <li><a href="about.html">Online Programs</a></li>
-                                    <li><a href="about.html">Financial Planning</a></li>
-                                    <li><a href="about.html">Business Advisory</a></li>
+                                    <li><a href="{{ route('about') }}">Ungraduate Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Graduate Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Certificate Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Accelerate Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Online Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Financial Planning</a></li>
+                                    <li><a href="{{ route('about') }}">Business Advisory</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -410,7 +410,7 @@
                     </div>
                     <div class="col-md-auto">
                         <p class="copyright-text">
-                            <i class="fal fa-copyright"></i> Copyright 2025 <a href="home-university.html">Stadum</a>. All Rights Reserved.
+                            <i class="fal fa-copyright"></i> Copyright 2025 <a href="{{ route('home.university') }}">Stadum</a>. All Rights Reserved.
                         </p>
                     </div>
                     <div class="col-md-auto text-md-end text-center">
@@ -469,7 +469,7 @@ modal Area
                             </div>
                         </div>
                         <div id="forgot_url">
-                            <a href="my-account.html">Forgot password?</a>
+                            <a href="#">Forgot password?</a>
                         </div>
                         <p class="form-messages mb-0 mt-3"></p>
                     </form>

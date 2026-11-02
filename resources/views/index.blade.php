@@ -102,7 +102,7 @@
             <div class="widget footer-widget">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="home-university.html">
+                        <a href="{{ route('home.university') }}">
                             <img src="assets/img/logo-ti-ummi.png" alt="Teknik Informatika UMMI" style="max-height: 50px; width: auto;">
                         </a>
                     </div>
@@ -122,38 +122,38 @@
                 <div class="recent-post-wrap">
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title">
-                                <a class="text-inherit" href="blog-details.html">Trailblazers in Faculty Perspectives</a>
+                                <a class="text-inherit" href="{{ route('blog.details') }}">Trailblazers in Faculty Perspectives</a>
                             </h4>
                             <div class="recent-post-meta">
-                                <a href="blog.html"><i class="far fa-calendar"></i>26/6/2025</a>
+                                <a href="{{ route('blog.index') }}"><i class="far fa-calendar"></i>26/6/2025</a>
                             </div>
                         </div>
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Future Focus Preparing for Tomorrow</a></h4>
+                            <h4 class="post-title"><a class="text-inherit" href="{{ route('blog.details') }}">Future Focus Preparing for Tomorrow</a></h4>
                             <div class="recent-post-meta">
-                                <a href="blog.html"><i class="far fa-calendar"></i>24/6/2025</a>
+                                <a href="{{ route('blog.index') }}"><i class="far fa-calendar"></i>24/6/2025</a>
                             </div>
                         </div>
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title">
-                                <a class="text-inherit" href="blog-details.html">The Green Initiative Sustainability in Action</a>
+                                <a class="text-inherit" href="{{ route('blog.details') }}">The Green Initiative Sustainability in Action</a>
                             </h4>
                             <div class="recent-post-meta">
-                                <a href="blog.html"><i class="far fa-calendar"></i>24/6/2025</a>
+                                <a href="{{ route('blog.index') }}"><i class="far fa-calendar"></i>24/6/2025</a>
                             </div>
                         </div>
                     </div>
@@ -184,70 +184,70 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="home-university.html"><img src="assets/img/logo-ti-ummi.png" alt="Teknik Informatika UMMI" style="max-height: 48px; width: auto;"></a>
+                <a href="{{ route('home.university') }}"><img src="assets/img/logo-ti-ummi.png" alt="Teknik Informatika UMMI" style="max-height: 48px; width: auto;"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children">
-                        <a href="index.html">Beranda</a>
+                        <a href="{{ route('home') }}">Beranda</a>
                         <ul class="sub-menu">
-                            <li><a href="index.html">Beranda Utama</a></li>
-                            <li><a href="home-university.html">Home University</a></li>
+                            <li><a href="{{ route('home') }}">Beranda Utama</a></li>
+                            <li><a href="{{ route('home.university') }}">Home University</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="about.html">Profil</a>
+                        <a href="{{ route('about') }}">Profil</a>
                         <ul class="sub-menu">
-                            <li><a href="about.html">Tentang Program Studi</a></li>
-                            <li><a href="about.html">Visi dan Misi</a></li>
-                            <li><a href="faculty.html">Dosen & Tenaga Pendidik</a></li>
-                            <li><a href="faculty-details.html">Struktur Organisasi</a></li>
-                            <li><a href="campus.html">Fasilitas Kampus</a></li>
+                            <li><a href="{{ route('about') }}">Tentang Program Studi</a></li>
+                            <li><a href="{{ route('about') }}">Visi dan Misi</a></li>
+                            <li><a href="{{ route('faculty.index') }}">Dosen & Tenaga Pendidik</a></li>
+                            <li><a href="{{ route('faculty.details') }}">Struktur Organisasi</a></li>
+                            <li><a href="{{ route('campus') }}">Fasilitas Kampus</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
                         <a href="#">Akademik</a>
                         <ul class="sub-menu">
-                            <li><a href="program.html">Program Studi</a></li>
-                            <li><a href="program-details.html">Kurikulum & Silabus</a></li>
-                            <li><a href="faculty.html">Daftar Dosen</a></li>
-                            <li><a href="alumni.html">Alumni</a></li>
-                            <li><a href="pricing.html">Biaya Pendidikan</a></li>
+                            <li><a href="{{ route('program.index') }}">Program Studi</a></li>
+                            <li><a href="{{ route('program.details') }}">Kurikulum & Silabus</a></li>
+                            <li><a href="{{ route('faculty.index') }}">Daftar Dosen</a></li>
+                            <li><a href="{{ route('alumni') }}">Alumni</a></li>
+                            <li><a href="{{ route('pricing') }}">Biaya Pendidikan</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="research.html">Penelitian</a>
+                        <a href="{{ route('research.index') }}">Penelitian</a>
                         <ul class="sub-menu">
-                            <li><a href="research.html">Daftar Penelitian</a></li>
-                            <li><a href="research-details.html">Detail Penelitian</a></li>
-                            <li><a href="research.html">Publikasi & Jurnal</a></li>
+                            <li><a href="{{ route('research.index') }}">Daftar Penelitian</a></li>
+                            <li><a href="{{ route('research.details') }}">Detail Penelitian</a></li>
+                            <li><a href="{{ route('research.index') }}">Publikasi & Jurnal</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="event.html">Pengabdian</a>
+                        <a href="{{ route('event.index') }}">Pengabdian</a>
                         <ul class="sub-menu">
-                            <li><a href="event.html">Pengabdian Masyarakat (PkM)</a></li>
-                            <li><a href="event-details.html">Detail Kegiatan PkM</a></li>
+                            <li><a href="{{ route('event.index') }}">Pengabdian Masyarakat (PkM)</a></li>
+                            <li><a href="{{ route('event.details') }}">Detail Kegiatan PkM</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="blog.html">Informasi</a>
+                        <a href="{{ route('blog.index') }}">Informasi</a>
                         <ul class="sub-menu">
-                            <li><a href="blog.html">Berita & Artikel</a></li>
-                            <li><a href="event.html">Agenda Acara</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="{{ route('blog.index') }}">Berita & Artikel</a></li>
+                            <li><a href="{{ route('event.index') }}">Agenda Acara</a></li>
+                            <li><a href="{{ route('faq') }}">FAQ</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
                         <a href="#">Berkas</a>
                         <ul class="sub-menu">
-                            <li><a href="pricing.html">Pedoman Akademik</a></li>
-                            <li><a href="program-details-sidebar.html">Formulir & Dokumen</a></li>
-                            <li><a href="blog-details.html">Dokumen SK & Akreditasi</a></li>
+                            <li><a href="{{ route('pricing') }}">Pedoman Akademik</a></li>
+                            <li><a href="{{ route('program.details-sidebar') }}">Formulir & Dokumen</a></li>
+                            <li><a href="{{ route('blog.details') }}">Dokumen SK & Akreditasi</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="contact.html">Kontak</a>
+                        <a href="{{ route('contact') }}">Kontak</a>
                     </li>
                 </ul>
             </div>
@@ -276,10 +276,10 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="contact.html">Staff</a></li>
-                                <li><a href="alumni.html">Alumni</a></li>
-                                <li><a href="faculty.html">Faculty</a> </li>
-                                <li><a href="contact.html">Community</a></li>
+                                <li><a href="{{ route('contact') }}">Staff</a></li>
+                                <li><a href="{{ route('alumni') }}">Alumni</a></li>
+                                <li><a href="{{ route('faculty.index') }}">Faculty</a> </li>
+                                <li><a href="{{ route('contact') }}">Community</a></li>
                             </ul>
                         </div>
                     </div>
@@ -287,7 +287,7 @@
                         <div class="header-links">
                             <ul class="header-right-wrap">
                                 <li><i class="fa-solid fa-user"></i><a href="#login-form" class="popup-content">Login / Register</a></li>
-                                <li><i class="fas fa-comments"></i><a href="faq.html">FAQ</a></li>
+                                <li><i class="fas fa-comments"></i><a href="{{ route('faq') }}">FAQ</a></li>
                                 <li>
                                     <div class="dropdown-link">
                                       <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false">
@@ -315,7 +315,7 @@
                 <div class="row justify-content-between align-items-center">
                     <div class="col-auto">
                         <div class="header-logo">
-                            <a href="home-university.html">
+                            <a href="{{ route('home.university') }}">
                                 <img src="assets/img/logo-ti-ummi.png" alt="Teknik Informatika UMMI" style="max-height: 52px; width: auto;" />
                             </a>
                         </div>
@@ -370,12 +370,12 @@ Sukabumi 43113</a>
                             <div class="col-auto">
                                 <div class="header-left d-flex align-items-center">
                                     <div class="header-logo d-block d-sm-none">
-                                        <a href="home-university.html">
+                                        <a href="{{ route('home.university') }}">
                                             <img src="assets/img/logo-ti-ummi.png" alt="Teknik Informatika UMMI" style="max-height: 40px; width: auto;" />
                                         </a>
                                     </div>
                                     <div class="header-button d-none d-sm-block">
-                                        <a href="contact.html" class="th-btn">
+                                        <a href="{{ route('contact') }}" class="th-btn">
                                             Get More Info
                                             <img src="assets/img/icon/right-icon.svg" class="th-arrow" alt="icon">
                                         </a>
@@ -383,64 +383,64 @@ Sukabumi 43113</a>
                                     <nav class="main-menu d-none d-xl-block">
                                         <ul>
                                             <li class="menu-item-has-children">
-                                                <a href="index.html">Beranda</a>
+                                                <a href="{{ route('home') }}">Beranda</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="index.html">Beranda Utama</a></li>
+                                                    <li><a href="{{ route('home') }}">Beranda Utama</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
-                                                <a href="about.html">Profil</a>
+                                                <a href="{{ route('about') }}">Profil</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="about.html">Tentang Program Studi</a></li>
-                                                    <li><a href="about.html">Visi dan Misi</a></li>
-                                                    <li><a href="faculty.html">Dosen & Tenaga Pendidik</a></li>
-                                                    <li><a href="faculty-details.html">Struktur Organisasi</a></li>
-                                                    <li><a href="campus.html">Fasilitas Kampus</a></li>
+                                                    <li><a href="{{ route('about') }}">Tentang Program Studi</a></li>
+                                                    <li><a href="{{ route('about') }}">Visi dan Misi</a></li>
+                                                    <li><a href="{{ route('faculty.index') }}">Dosen & Tenaga Pendidik</a></li>
+                                                    <li><a href="{{ route('faculty.details') }}">Struktur Organisasi</a></li>
+                                                    <li><a href="{{ route('campus') }}">Fasilitas Kampus</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
                                                 <a href="#">Akademik</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="program.html">Program Studi</a></li>
-                                                    <li><a href="program-details.html">Kurikulum & Silabus</a></li>
-                                                    <li><a href="faculty.html">Daftar Dosen</a></li>
-                                                    <li><a href="alumni.html">Alumni</a></li>
-                                                    <li><a href="pricing.html">Biaya Pendidikan</a></li>
+                                                    <li><a href="{{ route('program.index') }}">Program Studi</a></li>
+                                                    <li><a href="{{ route('program.details') }}">Kurikulum & Silabus</a></li>
+                                                    <li><a href="{{ route('faculty.index') }}">Daftar Dosen</a></li>
+                                                    <li><a href="{{ route('alumni') }}">Alumni</a></li>
+                                                    <li><a href="{{ route('pricing') }}">Biaya Pendidikan</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
-                                                <a href="research.html">Penelitian</a>
+                                                <a href="{{ route('research.index') }}">Penelitian</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="research.html">Daftar Penelitian</a></li>
-                                                    <li><a href="research-details.html">Detail Penelitian</a></li>
-                                                    <li><a href="research.html">Publikasi & Jurnal</a></li>
+                                                    <li><a href="{{ route('research.index') }}">Daftar Penelitian</a></li>
+                                                    <li><a href="{{ route('research.details') }}">Detail Penelitian</a></li>
+                                                    <li><a href="{{ route('research.index') }}">Publikasi & Jurnal</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
-                                                <a href="event.html">Pengabdian</a>
+                                                <a href="{{ route('event.index') }}">Pengabdian</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="event.html">Pengabdian Masyarakat (PkM)</a></li>
-                                                    <li><a href="event-details.html">Detail Kegiatan PkM</a></li>
+                                                    <li><a href="{{ route('event.index') }}">Pengabdian Masyarakat (PkM)</a></li>
+                                                    <li><a href="{{ route('event.details') }}">Detail Kegiatan PkM</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
-                                                <a href="blog.html">Informasi</a>
+                                                <a href="{{ route('blog.index') }}">Informasi</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="blog.html">Berita & Artikel</a></li>
-                                                    <li><a href="event.html">Agenda Acara</a></li>
-                                                    <li><a href="faq.html">FAQ</a></li>
+                                                    <li><a href="{{ route('blog.index') }}">Berita & Artikel</a></li>
+                                                    <li><a href="{{ route('event.index') }}">Agenda Acara</a></li>
+                                                    <li><a href="{{ route('faq') }}">FAQ</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
                                                 <a href="#">Berkas</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="pricing.html">Pedoman Akademik</a></li>
-                                                    <li><a href="program-details-sidebar.html">Formulir & Dokumen</a></li>
-                                                    <li><a href="blog-details.html">Dokumen SK & Akreditasi</a></li>
+                                                    <li><a href="{{ route('pricing') }}">Pedoman Akademik</a></li>
+                                                    <li><a href="{{ route('program.details-sidebar') }}">Formulir & Dokumen</a></li>
+                                                    <li><a href="{{ route('blog.details') }}">Dokumen SK & Akreditasi</a></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="contact.html">Kontak</a>
+                                                <a href="{{ route('contact') }}">Kontak</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -482,8 +482,8 @@ Hero Area
                                             <p class="hero-text text-white" data-ani="slideinup" data-ani-delay="0.5s">
                                                Unggul dalam Bidang Rekayasa Perangkat Lunak dengan berbudaya tekno religi. Mempersiapkan lulusan yang kompeten, inovatif, dan berakhlak mulia</p>
                                             <div class="btn-wrap justify-content-center justify-content-lg-start" data-ani="slideinup" data-ani-delay="0.8s">
-                                                <a href="contact.html" class="th-btn white-hover th-icon"> Tentang Prodi</a>
-                                                <a href="program.html" class="th-btn style-border1 th-icon white-hover">Berita Terbaru</a>
+                                                <a href="{{ route('contact') }}" class="th-btn white-hover th-icon"> Tentang Prodi</a>
+                                                <a href="{{ route('program.index') }}" class="th-btn style-border1 th-icon white-hover">Berita Terbaru</a>
                                             </div>
                                         </div>
                                     </div>
@@ -514,8 +514,8 @@ Hero Area
                                             <p class="hero-text text-white" data-ani="slideinup" data-ani-delay="0.5s">
                                                 Membangun generasi unggul yang beriman, berilmu, dan berakhlak mulia untuk kemajuan bangsa dan umat</p>
                                             <div class="btn-wrap justify-content-center justify-content-lg-start" data-ani="slideinup" data-ani-delay="0.8s">
-                                                <a href="contact.html" class="th-btn white-hover th-icon"> Tentang Prodi</a>
-                                                <a href="program.html" class="th-btn style-border1 th-icon white-hover">Berita Terbaru</a>
+                                                <a href="{{ route('contact') }}" class="th-btn white-hover th-icon"> Tentang Prodi</a>
+                                                <a href="{{ route('program.index') }}" class="th-btn style-border1 th-icon white-hover">Berita Terbaru</a>
                                             </div>
                                         </div>
                                     </div>
@@ -546,8 +546,8 @@ Hero Area
                                             <p class="hero-text text-white" data-ani="slideinup" data-ani-delay="0.5s">
                                                  Membangun generasi unggul yang beriman, berilmu, dan berakhlak mulia untuk kemajuan bangsa dan umat Membangun generasi unggul yang beriman, berilmu, dan berakhlak mulia untuk kemajuan bangsa dan umat</p>
                                             <div class="btn-wrap justify-content-center justify-content-lg-start" data-ani="slideinup" data-ani-delay="0.8s">
-                                                <a href="contact.html" class="th-btn white-hover th-icon"> Tentang Prodi</a>
-                                                <a href="program.html" class="th-btn style-border1 th-icon white-hover">Berita Terbaru</a>
+                                                <a href="{{ route('contact') }}" class="th-btn white-hover th-icon"> Tentang Prodi</a>
+                                                <a href="{{ route('program.index') }}" class="th-btn style-border1 th-icon white-hover">Berita Terbaru</a>
                                             </div>
                                         </div>
                                     </div>
@@ -578,8 +578,8 @@ Hero Area
                                             <p class="hero-text text-white" data-ani="slideinup" data-ani-delay="0.5s">
                                                 Membangun generasi unggul yang beriman, berilmu, dan berakhlak mulia untuk kemajuan bangsa dan umat</p>
                                             <div class="btn-wrap justify-content-center justify-content-lg-start" data-ani="slideinup" data-ani-delay="0.8s">
-                                                <a href="contact.html" class="th-btn white-hover th-icon"> Tentang Prodi</a>
-                                                <a href="program.html" class="th-btn style-border1 th-icon white-hover">Berita Terbaru</a>
+                                                <a href="{{ route('contact') }}" class="th-btn white-hover th-icon"> Tentang Prodi</a>
+                                                <a href="{{ route('program.index') }}" class="th-btn style-border1 th-icon white-hover">Berita Terbaru</a>
                                             </div>
                                         </div>
                                     </div>
@@ -614,7 +614,7 @@ Hero Area
                         </div>
                         <h3 class="box-title">Profil Prodi</h3>
                         <p class="box-text style2">Visi, misi, dan tujuan Program Studi Teknik Informatika.</p>
-                        <a href="program.html" class="th-btn style-border2 th-icon">Learn More</a>
+                        <a href="{{ route('program.index') }}" class="th-btn style-border2 th-icon">Learn More</a>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 feature-card_wrapp">
@@ -624,7 +624,7 @@ Hero Area
                         </div>
                         <h3 class="box-title">Penelitian</h3>
                         <p class="box-text style2">Publikasi dan riset dosen serta mahasiswa.</p>
-                        <a href="program.html" class="th-btn style-border2 th-icon">Learn More</a>
+                        <a href="{{ route('program.index') }}" class="th-btn style-border2 th-icon">Learn More</a>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 feature-card_wrapp">
@@ -634,7 +634,7 @@ Hero Area
                         </div>
                         <h3 class="box-title">Pengabdian</h3>
                         <p class="box-text style2">Kegiatan pengabdian kepada masyarakat (PkM).</p>
-                        <a href="program.html" class="th-btn style-border2 th-icon">Learn More</a>
+                        <a href="{{ route('program.index') }}" class="th-btn style-border2 th-icon">Learn More</a>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 feature-card_wrapp">
@@ -644,7 +644,7 @@ Hero Area
                         </div>
                         <h3 class="box-title">Akademik</h3>
                         <p class="box-text style2">Kurikulum, silabus, dan informasi perkuliahan.</p>
-                        <a href="program.html" class="th-btn style-border2 th-icon">Learn More</a>
+                        <a href="{{ route('program.index') }}" class="th-btn style-border2 th-icon">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -741,7 +741,7 @@ About Area
     </div>
 </div>
 <div class="btn-wrap wow fadeInUp" data-wow-delay=".7s">
-    <a href="about.html" class="th-btn th-icon">Pelajari Lebih Lanjut</a>
+    <a href="{{ route('about') }}" class="th-btn th-icon">Pelajari Lebih Lanjut</a>
 </div>
 </div>
                     </div>
@@ -807,7 +807,7 @@ About Area
                 </div>
                 <div class="col-auto align-self-end">
                     <div class="sec-btn wow fadeInUp" data-wow-delay=".3s">
-                        <a href="program.html" class="th-btn style-border1 th-icon"> Explore All </a>
+                        <a href="{{ route('program.index') }}" class="th-btn style-border1 th-icon"> Explore All </a>
                     </div>
                 </div>
             </div>
@@ -818,7 +818,7 @@ About Area
                             <div class="swiper-slide">
                                 <div class="academic-card">
                                     <div class="academic-img">
-                                        <a href="program-details.html">
+                                        <a href="{{ route('program.details') }}">
                                             <img src="assets/img/academic/academic1-1.jpg" alt="blog image">
                                         </a>
                                         <div class="academic-tag">
@@ -827,7 +827,7 @@ About Area
                                     </div>
                                     <div class="academic-content">
                                         <h3 class="box-title">
-                                            <a href="program-details.html">Bachelor in Applied Mathematics</a>
+                                            <a href="{{ route('program.details') }}">Bachelor in Applied Mathematics</a>
                                         </h3>
                                         <div class="academic-review">
                                             <span><i class="fa-solid fa-star"></i></span>
@@ -841,12 +841,12 @@ About Area
                                     </div>
                                     <div class="academic-meta-wrap">
                                         <div class="academic-meta">
-                                            <a href="program-details.html" class="subject">
+                                            <a href="{{ route('program.details') }}" class="subject">
                                                 <i class="fa-solid fa-messages"></i> English
                                             </a>
                                             <a href="#" class="duration"><i class="fa-solid fa-clock"></i> 04 Years</a>
                                         </div>
-                                        <a href="program-details.html" class="th-btn style-border1 th-icon">Discover</a>
+                                        <a href="{{ route('program.details') }}" class="th-btn style-border1 th-icon">Discover</a>
                                     </div>
                                 </div>
                             </div>
@@ -854,7 +854,7 @@ About Area
                             <div class="swiper-slide">
                                 <div class="academic-card">
                                     <div class="academic-img">
-                                        <a href="program-details.html">
+                                        <a href="{{ route('program.details') }}">
                                             <img src="assets/img/academic/academic1-2.jpg" alt="blog image">
                                         </a>
                                         <div class="academic-tag">
@@ -863,7 +863,7 @@ About Area
                                     </div>
                                     <div class="academic-content">
                                         <h3 class="box-title">
-                                            <a href="program-details.html">Bachelor in Applied Architecture</a>
+                                            <a href="{{ route('program.details') }}">Bachelor in Applied Architecture</a>
                                         </h3>
                                         <div class="academic-review">
                                             <span><i class="fa-solid fa-star"></i></span>
@@ -877,12 +877,12 @@ About Area
                                     </div>
                                     <div class="academic-meta-wrap">
                                         <div class="academic-meta">
-                                            <a href="program-details.html" class="subject">
+                                            <a href="{{ route('program.details') }}" class="subject">
                                                 <i class="fa-solid fa-messages"></i> Arabic
                                             </a>
                                             <a href="#" class="duration"><i class="fa-solid fa-clock"></i> 04 Years</a>
                                         </div>
-                                        <a href="program-details.html" class="th-btn style-border1 th-icon">Discover</a>
+                                        <a href="{{ route('program.details') }}" class="th-btn style-border1 th-icon">Discover</a>
                                     </div>
                                 </div>
                             </div>
@@ -890,7 +890,7 @@ About Area
                             <div class="swiper-slide">
                                 <div class="academic-card">
                                     <div class="academic-img">
-                                        <a href="program-details.html">
+                                        <a href="{{ route('program.details') }}">
                                             <img src="assets/img/academic/academic1-3.jpg" alt="blog image">
                                         </a>
                                         <div class="academic-tag">
@@ -899,7 +899,7 @@ About Area
                                     </div>
                                     <div class="academic-content">
                                         <h3 class="box-title">
-                                            <a href="program-details.html">Bachelor in Administration Cse</a>
+                                            <a href="{{ route('program.details') }}">Bachelor in Administration Cse</a>
                                         </h3>
                                         <div class="academic-review">
                                             <span><i class="fa-solid fa-star"></i></span>
@@ -913,12 +913,12 @@ About Area
                                     </div>
                                     <div class="academic-meta-wrap">
                                         <div class="academic-meta">
-                                            <a href="program-details.html" class="subject">
+                                            <a href="{{ route('program.details') }}" class="subject">
                                                 <i class="fa-solid fa-messages"></i> Hindi
                                             </a>
                                             <a href="#" class="duration"><i class="fa-solid fa-clock"></i> 04 Years</a>
                                         </div>
-                                        <a href="program-details.html" class="th-btn style-border1 th-icon">Discover</a>
+                                        <a href="{{ route('program.details') }}" class="th-btn style-border1 th-icon">Discover</a>
                                     </div>
                                 </div>
                             </div>
@@ -926,7 +926,7 @@ About Area
                             <div class="swiper-slide">
                                 <div class="academic-card">
                                     <div class="academic-img">
-                                        <a href="program-details.html">
+                                        <a href="{{ route('program.details') }}">
                                             <img src="assets/img/academic/academic1-1.jpg" alt="blog image">
                                         </a>
                                         <div class="academic-tag">
@@ -935,7 +935,7 @@ About Area
                                     </div>
                                     <div class="academic-content">
                                         <h3 class="box-title">
-                                            <a href="program-details.html">Bachelor in Applied Mathematics</a>
+                                            <a href="{{ route('program.details') }}">Bachelor in Applied Mathematics</a>
                                         </h3>
                                         <div class="academic-review">
                                             <span><i class="fa-solid fa-star"></i></span>
@@ -949,12 +949,12 @@ About Area
                                     </div>
                                     <div class="academic-meta-wrap">
                                         <div class="academic-meta">
-                                            <a href="program-details.html" class="subject">
+                                            <a href="{{ route('program.details') }}" class="subject">
                                                 <i class="fa-solid fa-messages"></i> English
                                             </a>
                                             <a href="#" class="duration"><i class="fa-solid fa-clock"></i> 04 Years</a>
                                         </div>
-                                        <a href="program-details.html" class="th-btn style-border1 th-icon">Discover</a>
+                                        <a href="{{ route('program.details') }}" class="th-btn style-border1 th-icon">Discover</a>
                                     </div>
                                 </div>
                             </div>
@@ -962,7 +962,7 @@ About Area
                             <div class="swiper-slide">
                                 <div class="academic-card">
                                     <div class="academic-img">
-                                        <a href="program-details.html">
+                                        <a href="{{ route('program.details') }}">
                                             <img src="assets/img/academic/academic1-2.jpg" alt="blog image">
                                         </a>
                                         <div class="academic-tag">
@@ -971,7 +971,7 @@ About Area
                                     </div>
                                     <div class="academic-content">
                                         <h3 class="box-title">
-                                            <a href="program-details.html">Bachelor in Applied Architecture</a>
+                                            <a href="{{ route('program.details') }}">Bachelor in Applied Architecture</a>
                                         </h3>
                                         <div class="academic-review">
                                             <span><i class="fa-solid fa-star"></i></span>
@@ -985,12 +985,12 @@ About Area
                                     </div>
                                     <div class="academic-meta-wrap">
                                         <div class="academic-meta">
-                                            <a href="program-details.html" class="subject">
+                                            <a href="{{ route('program.details') }}" class="subject">
                                                 <i class="fa-solid fa-messages"></i> Arabic
                                             </a>
                                             <a href="#" class="duration"><i class="fa-solid fa-clock"></i> 04 Years</a>
                                         </div>
-                                        <a href="program-details.html" class="th-btn style-border1 th-icon">Discover</a>
+                                        <a href="{{ route('program.details') }}" class="th-btn style-border1 th-icon">Discover</a>
                                     </div>
                                 </div>
                             </div>
@@ -998,7 +998,7 @@ About Area
                             <div class="swiper-slide">
                                 <div class="academic-card">
                                     <div class="academic-img">
-                                        <a href="program-details.html">
+                                        <a href="{{ route('program.details') }}">
                                             <img src="assets/img/academic/academic1-3.jpg" alt="blog image">
                                         </a>
                                         <div class="academic-tag">
@@ -1007,7 +1007,7 @@ About Area
                                     </div>
                                     <div class="academic-content">
                                         <h3 class="box-title">
-                                            <a href="program-details.html">Bachelor in Administration Cse</a>
+                                            <a href="{{ route('program.details') }}">Bachelor in Administration Cse</a>
                                         </h3>
                                         <div class="academic-review">
                                             <span><i class="fa-solid fa-star"></i></span>
@@ -1021,12 +1021,12 @@ About Area
                                     </div>
                                     <div class="academic-meta-wrap">
                                         <div class="academic-meta">
-                                            <a href="program-details.html" class="subject">
+                                            <a href="{{ route('program.details') }}" class="subject">
                                                 <i class="fa-solid fa-messages"></i> Hindi
                                             </a>
                                             <a href="#" class="duration"><i class="fa-solid fa-clock"></i> 04 Years</a>
                                         </div>
-                                        <a href="program-details.html" class="th-btn style-border1 th-icon">Discover</a>
+                                        <a href="{{ route('program.details') }}" class="th-btn style-border1 th-icon">Discover</a>
                                     </div>
                                 </div>
                             </div>
@@ -1059,14 +1059,14 @@ Why Choose Us Area
                                     <div class="why-titlebox">
                                         <span class="why-number position-relative">1</span>
                                         <h3 class="box-title">
-                                            <a href="about.html">Get a Top-Tier Global Education</a>
+                                            <a href="{{ route('about') }}">Get a Top-Tier Global Education</a>
                                         </h3>
                                     </div>
                                     <div class="box-text-wrap">
                                         <p class="box-text">A Kingdom perspective is integrated into your studies and woven through the entire stadum experience.</p>
                                     </div>
                                 </div>
-                                <a href="about.html" class="th-btn style-border1 th-icon mt-40">Explore More</a>
+                                <a href="{{ route('about') }}" class="th-btn style-border1 th-icon mt-40">Explore More</a>
                             </div>
                         </div>
 
@@ -1076,14 +1076,14 @@ Why Choose Us Area
                                     <div class="why-titlebox">
                                         <span class="why-number position-relative">2</span>
                                         <h3 class="box-title">
-                                            <a href="about.html">Join a Spiritually Vibrant Campus Community</a>
+                                            <a href="{{ route('about') }}">Join a Spiritually Vibrant Campus Community</a>
                                         </h3>
                                     </div>
                                     <div class="box-text-wrap">
                                         <p class="box-text">Opportunities for faith and fellowship are all around, from chapel worship and dorm devotions to communal meals, clubs and activities.</p>
                                     </div>
                                 </div>
-                                <a href="about.html" class="th-btn style-border1 th-icon mt-40">Explore More</a>
+                                <a href="{{ route('about') }}" class="th-btn style-border1 th-icon mt-40">Explore More</a>
                             </div>
                         </div>
 
@@ -1093,14 +1093,14 @@ Why Choose Us Area
                                     <div class="why-titlebox">
                                         <span class="why-number position-relative">3</span>
                                         <h3 class="box-title">
-                                            <a href="about.html">Be Prepared for a Thriving Career</a>
+                                            <a href="{{ route('about') }}">Be Prepared for a Thriving Career</a>
                                         </h3>
                                     </div>
                                     <div class="box-text-wrap">
                                         <p class="box-text">A Kingdom perspective is integrated into your studies and woven through the entire stadum experience.</p>
                                     </div>
                                 </div>
-                                <a href="about.html" class="th-btn style-border1 th-icon mt-40">Explore More</a>
+                                <a href="{{ route('about') }}" class="th-btn style-border1 th-icon mt-40">Explore More</a>
                             </div>
                         </div>
 
@@ -1110,14 +1110,14 @@ Why Choose Us Area
                                     <div class="why-titlebox">
                                         <span class="why-number position-relative">4</span>
                                         <h3 class="box-title">
-                                            <a href="about.html">Experience a Cost-Competitive Education</a>
+                                            <a href="{{ route('about') }}">Experience a Cost-Competitive Education</a>
                                         </h3>
                                     </div>
                                     <div class="box-text-wrap">
                                         <p class="box-text">Opportunities for faith and fellowship are all around, from chapel worship and dorm devotions to communal meals, clubs and activities.</p>
                                     </div>
                                 </div>
-                                <a href="about.html" class="th-btn style-border1 th-icon mt-40">Explore More</a>
+                                <a href="{{ route('about') }}" class="th-btn style-border1 th-icon mt-40">Explore More</a>
                             </div>
                         </div>
 
@@ -1152,7 +1152,7 @@ Why Choose Us Area
                 </div>
                 <div class="col-auto align-self-end">
                     <div class="sec-btn">
-                        <a href="campus.html" class="th-btn style-border1 th-icon wow fadeInUp" data-wow-delay=".2s"> Explore All</a>
+                        <a href="{{ route('campus') }}" class="th-btn style-border1 th-icon wow fadeInUp" data-wow-delay=".2s"> Explore All</a>
                     </div>
                 </div>
             </div>
@@ -1160,51 +1160,51 @@ Why Choose Us Area
                 <div class="col-xl-4 col-lg-6">
                     <div class="campus-card wow fadeInLeft" data-wow-delay=".2s">
                         <div class="campus-img global-img">
-                            <a href="campus.html" class="d-block position-relative">
+                            <a href="{{ route('campus') }}" class="d-block position-relative">
                                 <img src="assets/img/campus/campus-1-1.jpg" alt="campus image" class="img-1">
                             </a>
                         </div>
                         <div class="campus-content">
                             <h3 class="box-title">
-                                <a href="campus.html">Mentor Lecture</a>
+                                <a href="{{ route('campus') }}">Mentor Lecture</a>
                             </h3>
                             <p class="box-text">Schedule a personalized tour of our Ancaster, Ontario campus and a one-on-one meeting with an Admissions Counsellor. Daily visits are offered regularly to accommodate your schedule.</p>
                         </div>
-                        <a href="campus.html" class="th-btn style-border1 th-icon">View The Campus</a>
+                        <a href="{{ route('campus') }}" class="th-btn style-border1 th-icon">View The Campus</a>
                     </div>
                 </div>
 
                 <div class="col-xl-4 col-lg-6">
                     <div class="campus-card wow fadeInLeft" data-wow-delay=".4s">
                         <div class="campus-img global-img">
-                            <a href="campus.html" class="d-block position-relative">
+                            <a href="{{ route('campus') }}" class="d-block position-relative">
                                 <img src="assets/img/campus/campus-1-2.jpg" alt="campus image" class="img-1">
                             </a>
                         </div>
                         <div class="campus-content">
                             <h3 class="box-title">
-                                <a href="campus.html">Group Study in Campus</a>
+                                <a href="{{ route('campus') }}">Group Study in Campus</a>
                             </h3>
                             <p class="box-text">Our scheduled visits are pre-planned days that are specially catered to the different interests of each student. Tour campus and connect with staff, faculty and current students to help discover your place.</p>
                         </div>
-                        <a href="campus.html" class="th-btn style-border1 th-icon">View The Campus</a>
+                        <a href="{{ route('campus') }}" class="th-btn style-border1 th-icon">View The Campus</a>
                     </div>
                 </div>
 
                 <div class="col-xl-4 col-lg-6">
                     <div class="campus-card wow fadeInLeft" data-wow-delay=".6s">
                         <div class="campus-img global-img">
-                            <a href="campus.html" class="d-block position-relative">
+                            <a href="{{ route('campus') }}" class="d-block position-relative">
                                 <img src="assets/img/campus/campus-1-3.jpg" alt="campus image" class="img-1">
                             </a>
                         </div>
                         <div class="campus-content">
                             <h3 class="box-title">
-                                <a href="campus.html">Art & Culture</a>
+                                <a href="{{ route('campus') }}">Art & Culture</a>
                             </h3>
                             <p class="box-text">Can’t make it to campus? Explore parts of Redeemer’s 70-acre campus through a series of short videos and get a glimpse of what it has to offer—wherever and whenever works best for you.</p>
                         </div>
-                        <a href="campus.html" class="th-btn style-border1 th-icon">View The Campus</a>
+                        <a href="{{ route('campus') }}" class="th-btn style-border1 th-icon">View The Campus</a>
                     </div>
                 </div>
 
@@ -1261,7 +1261,7 @@ Why Choose Us Area
                             </div>
                             <div class="chancellor-bottom">
                                 <div class="chancellor-action">
-                                    <a href="contact.html" class="th-btn th-icon">Lihat Dosen</a>
+                                    <a href="{{ route('contact') }}" class="th-btn th-icon">Lihat Dosen</a>
                                 </div>
                                 <div class="chancellor-signature-box text-sm-center">
                                     <p class="box-text">Prof. Dr. Simons Doe, Ph.D</p>
@@ -1288,7 +1288,7 @@ Story Area
                 </div>
                 <div class="col-auto align-self-end">
                     <div class="sec-btn wow fadeInUp" data-wow-delay=".3s">
-                        <a href="program.html" class="th-btn style-border1 th-icon"> Discover More Stories </a>
+                        <a href="{{ route('program.index') }}" class="th-btn style-border1 th-icon"> Discover More Stories </a>
                     </div>
                 </div>
             </div>
@@ -1306,14 +1306,14 @@ Story Area
                             </div>
                             <div class="story-content">
 
-                                <h3 class="box-title"><a href="program.html">Alex Smith</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Alex Smith</a></h3>
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
                                     <img src="assets/img/icon/quote.svg" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                                <h3 class="box-title"><a href="program.html">Alex Smith</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Alex Smith</a></h3>
                             </div>
                         </div>
                     </div>
@@ -1324,7 +1324,7 @@ Story Area
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
-                        <a href="program.html">Alex Smith</a>
+                        <a href="{{ route('program.index') }}">Alex Smith</a>
                     </h3>
                 </div>
                 <div class="story-content hover-style text-center">
@@ -1333,7 +1333,7 @@ Story Area
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
-                        <a href="program.html">Alex Smith</a>
+                        <a href="{{ route('program.index') }}">Alex Smith</a>
                     </h3>
                 </div>
             </div> -->
@@ -1345,14 +1345,14 @@ Story Area
                             </div>
                             <div class="story-content">
 
-                                <h3 class="box-title"><a href="program.html">Brone Due</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Brone Due</a></h3>
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
                                     <img src="assets/img/icon/quote.svg" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                                <h3 class="box-title"><a href="program.html">Brone Due</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Brone Due</a></h3>
                             </div>
                         </div>
                     </div>
@@ -1363,7 +1363,7 @@ Story Area
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
-                        <a href="program.html">Brone Due</a>
+                        <a href="{{ route('program.index') }}">Brone Due</a>
                     </h3>
                 </div>
                 <div class="story-content hover-style text-center">
@@ -1372,7 +1372,7 @@ Story Area
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
-                        <a href="program.html">Brone Due</a>
+                        <a href="{{ route('program.index') }}">Brone Due</a>
                     </h3>
                 </div>
             </div> -->
@@ -1384,14 +1384,14 @@ Story Area
                             </div>
                             <div class="story-content">
 
-                                <h3 class="box-title"><a href="program.html">Moumita Mira</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Moumita Mira</a></h3>
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
                                     <img src="assets/img/icon/quote.svg" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                                <h3 class="box-title"><a href="program.html">Moumita Mira</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Moumita Mira</a></h3>
                             </div>
                         </div>
                     </div>
@@ -1402,7 +1402,7 @@ Story Area
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
-                        <a href="program.html">Moumita Mira</a>
+                        <a href="{{ route('program.index') }}">Moumita Mira</a>
                     </h3>
                 </div>
                 <div class="story-content hover-style text-center">
@@ -1411,7 +1411,7 @@ Story Area
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
-                        <a href="program.html">Moumita Mira</a>
+                        <a href="{{ route('program.index') }}">Moumita Mira</a>
                     </h3>
                 </div>
             </div> -->
@@ -1423,14 +1423,14 @@ Story Area
                             </div>
                             <div class="story-content">
 
-                                <h3 class="box-title"><a href="program.html">Maya Lily</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Maya Lily</a></h3>
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
                                     <img src="assets/img/icon/quote.svg" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                                <h3 class="box-title"><a href="program.html">Maya Lily</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Maya Lily</a></h3>
                             </div>
                         </div>
                     </div>
@@ -1441,7 +1441,7 @@ Story Area
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
-                        <a href="program.html">Maya Lily</a>
+                        <a href="{{ route('program.index') }}">Maya Lily</a>
                     </h3>
                 </div>
                 <div class="story-content hover-style text-center">
@@ -1450,7 +1450,7 @@ Story Area
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
-                        <a href="program.html">Maya Lily</a>
+                        <a href="{{ route('program.index') }}">Maya Lily</a>
                     </h3>
                 </div>
             </div> -->
@@ -1462,14 +1462,14 @@ Story Area
                             </div>
                             <div class="story-content">
 
-                                <h3 class="box-title"><a href="program.html">Sony & Ovi</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Sony & Ovi</a></h3>
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
                                     <img src="assets/img/icon/quote.svg" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                                <h3 class="box-title"><a href="program.html">Sony & Ovi</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Sony & Ovi</a></h3>
                             </div>
                         </div>
                     </div>
@@ -1480,7 +1480,7 @@ Story Area
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
-                        <a href="program.html">Sony & Ovi</a>
+                        <a href="{{ route('program.index') }}">Sony & Ovi</a>
                     </h3>
                 </div>
                 <div class="story-content hover-style text-center">
@@ -1489,7 +1489,7 @@ Story Area
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
-                        <a href="program.html">Sony & Ovi</a>
+                        <a href="{{ route('program.index') }}">Sony & Ovi</a>
                     </h3>
                 </div>
             </div> -->
@@ -1501,14 +1501,14 @@ Story Area
                             </div>
                             <div class="story-content">
 
-                                <h3 class="box-title"><a href="program.html">Alex Smith</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Alex Smith</a></h3>
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
                                     <img src="assets/img/icon/quote.svg" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                                <h3 class="box-title"><a href="program.html">Alex Smith</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Alex Smith</a></h3>
                             </div>
                         </div>
                     </div>
@@ -1519,7 +1519,7 @@ Story Area
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
-                        <a href="program.html">Alex Smith</a>
+                        <a href="{{ route('program.index') }}">Alex Smith</a>
                     </h3>
                 </div>
                 <div class="story-content hover-style text-center">
@@ -1528,7 +1528,7 @@ Story Area
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
-                        <a href="program.html">Alex Smith</a>
+                        <a href="{{ route('program.index') }}">Alex Smith</a>
                     </h3>
                 </div>
             </div> -->
@@ -1540,14 +1540,14 @@ Story Area
                             </div>
                             <div class="story-content">
 
-                                <h3 class="box-title"><a href="program.html">Brone Due</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Brone Due</a></h3>
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
                                     <img src="assets/img/icon/quote.svg" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                                <h3 class="box-title"><a href="program.html">Brone Due</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Brone Due</a></h3>
                             </div>
                         </div>
                     </div>
@@ -1558,7 +1558,7 @@ Story Area
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
-                        <a href="program.html">Brone Due</a>
+                        <a href="{{ route('program.index') }}">Brone Due</a>
                     </h3>
                 </div>
                 <div class="story-content hover-style text-center">
@@ -1567,7 +1567,7 @@ Story Area
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
-                        <a href="program.html">Brone Due</a>
+                        <a href="{{ route('program.index') }}">Brone Due</a>
                     </h3>
                 </div>
             </div> -->
@@ -1579,14 +1579,14 @@ Story Area
                             </div>
                             <div class="story-content">
 
-                                <h3 class="box-title"><a href="program.html">Moumita Mira</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Moumita Mira</a></h3>
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
                                     <img src="assets/img/icon/quote.svg" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                                <h3 class="box-title"><a href="program.html">Moumita Mira</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Moumita Mira</a></h3>
                             </div>
                         </div>
                     </div>
@@ -1597,7 +1597,7 @@ Story Area
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
-                        <a href="program.html">Moumita Mira</a>
+                        <a href="{{ route('program.index') }}">Moumita Mira</a>
                     </h3>
                 </div>
                 <div class="story-content hover-style text-center">
@@ -1606,7 +1606,7 @@ Story Area
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
-                        <a href="program.html">Moumita Mira</a>
+                        <a href="{{ route('program.index') }}">Moumita Mira</a>
                     </h3>
                 </div>
             </div> -->
@@ -1618,14 +1618,14 @@ Story Area
                             </div>
                             <div class="story-content">
 
-                                <h3 class="box-title"><a href="program.html">Maya Lily</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Maya Lily</a></h3>
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
                                     <img src="assets/img/icon/quote.svg" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                                <h3 class="box-title"><a href="program.html">Maya Lily</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Maya Lily</a></h3>
                             </div>
                         </div>
                     </div>
@@ -1636,7 +1636,7 @@ Story Area
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
-                        <a href="program.html">Maya Lily</a>
+                        <a href="{{ route('program.index') }}">Maya Lily</a>
                     </h3>
                 </div>
                 <div class="story-content hover-style text-center">
@@ -1645,7 +1645,7 @@ Story Area
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
-                        <a href="program.html">Maya Lily</a>
+                        <a href="{{ route('program.index') }}">Maya Lily</a>
                     </h3>
                 </div>
             </div> -->
@@ -1657,14 +1657,14 @@ Story Area
                             </div>
                             <div class="story-content">
 
-                                <h3 class="box-title"><a href="program.html">Sony & Ovi</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Sony & Ovi</a></h3>
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
                                     <img src="assets/img/icon/quote.svg" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                                <h3 class="box-title"><a href="program.html">Sony & Ovi</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Sony & Ovi</a></h3>
                             </div>
                         </div>
                     </div>
@@ -1675,7 +1675,7 @@ Story Area
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
-                        <a href="program.html">Sony & Ovi</a>
+                        <a href="{{ route('program.index') }}">Sony & Ovi</a>
                     </h3>
                 </div>
                 <div class="story-content hover-style text-center">
@@ -1684,7 +1684,7 @@ Story Area
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
-                        <a href="program.html">Sony & Ovi</a>
+                        <a href="{{ route('program.index') }}">Sony & Ovi</a>
                     </h3>
                 </div>
             </div> -->
@@ -1696,14 +1696,14 @@ Story Area
                             </div>
                             <div class="story-content">
 
-                                <h3 class="box-title"><a href="program.html">Alex Smith</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Alex Smith</a></h3>
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
                                     <img src="assets/img/icon/quote.svg" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                                <h3 class="box-title"><a href="program.html">Alex Smith</a></h3>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Alex Smith</a></h3>
                             </div>
                         </div>
                     </div>
@@ -1714,7 +1714,7 @@ Story Area
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
-                        <a href="program.html">Alex Smith</a>
+                        <a href="{{ route('program.index') }}">Alex Smith</a>
                     </h3>
                 </div>
                 <div class="story-content hover-style text-center">
@@ -1723,7 +1723,7 @@ Story Area
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
-                        <a href="program.html">Alex Smith</a>
+                        <a href="{{ route('program.index') }}">Alex Smith</a>
                     </h3>
                 </div>
             </div> -->
@@ -1752,7 +1752,7 @@ Event Area 1
                 </div>
                 <div class="col-auto align-self-end">
                     <div class="sec-btn wow fadeInUp" data-wow-delay=".3s">
-                        <a href="event.html" class="th-btn style-border1 th-icon">Lihat Semua Agenda</a>
+                        <a href="{{ route('event.index') }}" class="th-btn style-border1 th-icon">Lihat Semua Agenda</a>
                     </div>
                 </div>
             </div>
@@ -1764,7 +1764,7 @@ Event Area 1
                     </div>
                     <div class="event-content">
                         <div class="event-wrapp">
-                            <h3 class="box-title text-anim2"><a href="event-details.html">Audit Mutu Internal Siklus IX</a></h3>
+                            <h3 class="box-title text-anim2"><a href="{{ route('event.details') }}">Audit Mutu Internal Siklus IX</a></h3>
                             <p class="box-text">Kegiatan audit mutu internal siklus IX di lingkungan Universitas Muhammadiyah Sukabumi.</p>
                             <div class="blog-meta">
                                 <a class="location" href="#">
@@ -1779,7 +1779,7 @@ Event Area 1
                             </div>
                         </div>
                         <div class="btn-wrap">
-                            <a class="th-btn style-border1 th-icon" href="event-details.html">Selengkapnya</a>
+                            <a class="th-btn style-border1 th-icon" href="{{ route('event.details') }}">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -1984,7 +1984,7 @@ Marquee Area
                             </div>
                         </div>
                         <div class="btn-wrap wow fadeInUp" data-wow-delay=".4s">
-                            <a href="contact.html" class="th-btn th-icon"> Join Community </a>
+                            <a href="{{ route('contact') }}" class="th-btn th-icon"> Join Community </a>
                         </div>
                     </div>
                 </div>
@@ -2137,7 +2137,7 @@ Blog Area 1
                 </div>
                 <div class="col-auto align-self-end">
                     <div class="sec-btn wow fadeInUp" data-wow-delay=".3s">
-                        <a href="blog.html" class="th-btn style-border1 th-icon"> Lihat Semua Pengumuman </a>
+                        <a href="{{ route('blog.index') }}" class="th-btn style-border1 th-icon"> Lihat Semua Pengumuman </a>
                     </div>
                 </div>
             </div>
@@ -2145,7 +2145,7 @@ Blog Area 1
                 <div class="col-lg-4">
                     <div class="blog-card wow fadeInUp">
                         <div class="blog-img position-relative">
-                            <a href="blog-details.html">
+                            <a href="{{ route('blog.details') }}">
                                 <div class="blog-img-box position-relative overflow-hidden">
                                     <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
                                     <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
@@ -2158,15 +2158,15 @@ Blog Area 1
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
-                                <a class="author" href="blog.html">
+                                <a class="author" href="{{ route('blog.index') }}">
                                     <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>By Admin</a>
-                                <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-calendar"></i></span> 15 Februari 2021
+                                <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-calendar"></i></span> 15 Februari 2021
                                 </a>
                             </div>
-                            <h3 class="box-title"><a href="blog-details.html">Batas Pembayaran dan Pengisian KRS Genap</a></h3>
+                            <h3 class="box-title"><a href="{{ route('blog.details') }}">Batas Pembayaran dan Pengisian KRS Genap</a></h3>
                             <p class="box-text">Informasi batas akhir pembayaran dan pengisian KRS semester genap.</p>
                             <div class="btn-wrap">
-                                <a href="blog-details.html" class="th-btn style-border1 th-icon">Selengkapnya</a>
+                                <a href="{{ route('blog.details') }}" class="th-btn style-border1 th-icon">Selengkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -2175,7 +2175,7 @@ Blog Area 1
                 <div class="col-lg-4">
                     <div class="blog-card wow fadeInUp">
                         <div class="blog-img position-relative">
-                            <a href="blog-details.html">
+                            <a href="{{ route('blog.details') }}">
                                 <div class="blog-img-box position-relative overflow-hidden">
                                     <img src="assets/img/blog/blog_1_2.jpg" alt="blog image">
                                     <img src="assets/img/blog/blog_1_2.jpg" alt="blog image">
@@ -2188,15 +2188,15 @@ Blog Area 1
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
-                                <a class="author" href="blog.html">
+                                <a class="author" href="{{ route('blog.index') }}">
                                     <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>By Admin</a>
-                                <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-calendar"></i></span> 08 Februari 2021
+                                <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-calendar"></i></span> 08 Februari 2021
                                 </a>
                             </div>
-                            <h3 class="box-title"><a href="blog-details.html">Info Pendaftaran Sidang UP Semester Ganjil Tahun Akademik 2020/2021</a></h3>
+                            <h3 class="box-title"><a href="{{ route('blog.details') }}">Info Pendaftaran Sidang UP Semester Ganjil Tahun Akademik 2020/2021</a></h3>
                             <p class="box-text">Informasi pendaftaran sidang UP untuk semester ganjil tahun akademik 2020/2021.</p>
                             <div class="btn-wrap">
-                                <a href="blog-details.html" class="th-btn style-border1 th-icon">Selengkapnya</a>
+                                <a href="{{ route('blog.details') }}" class="th-btn style-border1 th-icon">Selengkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -2205,7 +2205,7 @@ Blog Area 1
                 <div class="col-lg-4">
                     <div class="blog-card wow fadeInUp">
                         <div class="blog-img position-relative">
-                            <a href="blog-details.html">
+                            <a href="{{ route('blog.details') }}">
                                 <div class="blog-img-box position-relative overflow-hidden">
                                     <img src="assets/img/blog/blog_1_3.jpg" alt="blog image">
                                     <img src="assets/img/blog/blog_1_3.jpg" alt="blog image">
@@ -2218,15 +2218,15 @@ Blog Area 1
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
-                                <a class="author" href="blog.html">
+                                <a class="author" href="{{ route('blog.index') }}">
                                     <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>By Admin</a>
-                                <a href="blog.html"><span class="comment-icon"><i class="fa-solid fa-calendar"></i></span> 07 Februari 2021
+                                <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-calendar"></i></span> 07 Februari 2021
                                 </a>
                             </div>
-                            <h3 class="box-title"><a href="blog-details.html">Membuka Rekrutmen Asistensi Praktikum</a></h3>
+                            <h3 class="box-title"><a href="{{ route('blog.details') }}">Membuka Rekrutmen Asistensi Praktikum</a></h3>
                             <p class="box-text">Pembukaan rekrutmen asisten untuk kegiatan praktikum.</p>
                             <div class="btn-wrap">
-                                <a href="blog-details.html" class="th-btn style-border1 th-icon">Selengkapnya</a>
+                                <a href="{{ route('blog.details') }}" class="th-btn style-border1 th-icon">Selengkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -2294,7 +2294,7 @@ Blog Area 1
                         <div class="widget footer-widget">
                                <!-- Logo Teknik Informatika UMMI -->
    <div class="footer-logo" style="margin-bottom: 15px;">
-     <a href="home-university.html">
+     <a href="{{ route('home.university') }}">
         <img
             src="{{ asset('assets/img/logoprodifooter.png') }}"
             alt="Logo Teknik Informatika UMMI"
@@ -2350,13 +2350,13 @@ Blog Area 1
                             <h3 class="widget_title">Useful Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="index.html">Profile</a></li>
-                                    <li><a href="about.html">Visi dan Misi</a></li>
-                                    <li><a href="pricing.html">Struktur Organisasi</a></li>
-                                    <li><a href="service.html">Staff Pengajar</a></li>
-                                    <li><a href="about.html">Alumni</a></li>
-                                    <li><a href="about.html">All Awards</a></li>
-                                    <li><a href="contact.html">Recent Events</a></li>
+                                    <li><a href="{{ route('home') }}">Profile</a></li>
+                                    <li><a href="{{ route('about') }}">Visi dan Misi</a></li>
+                                    <li><a href="{{ route('pricing') }}">Struktur Organisasi</a></li>
+                                    <li><a href="#">Staff Pengajar</a></li>
+                                    <li><a href="{{ route('about') }}">Alumni</a></li>
+                                    <li><a href="{{ route('about') }}">All Awards</a></li>
+                                    <li><a href="{{ route('contact') }}">Recent Events</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -2366,13 +2366,13 @@ Blog Area 1
                             <h3 class="widget_title">Our Programs</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="about.html">Ungraduate Programs</a></li>
-                                    <li><a href="about.html">Graduate Programs</a></li>
-                                    <li><a href="about.html">Certificate Programs</a></li>
-                                    <li><a href="about.html">Accelerate Programs</a></li>
-                                    <li><a href="about.html">Online Programs</a></li>
-                                    <li><a href="about.html">Financial Planning</a></li>
-                                    <li><a href="about.html">Business Advisory</a></li>
+                                    <li><a href="{{ route('about') }}">Ungraduate Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Graduate Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Certificate Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Accelerate Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Online Programs</a></li>
+                                    <li><a href="{{ route('about') }}">Financial Planning</a></li>
+                                    <li><a href="{{ route('about') }}">Business Advisory</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -2430,7 +2430,7 @@ Blog Area 1
                         <p class="copyright-text">
                           <i class="fal fa-copyright"></i>
 Copyright 2026
-<a href="home-university.html">Program Studi Teknik Informatika UMMI</a>.
+<a href="{{ route('home.university') }}">Program Studi Teknik Informatika UMMI</a>.
 All Rights Reserved.
                         </p>
                     </div>
@@ -2491,7 +2491,7 @@ modal Area
                             </div>
                         </div>
                         <div id="forgot_url">
-                            <a href="my-account.html">Forgot password?</a>
+                            <a href="#">Forgot password?</a>
                         </div>
                         <p class="form-messages mb-0 mt-3"></p>
                     </form>
