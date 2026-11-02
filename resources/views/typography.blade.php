@@ -14,22 +14,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicons - Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/favicons/apple-icon-57x57.png') }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/img/favicons/apple-icon-60x60.png') }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/img/favicons/apple-icon-72x72.png') }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/favicons/apple-icon-76x76.png') }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/img/favicons/apple-icon-114x114.png') }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/img/favicons/apple-icon-120x120.png') }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/img/favicons/apple-icon-144x144.png') }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/img/favicons/apple-icon-152x152.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicons/apple-icon-180x180.png') }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('assets/img/favicons/android-icon-192x192.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicons/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/img/favicons/favicon-96x96.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicons/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('assets/img/favicons/manifest.json') }}">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="{{ asset('assets/img/favicons/ms-icon-144x144.png') }}">
     <meta name="theme-color" content="#ffffff">
 
     <!--==============================
@@ -43,15 +43,15 @@
 	    All CSS File
 	============================== -->
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css') }}">
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css') }}">
     <!-- Swiper Js -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 </head>
 
@@ -72,7 +72,7 @@
     <div class="preloader ">
         <button class="th-btn preloaderCls">Cancel Preloader </button>
         <div class="preloader-inner">
-            <img src="assets/img/logo-ummi.png" alt="Universitas Muhammadiyah Sukabumi">
+            <img src="{{ asset('assets/img/logo-ummi.png') }}" alt="Universitas Muhammadiyah Sukabumi">
             <span class="loader">
                 Universitas Muhammadiyah Sukabumi
                 <span class="loading-text">Universitas Muhammadiyah Sukabumi</span>
@@ -302,7 +302,7 @@
             </div>
         </div>
     </div>
-    <footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/bg/footer-bg-2.png">
+    <footer class="footer-wrapper footer-layout1" data-bg-src="{{ asset('assets/img/bg/footer-bg-2.png') }}">
         <div class="container">
             <div class="widget-area">
                 <div class="row justify-content-between">
@@ -359,40 +359,40 @@
                             <h3 class="widget_title">Instagram</h3>
                             <div class="instagram-feeds">
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-1.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-1.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-1.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-1.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-2.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-2.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-2.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-2.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-3.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-3.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-3.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-3.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-4.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-4.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-4.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-4.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-5.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-5.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-5.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-5.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-6.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-6.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-6.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-6.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-7.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-7.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-7.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-7.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-8.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-8.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-8.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-8.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-9.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-9.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-9.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-9.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -405,7 +405,7 @@
                 <div class="row justify-content-between gy-3 align-items-center">
                     <div class="col-lg-auto">
                         <div class="footer-logo">
-                            <img src="assets/img/footer-logo.svg" alt="">
+                            <img src="{{ asset('assets/img/footer-logo.svg') }}" alt="">
                         </div>
                     </div>
                     <div class="col-md-auto">
@@ -515,33 +515,33 @@ modal Area
     All Js File
 ============================== -->
     <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="{{ asset('assets/js/vendor/jquery-3.7.1.min.js') }}"></script>
     <!-- Swiper Js -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
     <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
     <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="{{ asset('assets/js/jquery-ui.min.js') }}"></script>
     <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
     <!-- Wow Js -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
 
     <!-- Gsap Animation -->
-    <script src="assets/js/gsap.min.js"></script>
+    <script src="{{ asset('assets/js/gsap.min.js') }}"></script>
     <!-- ScrollTrigger -->
-    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="{{ asset('assets/js/ScrollTrigger.min.js') }}"></script>
     <!-- SplitText -->
-    <script src="assets/js/SplitText.min.js"></script>
+    <script src="{{ asset('assets/js/SplitText.min.js') }}"></script>
     <!-- Lenis Js -->
-    <script src="assets/js/lenis.min.js"></script>
+    <script src="{{ asset('assets/js/lenis.min.js') }}"></script>
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 
 </body>
 

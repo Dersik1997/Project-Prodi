@@ -14,22 +14,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicons - Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/favicons/apple-icon-57x57.png') }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/img/favicons/apple-icon-60x60.png') }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/img/favicons/apple-icon-72x72.png') }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/favicons/apple-icon-76x76.png') }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/img/favicons/apple-icon-114x114.png') }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/img/favicons/apple-icon-120x120.png') }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/img/favicons/apple-icon-144x144.png') }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/img/favicons/apple-icon-152x152.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicons/apple-icon-180x180.png') }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('assets/img/favicons/android-icon-192x192.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicons/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/img/favicons/favicon-96x96.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicons/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('assets/img/favicons/manifest.json') }}">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="{{ asset('assets/img/favicons/ms-icon-144x144.png') }}">
     <meta name="theme-color" content="#ffffff">
 
     <!--==============================
@@ -43,15 +43,15 @@
 	    All CSS File
 	============================== -->
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css') }}">
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css') }}">
     <!-- Swiper Js -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 </head>
 
@@ -72,7 +72,7 @@
     <div class="preloader ">
         <button class="th-btn preloaderCls">Cancel Preloader </button>
         <div class="preloader-inner">
-            <img src="assets/img/logo-ummi.png" alt="Universitas Muhammadiyah Sukabumi">
+            <img src="{{ asset('assets/img/logo-ummi.png') }}" alt="Universitas Muhammadiyah Sukabumi">
             <span class="loader">
                 Universitas Muhammadiyah Sukabumi
                 <span class="loading-text">Universitas Muhammadiyah Sukabumi</span>
@@ -88,7 +88,7 @@
                 <div class="th-widget-about">
                     <div class="about-logo">
                         <a href="{{ route('home.university') }}">
-                            <img src="assets/img/logo2.svg" alt="Stadum">
+                            <img src="{{ asset('assets/img/logo2.svg') }}" alt="Stadum">
                         </a>
                     </div>
                     <p class="about-text">Since 1999, when the newly minted Stadum team embraced its mandate to breathe new life into the downtrodden neighbourhood, East Village’s transformation has been nothing short of remarkable. </p>
@@ -107,7 +107,7 @@
                 <div class="recent-post-wrap">
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="{{ asset('assets/img/blog/recent-post-1-1.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title">
@@ -120,7 +120,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="{{ asset('assets/img/blog/recent-post-1-2.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="{{ route('blog.details') }}">Future Focus Preparing for Tomorrow</a></h4>
@@ -131,7 +131,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="{{ asset('assets/img/blog/recent-post-1-3.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title">
@@ -169,7 +169,7 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="{{ route('home.university') }}"><img src="assets/img/logo.svg" alt="Stadum"></a>
+                <a href="{{ route('home.university') }}"><img src="{{ asset('assets/img/logo.svg') }}" alt="Stadum"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
@@ -292,7 +292,7 @@
                                 <li><i class="fas fa-comments"></i><a href="{{ route('faq') }}">FAQ</a></li>
                                 <li>
                                     <div class="dropdown-link">
-                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false"><img src="assets/img/icon/lang.svg" alt=""> </a>
+                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false"><img src="{{ asset('assets/img/icon/lang.svg') }}" alt=""> </a>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
                                             <li>
                                                 <a href="#">German</a>
@@ -317,7 +317,7 @@
                     <div class="col-auto">
                         <div class="header-logo">
                             <a href="{{ route('home.university') }}">
-                                <img src="assets/img/logo.svg" alt="Stadum">
+                                <img src="{{ asset('assets/img/logo.svg') }}" alt="Stadum">
                             </a>
                         </div>
                     </div>
@@ -371,13 +371,13 @@
                                 <div class="header-left d-flex align-items-center">
                                     <div class="header-logo d-block d-sm-none">
                                         <a href="{{ route('home.university') }}">
-                                            <img src="assets/img/logo.svg" alt="Stadum">
+                                            <img src="{{ asset('assets/img/logo.svg') }}" alt="Stadum">
                                         </a>
                                     </div>
                                     <div class="header-button d-none d-sm-block">
                                         <a href="{{ route('contact') }}" class="th-btn">
                                             Get More Info
-                                            <img src="assets/img/icon/right-icon.svg" class="th-arrow" alt="icon">
+                                            <img src="{{ asset('assets/img/icon/right-icon.svg') }}" class="th-arrow" alt="icon">
                                         </a>
                                     </div>
                                     <nav class="main-menu d-none d-xl-block">
@@ -391,7 +391,7 @@
                                                                 <div class="col-lg-4">
                                                                     <div class="mega-menu-box">
                                                                         <div class="mega-menu-img">
-                                                                            <img src="assets/img/pages/home-university.jpg" alt="Home One">
+                                                                            <img src="{{ asset('assets/img/pages/home-university.jpg') }}" alt="Home One">
                                                                             <div class="btn-wrap">
                                                                                 <a href="{{ route('home.university') }}" class="th-btn">Multipage</a>
                                                                                 <a href="{{ route('home.university-onepage') }}" class="th-btn">Onepage</a>
@@ -403,7 +403,7 @@
                                                                 <div class="col-lg-4">
                                                                     <div class="mega-menu-box">
                                                                         <div class="mega-menu-img">
-                                                                            <img src="assets/img/pages/home-admission.jpg" alt="Home Two">
+                                                                            <img src="{{ asset('assets/img/pages/home-admission.jpg') }}" alt="Home Two">
                                                                             <div class="btn-wrap">
                                                                                 <a href="{{ route('home.admission') }}" class="th-btn">Multipage</a>
                                                                                 <a href="{{ route('home.admission-onepage') }}" class="th-btn">Onepage</a>
@@ -415,7 +415,7 @@
                                                                 <div class="col-lg-4">
                                                                     <div class="mega-menu-box">
                                                                         <div class="mega-menu-img">
-                                                                            <img src="assets/img/pages/home-courses.jpg" alt="Home Three">
+                                                                            <img src="{{ asset('assets/img/pages/home-courses.jpg') }}" alt="Home Three">
                                                                             <div class="btn-wrap">
                                                                                 <a href="{{ route('home.courses') }}" class="th-btn">Multipage</a>
                                                                                 <a href="{{ route('home.courses-onepage') }}" class="th-btn">Onepage</a>
@@ -443,7 +443,7 @@
                             </div>
                             <div class="col-auto ms-lg-auto">
                                 <div class="header-button">
-                                    <a href="#" class="icon-btn sideMenuToggler d-none d-xl-block"><img src="assets/img/icon/grid2.svg" alt=""></a>
+                                    <a href="#" class="icon-btn sideMenuToggler d-none d-xl-block"><img src="{{ asset('assets/img/icon/grid2.svg') }}" alt=""></a>
                                     <button type="button" class="th-menu-toggle d-inline-block d-xl-none"><i class="far fa-bars"></i></button>
                                 </div>
                             </div>
@@ -460,7 +460,7 @@ Hero Area
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="hero-inner">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_1_1.jpg"></div>
+                        <div class="th-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_1_1.jpg') }}"></div>
                         <div class="container th-container2">
                             <div class="row gy-60 align-items-center">
                                 <div class="col-xxl-6 col-xl-8 col-lg-9">
@@ -492,7 +492,7 @@ Hero Area
                 </div>
                 <div class="swiper-slide">
                     <div class="hero-inner">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_1_2.jpg"></div>
+                        <div class="th-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_1_2.jpg') }}"></div>
                         <div class="container th-container2">
                             <div class="row gy-60 align-items-center">
                                 <div class="col-xxl-6 col-xl-8 col-lg-9">
@@ -524,7 +524,7 @@ Hero Area
                 </div>
                 <div class="swiper-slide">
                     <div class="hero-inner">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_1_1.jpg"></div>
+                        <div class="th-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_1_1.jpg') }}"></div>
                         <div class="container th-container2">
                             <div class="row gy-60 align-items-center">
                                 <div class="col-xxl-6 col-xl-8 col-lg-9">
@@ -556,7 +556,7 @@ Hero Area
                 </div>
                 <div class="swiper-slide">
                     <div class="hero-inner">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_1_2.jpg"></div>
+                        <div class="th-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_1_2.jpg') }}"></div>
                         <div class="container th-container2">
                             <div class="row gy-60 align-items-center">
                                 <div class="col-xxl-6 col-xl-8 col-lg-9">
@@ -593,14 +593,14 @@ Hero Area
     <!--======== / Hero Section ========-->
     <div class="feature-sec-1 position-relative overflow-hidden space-bottom">
         <div class="about-shep-2 shape-mockup  d-none d-xxl-block" data-top="19%" data-left="0%">
-            <img src="assets/img/shape/feature-shep-home-1.png" alt="shape">
+            <img src="{{ asset('assets/img/shape/feature-shep-home-1.png') }}" alt="shape">
         </div>
         <div class="container th-container2">
             <div class="row gx-10 gy-10">
                 <div class="col-xl-3 col-md-6 feature-card_wrapp">
                     <div class="feature-card wow fadeInUp" data-wow-delay=".2s">
                         <div class="box-icon">
-                            <img src="assets/img/icon/feature-icon1-1.svg" alt="icon">
+                            <img src="{{ asset('assets/img/icon/feature-icon1-1.svg') }}" alt="icon">
                         </div>
                         <h3 class="box-title">University Life</h3>
                         <p class="box-text style2">On the other hand denounce with righteous indignation dislike.</p>
@@ -610,7 +610,7 @@ Hero Area
                 <div class="col-xl-3 col-md-6 feature-card_wrapp">
                     <div class="feature-card wow fadeInUp" data-wow-delay=".4s">
                         <div class="box-icon">
-                            <img src="assets/img/icon/feature-icon1-2.svg" alt="icon">
+                            <img src="{{ asset('assets/img/icon/feature-icon1-2.svg') }}" alt="icon">
                         </div>
                         <h3 class="box-title">Research</h3>
                         <p class="box-text style2">On the other hand denounce with righteous indignation dislike.</p>
@@ -620,7 +620,7 @@ Hero Area
                 <div class="col-xl-3 col-md-6 feature-card_wrapp">
                     <div class="feature-card wow fadeInUp" data-wow-delay=".6s">
                         <div class="box-icon">
-                            <img src="assets/img/icon/feature-icon1-3.svg" alt="icon">
+                            <img src="{{ asset('assets/img/icon/feature-icon1-3.svg') }}" alt="icon">
                         </div>
                         <h3 class="box-title">Athletics</h3>
                         <p class="box-text style2">On the other hand denounce with righteous indignation dislike.</p>
@@ -630,7 +630,7 @@ Hero Area
                 <div class="col-xl-3 col-md-6 feature-card_wrapp">
                     <div class="feature-card wow fadeInUp" data-wow-delay=".8s">
                         <div class="box-icon">
-                            <img src="assets/img/icon/feature-icon1-4.svg" alt="icon">
+                            <img src="{{ asset('assets/img/icon/feature-icon1-4.svg') }}" alt="icon">
                         </div>
                         <h3 class="box-title">Academics</h3>
                         <p class="box-text style2">On the other hand denounce with righteous indignation dislike.</p>
@@ -644,29 +644,29 @@ About Area
 ==============================-->
     <div class="about1-area position-relative overflow-hidden space-bottom" id="about-sec">
         <div class="about-shep-2 shape-mockup d-none d-xxl-block" data-bottom="0%" data-right="0%">
-            <img src="assets/img/shape/feature-shep-2-home-1.png" alt="shape">
+            <img src="{{ asset('assets/img/shape/feature-shep-2-home-1.png') }}" alt="shape">
         </div>
-        <span class="about-shape-right shape-mockup jump-reverse" data-right="3%" data-top="2%"><img src="assets/img/shape/ab-shape1-2.png" alt=""></span>
+        <span class="about-shape-right shape-mockup jump-reverse" data-right="3%" data-top="2%"><img src="{{ asset('assets/img/shape/ab-shape1-2.png') }}" alt=""></span>
         <div class="container">
             <div class="about-wrap1 position-relative z-index-2">
                 <div class="row gy-60 align-items-center justify-content-center">
                     <div class="col-xl-6">
                         <div class="img-box1">
                             <div class="img1 text-center text-sm-start wow fadeInLeft" data-wow-delay=".2s">
-                                <img src="assets/img/about/home-1-about-thumb1-1.jpg" alt="About">
+                                <img src="{{ asset('assets/img/about/home-1-about-thumb1-1.jpg') }}" alt="About">
                             </div>
                             <div class="img2 wow fadeInUp" data-wow-delay=".3s">
                                 <div class="position-relative">
-                                    <img class="mb-25" src="assets/img/about/home-1-about-thumb1-2.jpg" alt="About">
+                                    <img class="mb-25" src="{{ asset('assets/img/about/home-1-about-thumb1-2.jpg') }}" alt="About">
                                 </div>
                                 <div class="position-relative wow fadeInUp" data-wow-delay=".3s">
-                                    <img src="assets/img/about/home-1-about-thumb1-3.jpg" alt="About">
+                                    <img src="{{ asset('assets/img/about/home-1-about-thumb1-3.jpg') }}" alt="About">
                                 </div>
                             </div>
                             <div class="about-wrapp">
                                 <div class="discount-wrapp">
                                     <div class="logo">
-                                        <img src="assets/img/circle-logo.svg" alt="img">
+                                        <img src="{{ asset('assets/img/circle-logo.svg') }}" alt="img">
                                     </div>
                                     <div class="discount-tag">
                                         <span class="discount-anime">* 1996 EST * 25 Years Quality Teaching</span>
@@ -691,7 +691,7 @@ About Area
                             <div class="about-feature-box">
                                 <div class="about-feature wow fadeInUp" data-wow-delay=".3s">
                                     <span class="box-icon">
-                                        <img src="assets/img/icon/ab-users.svg" alt="icon">
+                                        <img src="{{ asset('assets/img/icon/ab-users.svg') }}" alt="icon">
                                     </span>
                                     <div class="box-content">
                                         <h3 class="box-title">Three MBA degrees</h3>
@@ -701,7 +701,7 @@ About Area
                                 </div>
                                 <div class="about-feature wow fadeInUp" data-wow-delay=".4s">
                                     <span class="box-icon">
-                                        <img src="assets/img/icon/ab-message.svg" alt="icon">
+                                        <img src="{{ asset('assets/img/icon/ab-message.svg') }}" alt="icon">
                                     </span>
                                     <div class="box-content">
                                         <h3 class="box-title">Choose From 98+ Degrees</h3>
@@ -718,14 +718,14 @@ About Area
                 </div>
             </div>
         </div>
-        <span class="about-shape-left shape-mockup movingX d-none d-xxl-block" data-bottom="0%" data-left="2%"><img src="assets/img/shape/ab-shape1-1.png" alt=""></span>
+        <span class="about-shape-left shape-mockup movingX d-none d-xxl-block" data-bottom="0%" data-left="2%"><img src="{{ asset('assets/img/shape/ab-shape1-1.png') }}" alt=""></span>
     </div>
     <div class="counter-area1 overflow-hidden ">
         <div class="container th-container2">
             <div class="counter-wrap1">
                 <div class="counter-card wow fadeInUp" data-wow-delay=".2s">
                     <div class="box-icon">
-                        <img src="assets/img/icon/counter-icon1-1.svg" alt="icon">
+                        <img src="{{ asset('assets/img/icon/counter-icon1-1.svg') }}" alt="icon">
                     </div>
                     <div class="media-body">
                         <h3 class="box-number"><span class="counter-number">157</span>+</h3>
@@ -735,7 +735,7 @@ About Area
                 <div class="divider"></div>
                 <div class="counter-card wow fadeInUp" data-wow-delay=".4s">
                     <div class="box-icon">
-                        <img src="assets/img/icon/counter-icon1-2.svg" alt="icon">
+                        <img src="{{ asset('assets/img/icon/counter-icon1-2.svg') }}" alt="icon">
                     </div>
                     <div class="media-body">
                         <h3 class="box-number"><span class="counter-number">18,250</span></h3>
@@ -745,7 +745,7 @@ About Area
                 <div class="divider"></div>
                 <div class="counter-card wow fadeInUp" data-wow-delay=".6s">
                     <div class="box-icon">
-                        <img src="assets/img/icon/counter-icon1-3.svg" alt="icon">
+                        <img src="{{ asset('assets/img/icon/counter-icon1-3.svg') }}" alt="icon">
                     </div>
                     <div class="media-body">
                         <h3 class="box-number"><span class="counter-number">48</span>k</h3>
@@ -755,7 +755,7 @@ About Area
                 <div class="divider"></div>
                 <div class="counter-card wow fadeInUp" data-wow-delay=".7s">
                     <div class="box-icon">
-                        <img src="assets/img/icon/counter-icon1-4.svg" alt="icon">
+                        <img src="{{ asset('assets/img/icon/counter-icon1-4.svg') }}" alt="icon">
                     </div>
                     <div class="media-body">
                         <h3 class="box-number"><span class="counter-number">155</span>k</h3>
@@ -789,7 +789,7 @@ About Area
                                 <div class="academic-card">
                                     <div class="academic-img">
                                         <a href="{{ route('program.details') }}">
-                                            <img src="assets/img/academic/academic1-1.jpg" alt="blog image">
+                                            <img src="{{ asset('assets/img/academic/academic1-1.jpg') }}" alt="blog image">
                                         </a>
                                         <div class="academic-tag">
                                             <span><i class="fa-solid fa-tags"></i> Media</span>
@@ -825,7 +825,7 @@ About Area
                                 <div class="academic-card">
                                     <div class="academic-img">
                                         <a href="{{ route('program.details') }}">
-                                            <img src="assets/img/academic/academic1-2.jpg" alt="blog image">
+                                            <img src="{{ asset('assets/img/academic/academic1-2.jpg') }}" alt="blog image">
                                         </a>
                                         <div class="academic-tag">
                                             <span><i class="fa-solid fa-tags"></i> Science</span>
@@ -861,7 +861,7 @@ About Area
                                 <div class="academic-card">
                                     <div class="academic-img">
                                         <a href="{{ route('program.details') }}">
-                                            <img src="assets/img/academic/academic1-3.jpg" alt="blog image">
+                                            <img src="{{ asset('assets/img/academic/academic1-3.jpg') }}" alt="blog image">
                                         </a>
                                         <div class="academic-tag">
                                             <span><i class="fa-solid fa-tags"></i> Public</span>
@@ -897,7 +897,7 @@ About Area
                                 <div class="academic-card">
                                     <div class="academic-img">
                                         <a href="{{ route('program.details') }}">
-                                            <img src="assets/img/academic/academic1-1.jpg" alt="blog image">
+                                            <img src="{{ asset('assets/img/academic/academic1-1.jpg') }}" alt="blog image">
                                         </a>
                                         <div class="academic-tag">
                                             <span><i class="fa-solid fa-tags"></i> Education</span>
@@ -933,7 +933,7 @@ About Area
                                 <div class="academic-card">
                                     <div class="academic-img">
                                         <a href="{{ route('program.details') }}">
-                                            <img src="assets/img/academic/academic1-2.jpg" alt="blog image">
+                                            <img src="{{ asset('assets/img/academic/academic1-2.jpg') }}" alt="blog image">
                                         </a>
                                         <div class="academic-tag">
                                             <span><i class="fa-solid fa-tags"></i> Education</span>
@@ -969,7 +969,7 @@ About Area
                                 <div class="academic-card">
                                     <div class="academic-img">
                                         <a href="{{ route('program.details') }}">
-                                            <img src="assets/img/academic/academic1-3.jpg" alt="blog image">
+                                            <img src="{{ asset('assets/img/academic/academic1-3.jpg') }}" alt="blog image">
                                         </a>
                                         <div class="academic-tag">
                                             <span><i class="fa-solid fa-tags"></i> Education</span>
@@ -1009,7 +1009,7 @@ About Area
     </section>
     <section class="why-area why-bg position-relative space overflow-hidden">
         <div class="why-shape jump shape-mockup" data-left="0%" data-bottom="10%">
-            <img src="assets/img/shape/why-1-1.png" alt="">
+            <img src="{{ asset('assets/img/shape/why-1-1.png') }}" alt="">
         </div>
         <div class="container">
             <div class="row gy-4">
@@ -1096,7 +1096,7 @@ Why Choose Us Area
                 <div class="col-xl-4">
                     <div class="why-video">
                         <div class="why-video-bg overflow-hidden gsap-parallax">
-                            <img src="assets/img/why/why-video1-1.jpg" alt="image">
+                            <img src="{{ asset('assets/img/why/why-video1-1.jpg') }}" alt="image">
                             <div class="why-video-btn">
                                 <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video">
                                     <i class="fa-sharp fa-solid fa-play"></i>
@@ -1110,7 +1110,7 @@ Why Choose Us Area
     </section>
     <section class="campus overflow-hidden space">
         <div class="campus-shape jump shape-mockup  d-none d-xxl-block" data-bottom="22%" data-right="5%">
-            <img src="assets/img/shape/campus-1-1.png" alt="shape">
+            <img src="{{ asset('assets/img/shape/campus-1-1.png') }}" alt="shape">
         </div>
         <div class="container">
             <div class="row justify-content-lg-between justify-content-center align-items-center">
@@ -1131,7 +1131,7 @@ Why Choose Us Area
                     <div class="campus-card wow fadeInLeft" data-wow-delay=".2s">
                         <div class="campus-img global-img">
                             <a href="{{ route('campus') }}" class="d-block position-relative">
-                                <img src="assets/img/campus/campus-1-1.jpg" alt="campus image" class="img-1">
+                                <img src="{{ asset('assets/img/campus/campus-1-1.jpg') }}" alt="campus image" class="img-1">
                             </a>
                         </div>
                         <div class="campus-content">
@@ -1148,7 +1148,7 @@ Why Choose Us Area
                     <div class="campus-card wow fadeInLeft" data-wow-delay=".4s">
                         <div class="campus-img global-img">
                             <a href="{{ route('campus') }}" class="d-block position-relative">
-                                <img src="assets/img/campus/campus-1-2.jpg" alt="campus image" class="img-1">
+                                <img src="{{ asset('assets/img/campus/campus-1-2.jpg') }}" alt="campus image" class="img-1">
                             </a>
                         </div>
                         <div class="campus-content">
@@ -1165,7 +1165,7 @@ Why Choose Us Area
                     <div class="campus-card wow fadeInLeft" data-wow-delay=".6s">
                         <div class="campus-img global-img">
                             <a href="{{ route('campus') }}" class="d-block position-relative">
-                                <img src="assets/img/campus/campus-1-3.jpg" alt="campus image" class="img-1">
+                                <img src="{{ asset('assets/img/campus/campus-1-3.jpg') }}" alt="campus image" class="img-1">
                             </a>
                         </div>
                         <div class="campus-content">
@@ -1208,7 +1208,7 @@ Story Area
                     <div class="swiper-slide">
                         <div class="story-card">
                             <div class="box-img">
-                                <img src="assets/img/story/story-1-1.jpg" alt="img">
+                                <img src="{{ asset('assets/img/story/story-1-1.jpg') }}" alt="img">
                             </div>
                             <div class="story-content">
 
@@ -1216,7 +1216,7 @@ Story Area
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
-                                    <img src="assets/img/icon/quote.svg" alt="">
+                                    <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                                 <h3 class="box-title"><a href="{{ route('program.index') }}">Alex Smith</a></h3>
@@ -1226,7 +1226,7 @@ Story Area
 
                     <!-- <div class="story-card">
                 <div class="story-thumb">
-                    <img src="assets/img/story/story-1-1.jpg" alt="Icon">
+                    <img src="{{ asset('assets/img/story/story-1-1.jpg') }}" alt="Icon">
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
@@ -1235,7 +1235,7 @@ Story Area
                 </div>
                 <div class="story-content hover-style text-center">
                     <span class="quote-icon">
-                        <img src="assets/img/icon/quote.svg" alt="">
+                        <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
@@ -1247,7 +1247,7 @@ Story Area
                     <div class="swiper-slide">
                         <div class="story-card">
                             <div class="box-img">
-                                <img src="assets/img/story/story-1-2.jpg" alt="img">
+                                <img src="{{ asset('assets/img/story/story-1-2.jpg') }}" alt="img">
                             </div>
                             <div class="story-content">
 
@@ -1255,7 +1255,7 @@ Story Area
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
-                                    <img src="assets/img/icon/quote.svg" alt="">
+                                    <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                                 <h3 class="box-title"><a href="{{ route('program.index') }}">Brone Due</a></h3>
@@ -1265,7 +1265,7 @@ Story Area
 
                     <!-- <div class="story-card">
                 <div class="story-thumb">
-                    <img src="assets/img/story/story-1-2.jpg" alt="Icon">
+                    <img src="{{ asset('assets/img/story/story-1-2.jpg') }}" alt="Icon">
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
@@ -1274,202 +1274,7 @@ Story Area
                 </div>
                 <div class="story-content hover-style text-center">
                     <span class="quote-icon">
-                        <img src="assets/img/icon/quote.svg" alt="">
-                    </span>
-                    <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                    <h3 class="box-title text-white">
-                        <a href="{{ route('program.index') }}">Brone Due</a>
-                    </h3>
-                </div>
-            </div> -->
-
-                    <div class="swiper-slide">
-                        <div class="story-card">
-                            <div class="box-img">
-                                <img src="assets/img/story/story-1-3.jpg" alt="img">
-                            </div>
-                            <div class="story-content">
-
-                                <h3 class="box-title"><a href="{{ route('program.index') }}">Moumita Mira</a></h3>
-                            </div>
-                            <div class="story-content hover-style">
-                                <div class="quote-icon">
-                                    <img src="assets/img/icon/quote.svg" alt="">
-                                </div>
-                                <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                                <h3 class="box-title"><a href="{{ route('program.index') }}">Moumita Mira</a></h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- <div class="story-card">
-                <div class="story-thumb">
-                    <img src="assets/img/story/story-1-3.jpg" alt="Icon">
-                </div>
-                <div class="story-content text-center">
-                    <h3 class="box-title text-white">
-                        <a href="{{ route('program.index') }}">Moumita Mira</a>
-                    </h3>
-                </div>
-                <div class="story-content hover-style text-center">
-                    <span class="quote-icon">
-                        <img src="assets/img/icon/quote.svg" alt="">
-                    </span>
-                    <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                    <h3 class="box-title text-white">
-                        <a href="{{ route('program.index') }}">Moumita Mira</a>
-                    </h3>
-                </div>
-            </div> -->
-
-                    <div class="swiper-slide">
-                        <div class="story-card">
-                            <div class="box-img">
-                                <img src="assets/img/story/story-1-4.jpg" alt="img">
-                            </div>
-                            <div class="story-content">
-
-                                <h3 class="box-title"><a href="{{ route('program.index') }}">Maya Lily</a></h3>
-                            </div>
-                            <div class="story-content hover-style">
-                                <div class="quote-icon">
-                                    <img src="assets/img/icon/quote.svg" alt="">
-                                </div>
-                                <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                                <h3 class="box-title"><a href="{{ route('program.index') }}">Maya Lily</a></h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- <div class="story-card">
-                <div class="story-thumb">
-                    <img src="assets/img/story/story-1-4.jpg" alt="Icon">
-                </div>
-                <div class="story-content text-center">
-                    <h3 class="box-title text-white">
-                        <a href="{{ route('program.index') }}">Maya Lily</a>
-                    </h3>
-                </div>
-                <div class="story-content hover-style text-center">
-                    <span class="quote-icon">
-                        <img src="assets/img/icon/quote.svg" alt="">
-                    </span>
-                    <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                    <h3 class="box-title text-white">
-                        <a href="{{ route('program.index') }}">Maya Lily</a>
-                    </h3>
-                </div>
-            </div> -->
-
-                    <div class="swiper-slide">
-                        <div class="story-card">
-                            <div class="box-img">
-                                <img src="assets/img/story/story-1-5.jpg" alt="img">
-                            </div>
-                            <div class="story-content">
-
-                                <h3 class="box-title"><a href="{{ route('program.index') }}">Sony & Ovi</a></h3>
-                            </div>
-                            <div class="story-content hover-style">
-                                <div class="quote-icon">
-                                    <img src="assets/img/icon/quote.svg" alt="">
-                                </div>
-                                <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                                <h3 class="box-title"><a href="{{ route('program.index') }}">Sony & Ovi</a></h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- <div class="story-card">
-                <div class="story-thumb">
-                    <img src="assets/img/story/story-1-5.jpg" alt="Icon">
-                </div>
-                <div class="story-content text-center">
-                    <h3 class="box-title text-white">
-                        <a href="{{ route('program.index') }}">Sony & Ovi</a>
-                    </h3>
-                </div>
-                <div class="story-content hover-style text-center">
-                    <span class="quote-icon">
-                        <img src="assets/img/icon/quote.svg" alt="">
-                    </span>
-                    <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                    <h3 class="box-title text-white">
-                        <a href="{{ route('program.index') }}">Sony & Ovi</a>
-                    </h3>
-                </div>
-            </div> -->
-
-                    <div class="swiper-slide">
-                        <div class="story-card">
-                            <div class="box-img">
-                                <img src="assets/img/story/story-1-1.jpg" alt="img">
-                            </div>
-                            <div class="story-content">
-
-                                <h3 class="box-title"><a href="{{ route('program.index') }}">Alex Smith</a></h3>
-                            </div>
-                            <div class="story-content hover-style">
-                                <div class="quote-icon">
-                                    <img src="assets/img/icon/quote.svg" alt="">
-                                </div>
-                                <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                                <h3 class="box-title"><a href="{{ route('program.index') }}">Alex Smith</a></h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- <div class="story-card">
-                <div class="story-thumb">
-                    <img src="assets/img/story/story-1-1.jpg" alt="Icon">
-                </div>
-                <div class="story-content text-center">
-                    <h3 class="box-title text-white">
-                        <a href="{{ route('program.index') }}">Alex Smith</a>
-                    </h3>
-                </div>
-                <div class="story-content hover-style text-center">
-                    <span class="quote-icon">
-                        <img src="assets/img/icon/quote.svg" alt="">
-                    </span>
-                    <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                    <h3 class="box-title text-white">
-                        <a href="{{ route('program.index') }}">Alex Smith</a>
-                    </h3>
-                </div>
-            </div> -->
-
-                    <div class="swiper-slide">
-                        <div class="story-card">
-                            <div class="box-img">
-                                <img src="assets/img/story/story-1-2.jpg" alt="img">
-                            </div>
-                            <div class="story-content">
-
-                                <h3 class="box-title"><a href="{{ route('program.index') }}">Brone Due</a></h3>
-                            </div>
-                            <div class="story-content hover-style">
-                                <div class="quote-icon">
-                                    <img src="assets/img/icon/quote.svg" alt="">
-                                </div>
-                                <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
-                                <h3 class="box-title"><a href="{{ route('program.index') }}">Brone Due</a></h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- <div class="story-card">
-                <div class="story-thumb">
-                    <img src="assets/img/story/story-1-2.jpg" alt="Icon">
-                </div>
-                <div class="story-content text-center">
-                    <h3 class="box-title text-white">
-                        <a href="{{ route('program.index') }}">Brone Due</a>
-                    </h3>
-                </div>
-                <div class="story-content hover-style text-center">
-                    <span class="quote-icon">
-                        <img src="assets/img/icon/quote.svg" alt="">
+                        <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
@@ -1481,7 +1286,7 @@ Story Area
                     <div class="swiper-slide">
                         <div class="story-card">
                             <div class="box-img">
-                                <img src="assets/img/story/story-1-3.jpg" alt="img">
+                                <img src="{{ asset('assets/img/story/story-1-3.jpg') }}" alt="img">
                             </div>
                             <div class="story-content">
 
@@ -1489,7 +1294,7 @@ Story Area
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
-                                    <img src="assets/img/icon/quote.svg" alt="">
+                                    <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                                 <h3 class="box-title"><a href="{{ route('program.index') }}">Moumita Mira</a></h3>
@@ -1499,7 +1304,7 @@ Story Area
 
                     <!-- <div class="story-card">
                 <div class="story-thumb">
-                    <img src="assets/img/story/story-1-3.jpg" alt="Icon">
+                    <img src="{{ asset('assets/img/story/story-1-3.jpg') }}" alt="Icon">
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
@@ -1508,7 +1313,7 @@ Story Area
                 </div>
                 <div class="story-content hover-style text-center">
                     <span class="quote-icon">
-                        <img src="assets/img/icon/quote.svg" alt="">
+                        <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
@@ -1520,7 +1325,7 @@ Story Area
                     <div class="swiper-slide">
                         <div class="story-card">
                             <div class="box-img">
-                                <img src="assets/img/story/story-1-4.jpg" alt="img">
+                                <img src="{{ asset('assets/img/story/story-1-4.jpg') }}" alt="img">
                             </div>
                             <div class="story-content">
 
@@ -1528,7 +1333,7 @@ Story Area
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
-                                    <img src="assets/img/icon/quote.svg" alt="">
+                                    <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                                 <h3 class="box-title"><a href="{{ route('program.index') }}">Maya Lily</a></h3>
@@ -1538,7 +1343,7 @@ Story Area
 
                     <!-- <div class="story-card">
                 <div class="story-thumb">
-                    <img src="assets/img/story/story-1-4.jpg" alt="Icon">
+                    <img src="{{ asset('assets/img/story/story-1-4.jpg') }}" alt="Icon">
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
@@ -1547,7 +1352,7 @@ Story Area
                 </div>
                 <div class="story-content hover-style text-center">
                     <span class="quote-icon">
-                        <img src="assets/img/icon/quote.svg" alt="">
+                        <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
@@ -1559,7 +1364,7 @@ Story Area
                     <div class="swiper-slide">
                         <div class="story-card">
                             <div class="box-img">
-                                <img src="assets/img/story/story-1-5.jpg" alt="img">
+                                <img src="{{ asset('assets/img/story/story-1-5.jpg') }}" alt="img">
                             </div>
                             <div class="story-content">
 
@@ -1567,7 +1372,7 @@ Story Area
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
-                                    <img src="assets/img/icon/quote.svg" alt="">
+                                    <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                                 <h3 class="box-title"><a href="{{ route('program.index') }}">Sony & Ovi</a></h3>
@@ -1577,7 +1382,7 @@ Story Area
 
                     <!-- <div class="story-card">
                 <div class="story-thumb">
-                    <img src="assets/img/story/story-1-5.jpg" alt="Icon">
+                    <img src="{{ asset('assets/img/story/story-1-5.jpg') }}" alt="Icon">
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
@@ -1586,7 +1391,7 @@ Story Area
                 </div>
                 <div class="story-content hover-style text-center">
                     <span class="quote-icon">
-                        <img src="assets/img/icon/quote.svg" alt="">
+                        <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
@@ -1598,7 +1403,7 @@ Story Area
                     <div class="swiper-slide">
                         <div class="story-card">
                             <div class="box-img">
-                                <img src="assets/img/story/story-1-1.jpg" alt="img">
+                                <img src="{{ asset('assets/img/story/story-1-1.jpg') }}" alt="img">
                             </div>
                             <div class="story-content">
 
@@ -1606,7 +1411,7 @@ Story Area
                             </div>
                             <div class="story-content hover-style">
                                 <div class="quote-icon">
-                                    <img src="assets/img/icon/quote.svg" alt="">
+                                    <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
                                 </div>
                                 <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                                 <h3 class="box-title"><a href="{{ route('program.index') }}">Alex Smith</a></h3>
@@ -1616,7 +1421,7 @@ Story Area
 
                     <!-- <div class="story-card">
                 <div class="story-thumb">
-                    <img src="assets/img/story/story-1-1.jpg" alt="Icon">
+                    <img src="{{ asset('assets/img/story/story-1-1.jpg') }}" alt="Icon">
                 </div>
                 <div class="story-content text-center">
                     <h3 class="box-title text-white">
@@ -1625,7 +1430,202 @@ Story Area
                 </div>
                 <div class="story-content hover-style text-center">
                     <span class="quote-icon">
-                        <img src="assets/img/icon/quote.svg" alt="">
+                        <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
+                    </span>
+                    <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
+                    <h3 class="box-title text-white">
+                        <a href="{{ route('program.index') }}">Alex Smith</a>
+                    </h3>
+                </div>
+            </div> -->
+
+                    <div class="swiper-slide">
+                        <div class="story-card">
+                            <div class="box-img">
+                                <img src="{{ asset('assets/img/story/story-1-2.jpg') }}" alt="img">
+                            </div>
+                            <div class="story-content">
+
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Brone Due</a></h3>
+                            </div>
+                            <div class="story-content hover-style">
+                                <div class="quote-icon">
+                                    <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
+                                </div>
+                                <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Brone Due</a></h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="story-card">
+                <div class="story-thumb">
+                    <img src="{{ asset('assets/img/story/story-1-2.jpg') }}" alt="Icon">
+                </div>
+                <div class="story-content text-center">
+                    <h3 class="box-title text-white">
+                        <a href="{{ route('program.index') }}">Brone Due</a>
+                    </h3>
+                </div>
+                <div class="story-content hover-style text-center">
+                    <span class="quote-icon">
+                        <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
+                    </span>
+                    <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
+                    <h3 class="box-title text-white">
+                        <a href="{{ route('program.index') }}">Brone Due</a>
+                    </h3>
+                </div>
+            </div> -->
+
+                    <div class="swiper-slide">
+                        <div class="story-card">
+                            <div class="box-img">
+                                <img src="{{ asset('assets/img/story/story-1-3.jpg') }}" alt="img">
+                            </div>
+                            <div class="story-content">
+
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Moumita Mira</a></h3>
+                            </div>
+                            <div class="story-content hover-style">
+                                <div class="quote-icon">
+                                    <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
+                                </div>
+                                <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Moumita Mira</a></h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="story-card">
+                <div class="story-thumb">
+                    <img src="{{ asset('assets/img/story/story-1-3.jpg') }}" alt="Icon">
+                </div>
+                <div class="story-content text-center">
+                    <h3 class="box-title text-white">
+                        <a href="{{ route('program.index') }}">Moumita Mira</a>
+                    </h3>
+                </div>
+                <div class="story-content hover-style text-center">
+                    <span class="quote-icon">
+                        <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
+                    </span>
+                    <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
+                    <h3 class="box-title text-white">
+                        <a href="{{ route('program.index') }}">Moumita Mira</a>
+                    </h3>
+                </div>
+            </div> -->
+
+                    <div class="swiper-slide">
+                        <div class="story-card">
+                            <div class="box-img">
+                                <img src="{{ asset('assets/img/story/story-1-4.jpg') }}" alt="img">
+                            </div>
+                            <div class="story-content">
+
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Maya Lily</a></h3>
+                            </div>
+                            <div class="story-content hover-style">
+                                <div class="quote-icon">
+                                    <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
+                                </div>
+                                <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Maya Lily</a></h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="story-card">
+                <div class="story-thumb">
+                    <img src="{{ asset('assets/img/story/story-1-4.jpg') }}" alt="Icon">
+                </div>
+                <div class="story-content text-center">
+                    <h3 class="box-title text-white">
+                        <a href="{{ route('program.index') }}">Maya Lily</a>
+                    </h3>
+                </div>
+                <div class="story-content hover-style text-center">
+                    <span class="quote-icon">
+                        <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
+                    </span>
+                    <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
+                    <h3 class="box-title text-white">
+                        <a href="{{ route('program.index') }}">Maya Lily</a>
+                    </h3>
+                </div>
+            </div> -->
+
+                    <div class="swiper-slide">
+                        <div class="story-card">
+                            <div class="box-img">
+                                <img src="{{ asset('assets/img/story/story-1-5.jpg') }}" alt="img">
+                            </div>
+                            <div class="story-content">
+
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Sony & Ovi</a></h3>
+                            </div>
+                            <div class="story-content hover-style">
+                                <div class="quote-icon">
+                                    <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
+                                </div>
+                                <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Sony & Ovi</a></h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="story-card">
+                <div class="story-thumb">
+                    <img src="{{ asset('assets/img/story/story-1-5.jpg') }}" alt="Icon">
+                </div>
+                <div class="story-content text-center">
+                    <h3 class="box-title text-white">
+                        <a href="{{ route('program.index') }}">Sony & Ovi</a>
+                    </h3>
+                </div>
+                <div class="story-content hover-style text-center">
+                    <span class="quote-icon">
+                        <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
+                    </span>
+                    <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
+                    <h3 class="box-title text-white">
+                        <a href="{{ route('program.index') }}">Sony & Ovi</a>
+                    </h3>
+                </div>
+            </div> -->
+
+                    <div class="swiper-slide">
+                        <div class="story-card">
+                            <div class="box-img">
+                                <img src="{{ asset('assets/img/story/story-1-1.jpg') }}" alt="img">
+                            </div>
+                            <div class="story-content">
+
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Alex Smith</a></h3>
+                            </div>
+                            <div class="story-content hover-style">
+                                <div class="quote-icon">
+                                    <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
+                                </div>
+                                <p class="box-text">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
+                                <h3 class="box-title"><a href="{{ route('program.index') }}">Alex Smith</a></h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="story-card">
+                <div class="story-thumb">
+                    <img src="{{ asset('assets/img/story/story-1-1.jpg') }}" alt="Icon">
+                </div>
+                <div class="story-content text-center">
+                    <h3 class="box-title text-white">
+                        <a href="{{ route('program.index') }}">Alex Smith</a>
+                    </h3>
+                </div>
+                <div class="story-content hover-style text-center">
+                    <span class="quote-icon">
+                        <img src="{{ asset('assets/img/icon/quote.svg') }}" alt="">
                     </span>
                     <p class="box-text text-white">"Stadum University’s humanities program is helping me develop the perspective, critical thinking and adaptability I need to navigate and contribute to this changing world."</p>
                     <h3 class="box-title text-white">
@@ -1642,10 +1642,10 @@ Event Area 1
 ==============================-->
     <section class="event-area-1 position-relative overflow-hidden space" id="event-sec">
         <div class="event-shape shape-mockup d-none d-xxl-block" data-top="0%" data-left="0%">
-            <img src="assets/img/shape/shape-2.png" alt="">
+            <img src="{{ asset('assets/img/shape/shape-2.png') }}" alt="">
         </div>
         <div class="event-shape jump shape-mockup  d-none d-xxl-block" data-bottom="0%" data-left="3%">
-            <img src="assets/img/shape/event-1-1.png" alt="">
+            <img src="{{ asset('assets/img/shape/event-1-1.png') }}" alt="">
         </div>
         <div class="container">
             <div class="row justify-content-lg-between justify-content-center align-items-center">
@@ -1664,7 +1664,7 @@ Event Area 1
             <div class="event-card-wrap">
                 <div class="event-card wow fadeInUp" data-wow-delay=".2s">
                     <div class="event-card-img global-img">
-                        <img src="assets/img/event/event-1-1.jpg" alt="event">
+                        <img src="{{ asset('assets/img/event/event-1-1.jpg') }}" alt="event">
                         <p class="event-card-tag"><span class="tag-number">12</span>Jan</p>
                     </div>
                     <div class="event-content">
@@ -1691,7 +1691,7 @@ Event Area 1
 
                 <div class="event-card wow fadeInUp" data-wow-delay=".4s">
                     <div class="event-card-img global-img">
-                        <img src="assets/img/event/event-1-2.jpg" alt="event">
+                        <img src="{{ asset('assets/img/event/event-1-2.jpg') }}" alt="event">
                         <p class="event-card-tag"><span class="tag-number">07</span>Feb</p>
                     </div>
                     <div class="event-content">
@@ -1718,7 +1718,7 @@ Event Area 1
 
                 <div class="event-card wow fadeInUp" data-wow-delay=".6s">
                     <div class="event-card-img global-img">
-                        <img src="assets/img/event/event-1-3.jpg" alt="event">
+                        <img src="{{ asset('assets/img/event/event-1-3.jpg') }}" alt="event">
                         <p class="event-card-tag"><span class="tag-number">22</span>Sep</p>
                     </div>
                     <div class="event-content">
@@ -1787,7 +1787,7 @@ Event Area 1
                 </div>
                 <div class="col-xl-6 order-0 order-xl-1">
                     <div class="apply-stadum-thumb reveal">
-                        <img src="assets/img/apply-stadum/apply-stadum-home-1.jpg" alt="image" class="">
+                        <img src="{{ asset('assets/img/apply-stadum/apply-stadum-home-1.jpg') }}" alt="image" class="">
                     </div>
                 </div>
             </div>
@@ -1799,7 +1799,7 @@ Event Area 1
             <div class="row align-items-center justify-content-between">
                 <div class="col-xl-6">
                     <div class="chancellor-thumb">
-                        <img src="assets/img/chancellor/chancellor-img-home-1.jpg" alt="image">
+                        <img src="{{ asset('assets/img/chancellor/chancellor-img-home-1.jpg') }}" alt="image">
                         <div class="ripple-shape style2">
                             <span class="ripple-1"></span>
                             <span class="ripple-2"></span>
@@ -1855,7 +1855,7 @@ Skill Area Home 1
                                 </div>
                                 <div class="chancellor-signature-box text-sm-center">
                                     <p class="box-text">Prof. Dr. Simons Doe, Ph.D</p>
-                                    <img src="assets/img/icon/signature.png" class="chancellor-signature" alt="signature">
+                                    <img src="{{ asset('assets/img/icon/signature.png') }}" class="chancellor-signature" alt="signature">
                                 </div>
                             </div>
                         </div>
@@ -1873,7 +1873,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">CREATION</a>
                         </div>
@@ -1881,7 +1881,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/scollarship.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">DISCOVER</a>
                         </div>
@@ -1889,7 +1889,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">INNOVATE</a>
                         </div>
@@ -1897,7 +1897,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">EDUCATION</a>
                         </div>
@@ -1905,7 +1905,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/scollarship.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">CASE STUDIES</a>
                         </div>
@@ -1913,7 +1913,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">CREATION</a>
                         </div>
@@ -1921,7 +1921,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">DISCOVER</a>
                         </div>
@@ -1929,7 +1929,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/scollarship.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">INNOVATE</a>
                         </div>
@@ -1938,7 +1938,7 @@ Marquee Area
             </div>
         </div>
     </div>
-    <div class="community-area space" data-bg-src="assets/img/bg/community-home-1.png">
+    <div class="community-area space" data-bg-src="{{ asset('assets/img/bg/community-home-1.png') }}">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-7">
@@ -1962,13 +1962,13 @@ Faq Area 1
 ==============================-->
     <section class="faq-area-1 position-relative space overflow-hidden">
         <div class="faq-shape1 shape-mockup" data-top="0%" data-left="0%">
-            <img src="assets/img/shape/feature-shep-home-1.png" alt="shape">
+            <img src="{{ asset('assets/img/shape/feature-shep-home-1.png') }}" alt="shape">
         </div>
         <div class="faq-shape2 shape-mockup" data-bottom="0%" data-right="0%">
-            <img src="assets/img/shape/feature-shep-2-home-1.png" alt="shape">
+            <img src="{{ asset('assets/img/shape/feature-shep-2-home-1.png') }}" alt="shape">
         </div>
         <div class="faq-shape3 movingX shape-mockup" data-bottom="0%" data-right="2%">
-            <img src="assets/img/shape/faq-1-1.png" alt="shape">
+            <img src="{{ asset('assets/img/shape/faq-1-1.png') }}" alt="shape">
         </div>
         <div class="ripple-shape d-none d-xl-block">
             <span class="ripple-1"></span>
@@ -1982,11 +1982,11 @@ Faq Area 1
                 <div class="col-xxl-4">
                     <div class="faq-imgbox wow fadeInLeft" data-wow-delay=".3s">
                         <div class="img1">
-                            <img src="assets/img/faq/faq-1-2.jpg" alt="image">
-                            <img src="assets/img/faq/faq-1-1.jpg" alt="image">
+                            <img src="{{ asset('assets/img/faq/faq-1-2.jpg') }}" alt="image">
+                            <img src="{{ asset('assets/img/faq/faq-1-1.jpg') }}" alt="image">
                         </div>
                         <div class="img2">
-                            <img src="assets/img/faq/faq-1-3.jpg" alt="image">
+                            <img src="{{ asset('assets/img/faq/faq-1-3.jpg') }}" alt="image">
                         </div>
                     </div>
                 </div>
@@ -2109,8 +2109,8 @@ Blog Area 1
                         <div class="blog-img position-relative">
                             <a href="{{ route('blog.details') }}">
                                 <div class="blog-img-box position-relative overflow-hidden">
-                                    <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
-                                    <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
+                                    <img src="{{ asset('assets/img/blog/blog_1_1.jpg') }}" alt="blog image">
+                                    <img src="{{ asset('assets/img/blog/blog_1_1.jpg') }}" alt="blog image">
                                 </div>
                             </a>
                             <div class="blog-date">
@@ -2121,7 +2121,7 @@ Blog Area 1
                         <div class="blog-content">
                             <div class="blog-meta">
                                 <a class="author" href="{{ route('blog.index') }}">
-                                    <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>By themeholy</a>
+                                    <span class="author-icon"><img src="{{ asset('assets/img/blog/author.png') }}" alt="img"></span>By themeholy</a>
                                 <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment
                                 </a>
                             </div>
@@ -2139,8 +2139,8 @@ Blog Area 1
                         <div class="blog-img position-relative">
                             <a href="{{ route('blog.details') }}">
                                 <div class="blog-img-box position-relative overflow-hidden">
-                                    <img src="assets/img/blog/blog_1_2.jpg" alt="blog image">
-                                    <img src="assets/img/blog/blog_1_2.jpg" alt="blog image">
+                                    <img src="{{ asset('assets/img/blog/blog_1_2.jpg') }}" alt="blog image">
+                                    <img src="{{ asset('assets/img/blog/blog_1_2.jpg') }}" alt="blog image">
                                 </div>
                             </a>
                             <div class="blog-date">
@@ -2151,7 +2151,7 @@ Blog Area 1
                         <div class="blog-content">
                             <div class="blog-meta">
                                 <a class="author" href="{{ route('blog.index') }}">
-                                    <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>By themeholy</a>
+                                    <span class="author-icon"><img src="{{ asset('assets/img/blog/author.png') }}" alt="img"></span>By themeholy</a>
                                 <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment
                                 </a>
                             </div>
@@ -2169,8 +2169,8 @@ Blog Area 1
                         <div class="blog-img position-relative">
                             <a href="{{ route('blog.details') }}">
                                 <div class="blog-img-box position-relative overflow-hidden">
-                                    <img src="assets/img/blog/blog_1_3.jpg" alt="blog image">
-                                    <img src="assets/img/blog/blog_1_3.jpg" alt="blog image">
+                                    <img src="{{ asset('assets/img/blog/blog_1_3.jpg') }}" alt="blog image">
+                                    <img src="{{ asset('assets/img/blog/blog_1_3.jpg') }}" alt="blog image">
                                 </div>
                             </a>
                             <div class="blog-date">
@@ -2181,7 +2181,7 @@ Blog Area 1
                         <div class="blog-content">
                             <div class="blog-meta">
                                 <a class="author" href="{{ route('blog.index') }}">
-                                    <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>By themeholy</a>
+                                    <span class="author-icon"><img src="{{ asset('assets/img/blog/author.png') }}" alt="img"></span>By themeholy</a>
                                 <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment
                                 </a>
                             </div>
@@ -2245,7 +2245,7 @@ Contact Area
                 </div>
                 <div class="col-lg-6">
                     <div class="contact-img">
-                        <img src="assets/img/normal/contact-img.jpg" alt="">
+                        <img src="{{ asset('assets/img/normal/contact-img.jpg') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -2253,22 +2253,22 @@ Contact Area
     </div><!--==============================
 	Footer Area
 ==============================-->
-    <footer class="footer-wrapper footer-default footer-overlay" data-bg-src="assets/img/bg/footer-bg-1.jpg">
+    <footer class="footer-wrapper footer-default footer-overlay" data-bg-src="{{ asset('assets/img/bg/footer-bg-1.jpg') }}">
         <div class="footer-top">
             <div class="container">
                 <div class="row gy-40 align-items-center justify-content-between">
                     <div class="col-xl-auto">
                         <div class="footer-logo z-index-common" data-cue="slideInLeft">
                             <a href="{{ route('home.university') }}">
-                                <img src="assets/img/logo-white.svg" alt="Stadum">
+                                <img src="{{ asset('assets/img/logo-white.svg') }}" alt="Stadum">
                             </a>
                         </div>
                     </div>
                     <div class="col-xl-auto">
                         <div class="client-group-wrap z-index-common" data-cue="slideInRight">
-                            <img src="assets/img/normal/client-group1.png" alt="img">
+                            <img src="{{ asset('assets/img/normal/client-group1.png') }}" alt="img">
                             <h4 class="title">Have any question?
-                                <a href="{{ route('contact') }}"><img src="assets/img/icon/chat2.svg" alt=""> <span class="text-theme">Live</span></a> chat now
+                                <a href="{{ route('contact') }}"><img src="{{ asset('assets/img/icon/chat2.svg') }}" alt=""> <span class="text-theme">Live</span></a> chat now
                             </h4>
                         </div>
                     </div>
@@ -2331,40 +2331,40 @@ Contact Area
                             <h3 class="widget_title">Instagram</h3>
                             <div class="instagram-feeds">
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-1.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-1.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-1.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-1.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-2.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-2.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-2.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-2.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-3.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-3.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-3.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-3.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-4.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-4.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-4.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-4.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-5.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-5.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-5.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-5.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-6.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-6.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-6.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-6.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-7.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-7.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-7.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-7.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-8.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-8.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-8.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-8.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-9.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-9.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-9.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-9.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -2484,33 +2484,33 @@ modal Area
     All Js File
 ============================== -->
     <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="{{ asset('assets/js/vendor/jquery-3.7.1.min.js') }}"></script>
     <!-- Swiper Js -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
     <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
     <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="{{ asset('assets/js/jquery-ui.min.js') }}"></script>
     <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
     <!-- Wow Js -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
 
     <!-- Gsap Animation -->
-    <script src="assets/js/gsap.min.js"></script>
+    <script src="{{ asset('assets/js/gsap.min.js') }}"></script>
     <!-- ScrollTrigger -->
-    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="{{ asset('assets/js/ScrollTrigger.min.js') }}"></script>
     <!-- SplitText -->
-    <script src="assets/js/SplitText.min.js"></script>
+    <script src="{{ asset('assets/js/SplitText.min.js') }}"></script>
     <!-- Lenis Js -->
-    <script src="assets/js/lenis.min.js"></script>
+    <script src="{{ asset('assets/js/lenis.min.js') }}"></script>
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 
 </body>
 

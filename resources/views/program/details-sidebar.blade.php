@@ -14,22 +14,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicons - Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/favicons/apple-icon-57x57.png') }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/img/favicons/apple-icon-60x60.png') }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/img/favicons/apple-icon-72x72.png') }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/favicons/apple-icon-76x76.png') }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/img/favicons/apple-icon-114x114.png') }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/img/favicons/apple-icon-120x120.png') }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/img/favicons/apple-icon-144x144.png') }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/img/favicons/apple-icon-152x152.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicons/apple-icon-180x180.png') }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('assets/img/favicons/android-icon-192x192.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicons/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/img/favicons/favicon-96x96.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicons/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('assets/img/favicons/manifest.json') }}">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="{{ asset('assets/img/favicons/ms-icon-144x144.png') }}">
     <meta name="theme-color" content="#ffffff">
 
     <!--==============================
@@ -43,15 +43,15 @@
 	    All CSS File
 	============================== -->
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css') }}">
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css') }}">
     <!-- Swiper Js -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 </head>
 
@@ -72,7 +72,7 @@
     <div class="preloader ">
         <button class="th-btn preloaderCls">Cancel Preloader </button>
         <div class="preloader-inner">
-            <img src="assets/img/logo-ummi.png" alt="Universitas Muhammadiyah Sukabumi">
+            <img src="{{ asset('assets/img/logo-ummi.png') }}" alt="Universitas Muhammadiyah Sukabumi">
             <span class="loader">
                 Universitas Muhammadiyah Sukabumi
                 <span class="loading-text">Universitas Muhammadiyah Sukabumi</span>
@@ -88,7 +88,7 @@
                 <div class="th-widget-about">
                     <div class="about-logo">
                         <a href="{{ route('home.university') }}">
-                            <img src="assets/img/logo2.svg" alt="Stadum">
+                            <img src="{{ asset('assets/img/logo2.svg') }}" alt="Stadum">
                         </a>
                     </div>
                     <p class="about-text">Since 1999, when the newly minted Stadum team embraced its mandate to breathe new life into the downtrodden neighbourhood, East Village’s transformation has been nothing short of remarkable. </p>
@@ -107,7 +107,7 @@
                 <div class="recent-post-wrap">
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="{{ asset('assets/img/blog/recent-post-1-1.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title">
@@ -120,7 +120,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="{{ asset('assets/img/blog/recent-post-1-2.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="{{ route('blog.details') }}">Future Focus Preparing for Tomorrow</a></h4>
@@ -131,7 +131,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="{{ asset('assets/img/blog/recent-post-1-3.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title">
@@ -165,312 +165,15 @@
     </div><!--==============================
     Mobile Menu
   ============================== -->
-    <div class="th-menu-wrapper">
-        <div class="th-menu-area text-center">
-            <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo">
-                <a href="{{ route('home.university') }}"><img src="assets/img/logo.svg" alt="Stadum"></a>
-            </div>
-            <div class="th-mobile-menu">
-                <ul>
-                    <li class="menu-item-has-children">
-                        <a href="{{ route('home.university') }}">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="{{ route('home') }}">University Home</a></li>
-                            <li><a href="{{ route('home.admission') }}">Admission Home</a></li>
-                            <li><a href="{{ route('home.courses') }}">Course Home</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="{{ route('about') }}">About Us</a></li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Programs</a>
-                        <ul class="sub-menu">
-                            <li><a href="{{ route('program.index') }}">Programs Style 1</a></li>
-                            <li><a href="{{ route('program.program-2') }}">Programs Style 2</a></li>
-                            <li><a href="{{ route('program.details') }}">Program Details</a></li>
-                            <li><a href="{{ route('program.details-sidebar') }}">Program Details With Sidebar</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Pages</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item-has-children">
-                                <a href="#">Shop</a>
-                                <ul class="sub-menu">
-                                    <li><a href="{{ route('shop.index') }}">Shop</a></li>
-                                    <li><a href="{{ route('shop.details') }}">Shop Details</a></li>
-                                    <li><a href="{{ route('shop.cart') }}">Cart Page</a></li>
-                                    <li><a href="{{ route('shop.checkout') }}">Checkout</a></li>
-                                    <li><a href="{{ route('shop.wishlist') }}">Wishlist</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="menu-item-has-children">
-                                <a href="#">Faculties</a>
-                                <ul class="sub-menu">
-                                    <li><a href="{{ route('faculty.index') }}">Faculty</a></li>
-                                    <li><a href="{{ route('faculty.details') }}">Faculty Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="{{ route('alumni') }}">Alumni Page</a></li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Researches</a>
-                                <ul class="sub-menu">
-                                    <li><a href="{{ route('research.index') }}">Research</a></li>
-                                    <li><a href="{{ route('research.details') }}">Research Details</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Teachers</a>
-                                <ul class="sub-menu">
-                                    <li><a href="{{ route('teacher.index') }}">Teacher</a></li>
-                                    <li><a href="{{ route('teacher.details') }}">Teacher Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="{{ route('campus') }}">Campus Life</a></li>
-                            <li><a href="{{ route('pricing') }}">Pricing Plan</a></li>
-                            <li><a href="{{ route('faq') }}">Faqs Page</a></li>
-                            <li><a href="{{ route('error') }}">Error Page</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Events</a>
-                        <ul class="sub-menu">
-                            <li><a href="{{ route('event.index') }}">Events Page</a></li>
-                            <li><a href="{{ route('event.details') }}">Event Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Blogs</a>
-                        <ul class="sub-menu">
-                            <li><a href="{{ route('blog.index') }}">Blog</a></li>
-                            <li><a href="{{ route('blog.details') }}">Blog Details</a></li>
-                            <li><a href="{{ route('blog.details-sidebar') }}">Blog Details With Sidebar</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="{{ route('contact') }}">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div><!--==============================
-    Header Area
-==============================-->
-    <header class="th-header header-layout2">
-        <div class="header-top">
-            <div class="container th-container4">
-                <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
-                    <div class="col-auto d-none d-lg-block">
-                        <div class="header-links">
-                            <ul class="header-left-wrap">
-                                <li>
-                                    <div class="dropdown-link">
-                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false"> Studients</a>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
-                                            <li>
-                                                <a href="#">Scrollship</a>
-                                                <a href="#">Forening</a>
-                                                <a href="#">Online</a>
-                                                <a href="#">Bysexual</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li><a href="{{ route('contact') }}">Staff</a></li>
-                                <li><a href="{{ route('alumni') }}">Alumni</a></li>
-                                <li><a href="{{ route('faculty.index') }}">Faculty</a> </li>
-                                <li><a href="{{ route('contact') }}">Community</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="header-links">
-                            <ul class="header-right-wrap">
-                                <li><i class="fa-solid fa-user"></i><a href="#login-form" class="popup-content">Login / Register</a></li>
-                                <li><i class="fas fa-comments"></i><a href="{{ route('faq') }}">FAQ</a></li>
-                                <li>
-                                    <div class="dropdown-link">
-                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false"><img src="assets/img/icon/lang.svg" alt=""> </a>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
-                                            <li>
-                                                <a href="#">German</a>
-                                                <a href="#">French</a>
-                                                <a href="#">Italian</a>
-                                                <a href="#">Latvian</a>
-                                                <a href="#">Spanish</a>
-                                                <a href="#">Greek</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sticky-wrapper">
-            <!-- Main Menu Area -->
-            <div class="menu-area">
-                <div class="container th-container4">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-auto">
-                            <div class="header-logo">
-                                <a href="{{ route('home.university') }}">
-                                    <img src="assets/img/light-white-logo.svg" alt="Stadum">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-auto d-none d-xl-block">
-                            <nav class="main-menu">
-                                <ul>
-                                    <li class="menu-item-has-children">
-                                        <a href="{{ route('home.university') }}">Home</a>
-                                        <ul class="mega-menu mega-menu-content mega-scroll">
-                                            <li>
-                                                <div class="container">
-                                                    <div class="row gy-4">
-                                                        <div class="col-lg-4">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-university.jpg" alt="Home One">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="{{ route('home.university') }}" class="th-btn">Multipage</a>
-                                                                        <a href="{{ route('home.university-onepage') }}" class="th-btn">Onepage</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="{{ route('home.university') }}">Home University</a></h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-4">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-admission.jpg" alt="Home Two">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="{{ route('home.admission') }}" class="th-btn">Multipage</a>
-                                                                        <a href="{{ route('home.admission-onepage') }}" class="th-btn">Onepage</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="{{ route('home.admission') }}">Home Admission</a></h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-4">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-courses.jpg" alt="Home Three">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="{{ route('home.courses') }}" class="th-btn">Multipage</a>
-                                                                        <a href="{{ route('home.courses-onepage') }}" class="th-btn">Onepage</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="{{ route('home.courses') }}">Home Courses</a>
-                                                                </h3>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="{{ route('about') }}">About Us</a></li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Programs</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="{{ route('program.index') }}">Programs Style 1</a></li>
-                                            <li><a href="{{ route('program.program-2') }}">Programs Style 2</a></li>
-                                            <li><a href="{{ route('program.details') }}">Program Details</a></li>
-                                            <li><a href="{{ route('program.details-sidebar') }}">Program Details With Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Shop</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="{{ route('shop.index') }}">Shop</a></li>
-                                                    <li><a href="{{ route('shop.details') }}">Shop Details</a></li>
-                                                    <li><a href="{{ route('shop.cart') }}">Cart Page</a></li>
-                                                    <li><a href="{{ route('shop.checkout') }}">Checkout</a></li>
-                                                    <li><a href="{{ route('shop.wishlist') }}">Wishlist</a></li>
-                                                </ul>
-                                            </li>
-
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Faculties</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="{{ route('faculty.index') }}">Faculty</a></li>
-                                                    <li><a href="{{ route('faculty.details') }}">Faculty Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="{{ route('alumni') }}">Alumni Page</a></li>
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Researches</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="{{ route('research.index') }}">Research</a></li>
-                                                    <li><a href="{{ route('research.details') }}">Research Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Teachers</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="{{ route('teacher.index') }}">Teacher</a></li>
-                                                    <li><a href="{{ route('teacher.details') }}">Teacher Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="{{ route('campus') }}">Campus Life</a></li>
-                                            <li><a href="{{ route('pricing') }}">Pricing Plan</a></li>
-                                            <li><a href="{{ route('faq') }}">Faqs Page</a></li>
-                                            <li><a href="{{ route('error') }}">Error Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Events</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="{{ route('event.index') }}">Events Page</a></li>
-                                            <li><a href="{{ route('event.details') }}">Event Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Blogs</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="{{ route('blog.index') }}">Blog</a></li>
-                                            <li><a href="{{ route('blog.details') }}">Blog Details</a></li>
-                                            <li><a href="{{ route('blog.details-sidebar') }}">Blog Details With Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="{{ route('contact') }}">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="col-auto">
-                            <div class="header-right">
-                                <button class="header-search searchBoxToggler">
-                                    <i class="fa-regular fa-magnifying-glass"></i>
-                                </button>
-                                <a href="#" class="icon-btn sideMenuToggler d-none d-xl-block"><img src="assets/img/icon/grid.svg" alt=""></a>
-                                <div class="header-action">
-                                    <a href="{{ route('contact') }}" class="th-btn th-icon"> Apply Now</a>
-                                </div>
-                                <button type="button" class="th-menu-toggle d-inline-block d-xl-none"><i class="far fa-bars"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header> <!--==============================
+    @include('partials.navbar') <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper position-relative " data-bg-src="assets/img/shape/breadcrumb-shep.png">
+    <div class="breadcumb-wrapper position-relative " data-bg-src="{{ asset('assets/img/shape/breadcrumb-shep.png') }}">
         <div class="breadcumb-banner">
-            <img src="assets/img/breadcrumb/breadcumb-banner.png" alt="bg-banner">
+            <img src="{{ asset('assets/img/breadcrumb/breadcumb-banner.png') }}" alt="bg-banner">
         </div>
         <div class="breadcumb-shape">
-            <img src="assets/img/shape/triangle-light.png" alt="shape" class="jump">
+            <img src="{{ asset('assets/img/shape/triangle-light.png') }}" alt="shape" class="jump">
         </div>
         <div class="container th-container4">
             <div class="row">
@@ -513,13 +216,13 @@
                 </div>
                 <div class="col-xl-7">
                     <div class="program-image global-img">
-                        <img src="assets/img/program/program-image.jpg" alt="">
+                        <img src="{{ asset('assets/img/program/program-image.jpg') }}" alt="">
                     </div>
                 </div>
             </div>
             <div class="row gy-4 space-top">
                 <div class="col-12">
-                    <div class="video-box1" data-bg-src="assets/img/bg/video_bg_1.jpg">
+                    <div class="video-box1" data-bg-src="{{ asset('assets/img/bg/video_bg_1.jpg') }}">
                         <div class="video-wrapp">
                             <div class="discount-wrapp">
                                 <a href="https://www.youtube.com/watch?v=EZfLOSQ8hW8" class="play-btn popup-video">
@@ -551,7 +254,7 @@
                                 Admission</li>
                         </ul>
                     </div>
-                    <div class="shape-mockup jump d-none d-xl-block" data-top="30%" data-right="-2%"><img src="assets/img/shape/triangle2.png" alt="stadum"></div>
+                    <div class="shape-mockup jump d-none d-xl-block" data-top="30%" data-right="-2%"><img src="{{ asset('assets/img/shape/triangle2.png') }}" alt="stadum"></div>
                 </div>
                 <div class="col-lg-6">
                     <h3 class="box-title h4 mt-40 text-anim2">Requirements for Transfer Students</h3>
@@ -631,7 +334,7 @@
                 </div>
                 <div class="col-xl-7">
                     <div class="program-image global-img">
-                        <img src="assets/img/program/program-image2.jpg" alt="">
+                        <img src="{{ asset('assets/img/program/program-image2.jpg') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -668,7 +371,7 @@
                 </div>
                 <div class="col-xl-5">
                     <div class="program-image global-img">
-                        <img src="assets/img/program/program-image3.jpg" alt="">
+                        <img src="{{ asset('assets/img/program/program-image3.jpg') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -682,7 +385,7 @@
                                     Biochemistry </button>
                             </div>
                             <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion1">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-1.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-1.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -701,7 +404,7 @@
                                     Mechanical Engineering </button>
                             </div>
                             <div id="collapse-2" class="accordion-collapse collapse " aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion1">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-2.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-2.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -720,7 +423,7 @@
                                     History & Politics </button>
                             </div>
                             <div id="collapse-3" class="accordion-collapse collapse " aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion1">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-3.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-3.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -739,7 +442,7 @@
                                     Marketing </button>
                             </div>
                             <div id="collapse-4" class="accordion-collapse collapse " aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion1">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-4.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-4.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -758,7 +461,7 @@
                                     English </button>
                             </div>
                             <div id="collapse-5" class="accordion-collapse collapse " aria-labelledby="collapse-item-5" data-bs-parent="#faqAccordion1">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-5.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-5.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -777,7 +480,7 @@
                                     Computer Science </button>
                             </div>
                             <div id="collapse-6" class="accordion-collapse collapse " aria-labelledby="collapse-item-6" data-bs-parent="#faqAccordion1">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-6.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-6.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -796,7 +499,7 @@
                                     Criminal Justice </button>
                             </div>
                             <div id="collapse-7" class="accordion-collapse collapse " aria-labelledby="collapse-item-7" data-bs-parent="#faqAccordion1">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-7.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-7.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -820,7 +523,7 @@
                                     Accounting </button>
                             </div>
                             <div id="collapse-8" class="accordion-collapse collapse show" aria-labelledby="collapse-item-8" data-bs-parent="#faqAccordion2">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-4.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-4.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -839,7 +542,7 @@
                                     Art Education </button>
                             </div>
                             <div id="collapse-9" class="accordion-collapse collapse " aria-labelledby="collapse-item-9" data-bs-parent="#faqAccordion2">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-5.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-5.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -858,7 +561,7 @@
                                     Biology </button>
                             </div>
                             <div id="collapse-10" class="accordion-collapse collapse " aria-labelledby="collapse-item-10" data-bs-parent="#faqAccordion2">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-6.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-6.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -877,7 +580,7 @@
                                     Chemistry </button>
                             </div>
                             <div id="collapse-11" class="accordion-collapse collapse " aria-labelledby="collapse-item-11" data-bs-parent="#faqAccordion2">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-7.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-7.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -896,7 +599,7 @@
                                     Business Admistration </button>
                             </div>
                             <div id="collapse-12" class="accordion-collapse collapse " aria-labelledby="collapse-item-12" data-bs-parent="#faqAccordion2">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-8.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-8.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -915,7 +618,7 @@
                                     Art Education </button>
                             </div>
                             <div id="collapse-13" class="accordion-collapse collapse " aria-labelledby="collapse-item-13" data-bs-parent="#faqAccordion2">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-9.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-9.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -934,7 +637,7 @@
                                     Elementry Education </button>
                             </div>
                             <div id="collapse-14" class="accordion-collapse collapse " aria-labelledby="collapse-item-14" data-bs-parent="#faqAccordion2">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-10.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-10.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -957,7 +660,7 @@
                                     Cyber Security </button>
                             </div>
                             <div id="collapse-15" class="accordion-collapse collapse show" aria-labelledby="collapse-item-15" data-bs-parent="#faqAccordion3">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-3.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-3.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -976,7 +679,7 @@
                                     Criminal Justice </button>
                             </div>
                             <div id="collapse-16" class="accordion-collapse collapse " aria-labelledby="collapse-item-16" data-bs-parent="#faqAccordion3">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-4.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-4.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -995,7 +698,7 @@
                                     English Language Arts </button>
                             </div>
                             <div id="collapse-17" class="accordion-collapse collapse " aria-labelledby="collapse-item-17" data-bs-parent="#faqAccordion3">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-5.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-5.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -1014,7 +717,7 @@
                                     Computer Systems </button>
                             </div>
                             <div id="collapse-18" class="accordion-collapse collapse " aria-labelledby="collapse-item-18" data-bs-parent="#faqAccordion3">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-6.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-6.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -1033,7 +736,7 @@
                                     Biology Education </button>
                             </div>
                             <div id="collapse-19" class="accordion-collapse collapse " aria-labelledby="collapse-item-19" data-bs-parent="#faqAccordion3">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-7.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-7.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -1052,7 +755,7 @@
                                     Conservation Science </button>
                             </div>
                             <div id="collapse-20" class="accordion-collapse collapse " aria-labelledby="collapse-item-20" data-bs-parent="#faqAccordion3">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-8.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-8.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -1071,7 +774,7 @@
                                     Health & Physical Education </button>
                             </div>
                             <div id="collapse-21" class="accordion-collapse collapse " aria-labelledby="collapse-item-21" data-bs-parent="#faqAccordion3">
-                                <div class="accordion-body" data-bg-src="assets/img/faq/faq-2-9.jpg">
+                                <div class="accordion-body" data-bg-src="{{ asset('assets/img/faq/faq-2-9.jpg') }}">
                                     <ul class="list">
                                         <li>Criminalist</li>
                                         <li>Immunologist</li>
@@ -1091,7 +794,7 @@
     </section>
     <div class="addmission-area overflow-hidden space overflow-hidden">
         <div class="addmission-bg-thumb overflow-hidden gsap-parallax">
-            <img src="assets/img/bg/admission-home-2.png" alt="Stadum">
+            <img src="{{ asset('assets/img/bg/admission-home-2.png') }}" alt="Stadum">
         </div>
         <div class="container">
             <div class="title-area text-center">
@@ -1110,7 +813,7 @@
         <div class="container">
             <div class="admission-forum-inner">
                 <div class="addmission-forum-thumb overflow-hidden">
-                    <img src="assets/img/addmission/1.png" alt="Stadum">
+                    <img src="{{ asset('assets/img/addmission/1.png') }}" alt="Stadum">
                 </div>
                 <div class="addmisson-forum">
                     <div class="row justify-content-end">
@@ -1181,7 +884,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">CREATION</a>
                         </div>
@@ -1189,7 +892,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/scollarship.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">DISCOVER</a>
                         </div>
@@ -1197,7 +900,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">INNOVATE</a>
                         </div>
@@ -1205,7 +908,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">EDUCATION</a>
                         </div>
@@ -1213,7 +916,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/scollarship.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">CASE STUDIES</a>
                         </div>
@@ -1221,7 +924,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">CREATION</a>
                         </div>
@@ -1229,7 +932,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">DISCOVER</a>
                         </div>
@@ -1237,7 +940,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/scollarship.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">INNOVATE</a>
                         </div>
@@ -1246,7 +949,7 @@ Marquee Area
             </div>
         </div>
     </div>
-    <footer class="footer-wrapper footer-layout3" data-bg-src="assets/img/bg/footer-bg-2.png">
+    <footer class="footer-wrapper footer-layout3" data-bg-src="{{ asset('assets/img/bg/footer-bg-2.png') }}">
         <div class="container th-container4">
             <div class="widget-area">
                 <div class="row justify-content-between">
@@ -1255,7 +958,7 @@ Marquee Area
                             <div class="th-widget-about">
                                 <div class="about-logo">
                                     <a href="{{ route('home.university') }}">
-                                        <img src="assets/img/logo2.svg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/logo2.svg') }}" alt="Stadum">
                                     </a>
                                 </div>
                                 <p class="about-text">Since 1999, when the newly minted Stadum team embraced its mandate to breathe new life into the downtrodden neighbourhood, East Village’s transformation has been nothing short of remarkable. </p>
@@ -1307,40 +1010,40 @@ Marquee Area
                             <h3 class="widget_title">Instagram</h3>
                             <div class="instagram-feeds">
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-1.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-1.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-1.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-1.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-2.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-2.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-2.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-2.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-3.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-3.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-3.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-3.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-4.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-4.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-4.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-4.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-5.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-5.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-5.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-5.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-6.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-6.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-6.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-6.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-7.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-7.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-7.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-7.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-8.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-8.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-8.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-8.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-9.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-9.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-9.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-9.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -1459,33 +1162,33 @@ modal Area
     All Js File
 ============================== -->
     <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="{{ asset('assets/js/vendor/jquery-3.7.1.min.js') }}"></script>
     <!-- Swiper Js -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
     <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
     <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="{{ asset('assets/js/jquery-ui.min.js') }}"></script>
     <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
     <!-- Wow Js -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
 
     <!-- Gsap Animation -->
-    <script src="assets/js/gsap.min.js"></script>
+    <script src="{{ asset('assets/js/gsap.min.js') }}"></script>
     <!-- ScrollTrigger -->
-    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="{{ asset('assets/js/ScrollTrigger.min.js') }}"></script>
     <!-- SplitText -->
-    <script src="assets/js/SplitText.min.js"></script>
+    <script src="{{ asset('assets/js/SplitText.min.js') }}"></script>
     <!-- Lenis Js -->
-    <script src="assets/js/lenis.min.js"></script>
+    <script src="{{ asset('assets/js/lenis.min.js') }}"></script>
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 
 </body>
 

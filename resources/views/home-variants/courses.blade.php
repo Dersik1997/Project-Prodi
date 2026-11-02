@@ -14,22 +14,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicons - Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/favicons/apple-icon-57x57.png') }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/img/favicons/apple-icon-60x60.png') }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/img/favicons/apple-icon-72x72.png') }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/favicons/apple-icon-76x76.png') }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/img/favicons/apple-icon-114x114.png') }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/img/favicons/apple-icon-120x120.png') }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/img/favicons/apple-icon-144x144.png') }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/img/favicons/apple-icon-152x152.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicons/apple-icon-180x180.png') }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('assets/img/favicons/android-icon-192x192.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicons/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/img/favicons/favicon-96x96.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicons/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('assets/img/favicons/manifest.json') }}">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="{{ asset('assets/img/favicons/ms-icon-144x144.png') }}">
     <meta name="theme-color" content="#ffffff">
 
     <!--==============================
@@ -43,15 +43,15 @@
 	    All CSS File
 	============================== -->
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css') }}">
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css') }}">
     <!-- Swiper Js -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 </head>
 
@@ -72,7 +72,7 @@
     <div class="preloader ">
         <button class="th-btn preloaderCls">Cancel Preloader </button>
         <div class="preloader-inner">
-            <img src="assets/img/logo-ummi.png" alt="Universitas Muhammadiyah Sukabumi">
+            <img src="{{ asset('assets/img/logo-ummi.png') }}" alt="Universitas Muhammadiyah Sukabumi">
             <span class="loader">
                 Universitas Muhammadiyah Sukabumi
                 <span class="loading-text">Universitas Muhammadiyah Sukabumi</span>
@@ -88,7 +88,7 @@
                 <div class="th-widget-about">
                     <div class="about-logo">
                         <a href="{{ route('home.university') }}">
-                            <img src="assets/img/logo2.svg" alt="Stadum">
+                            <img src="{{ asset('assets/img/logo2.svg') }}" alt="Stadum">
                         </a>
                     </div>
                     <p class="about-text">Since 1999, when the newly minted Stadum team embraced its mandate to breathe new life into the downtrodden neighbourhood, East Village’s transformation has been nothing short of remarkable. </p>
@@ -107,7 +107,7 @@
                 <div class="recent-post-wrap">
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="{{ asset('assets/img/blog/recent-post-1-1.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title">
@@ -120,7 +120,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="{{ asset('assets/img/blog/recent-post-1-2.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="{{ route('blog.details') }}">Future Focus Preparing for Tomorrow</a></h4>
@@ -131,7 +131,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="{{ asset('assets/img/blog/recent-post-1-3.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title">
@@ -169,7 +169,7 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="{{ route('home.university') }}"><img src="assets/img/logo.svg" alt="Stadum"></a>
+                <a href="{{ route('home.university') }}"><img src="{{ asset('assets/img/logo.svg') }}" alt="Stadum"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
@@ -279,7 +279,7 @@
                                 </li>
                                 <li>
                                     <div class="dropdown-link">
-                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false"><img src="assets/img/icon/lang.svg" alt=""> </a>
+                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false"><img src="{{ asset('assets/img/icon/lang.svg') }}" alt=""> </a>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
                                             <li>
                                                 <a href="#">German</a>
@@ -306,7 +306,7 @@
                         <div class="col-auto">
                             <div class="header-logo">
                                 <a href="{{ route('home.university') }}">
-                                    <img src="assets/img/light-white-logo.svg" alt="Stadum">
+                                    <img src="{{ asset('assets/img/light-white-logo.svg') }}" alt="Stadum">
                                 </a>
                             </div>
                         </div>
@@ -322,7 +322,7 @@
                                                         <div class="col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-university.jpg" alt="Home One">
+                                                                    <img src="{{ asset('assets/img/pages/home-university.jpg') }}" alt="Home One">
                                                                     <div class="btn-wrap">
                                                                         <a href="{{ route('home.university') }}" class="th-btn">Multipage</a>
                                                                         <a href="{{ route('home.university-onepage') }}" class="th-btn">Onepage</a>
@@ -334,7 +334,7 @@
                                                         <div class="col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-admission.jpg" alt="Home Two">
+                                                                    <img src="{{ asset('assets/img/pages/home-admission.jpg') }}" alt="Home Two">
                                                                     <div class="btn-wrap">
                                                                         <a href="{{ route('home.admission') }}" class="th-btn">Multipage</a>
                                                                         <a href="{{ route('home.admission-onepage') }}" class="th-btn">Onepage</a>
@@ -346,7 +346,7 @@
                                                         <div class="col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-courses.jpg" alt="Home Three">
+                                                                    <img src="{{ asset('assets/img/pages/home-courses.jpg') }}" alt="Home Three">
                                                                     <div class="btn-wrap">
                                                                         <a href="{{ route('home.courses') }}" class="th-btn">Multipage</a>
                                                                         <a href="{{ route('home.courses-onepage') }}" class="th-btn">Onepage</a>
@@ -452,7 +452,7 @@ Hero Area 3
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="hero-inner">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-3-1.png"></div>
+                        <div class="th-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero-3-1.png') }}"></div>
                         <div class="container th-container4">
                             <div class="row align-items-center">
                                 <div class="col-lg-8">
@@ -482,7 +482,7 @@ Hero Area 3
                 </div>
                 <div class="swiper-slide">
                     <div class="hero-inner">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_1_2.jpg"></div>
+                        <div class="th-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_1_2.jpg') }}"></div>
                         <div class="container th-container4">
                             <div class="row align-items-center">
                                 <div class="col-lg-8">
@@ -512,7 +512,7 @@ Hero Area 3
                 </div>
                 <div class="swiper-slide">
                     <div class="hero-inner">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_1_1.jpg"></div>
+                        <div class="th-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_1_1.jpg') }}"></div>
                         <div class="container th-container4">
                             <div class="row align-items-center">
                                 <div class="col-lg-8">
@@ -542,7 +542,7 @@ Hero Area 3
                 </div>
                 <div class="swiper-slide">
                     <div class="hero-inner">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-3-1.png"></div>
+                        <div class="th-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero-3-1.png') }}"></div>
                         <div class="container th-container4">
                             <div class="row align-items-center">
                                 <div class="col-lg-8">
@@ -589,7 +589,7 @@ Hero Area 3
                 <div class="short-services-items">
                     <div class="short-services-item">
                         <div class="icon">
-                            <img src="assets/img/icon/counter-icon1-1.svg" alt="Stadum">
+                            <img src="{{ asset('assets/img/icon/counter-icon1-1.svg') }}" alt="Stadum">
                         </div>
                         <div class="short-services-text">
                             <h3 class="box-title"><span class="counter-number">2300</span> + </h3>
@@ -598,7 +598,7 @@ Hero Area 3
                     </div>
                     <div class="short-services-item">
                         <div class="icon">
-                            <img src="assets/img/icon/counter-icon1-4.svg" alt="Stadum">
+                            <img src="{{ asset('assets/img/icon/counter-icon1-4.svg') }}" alt="Stadum">
                         </div>
                         <div class="short-services-text">
                             <h3 class="box-title">Expert Instructors</h3>
@@ -607,7 +607,7 @@ Hero Area 3
                     </div>
                     <div class="short-services-item">
                         <div class="icon">
-                            <img src="assets/img/icon/counter-icon1-2.svg" alt="Stadum">
+                            <img src="{{ asset('assets/img/icon/counter-icon1-2.svg') }}" alt="Stadum">
                         </div>
                         <div class="short-services-text">
                             <h3 class="box-title">Lifetime Access</h3>
@@ -621,16 +621,16 @@ Hero Area 3
 About Area  3
 ==============================-->
     <div class="overflow-hidden about-area-3 space position-relative" id="about-sec">
-        <div class="about-shape shape-mockup jump" data-bottom="0%" data-left="2%"><img src="assets/img/shape/about-3-1.png" alt="Stadum"></div>
+        <div class="about-shape shape-mockup jump" data-bottom="0%" data-left="2%"><img src="{{ asset('assets/img/shape/about-3-1.png') }}" alt="Stadum"></div>
         <div class="container th-container3">
             <div class="row gy-4 gx-65">
                 <div class="col-xxl-6 col-xl-5 col-md-12">
                     <div class="img-box5">
                         <div class="img1 reveal">
-                            <img src="assets/img/about/about-thumb3-1.jpg" alt="Stadum">
+                            <img src="{{ asset('assets/img/about/about-thumb3-1.jpg') }}" alt="Stadum">
                         </div>
                         <div class="img2 reveal">
-                            <img src="assets/img/about/about-thumb3-2.jpg" alt="Stadum">
+                            <img src="{{ asset('assets/img/about/about-thumb3-2.jpg') }}" alt="Stadum">
                         </div>
                         <div class="counter-card3 wow fadeInUp" data-wow-delay=".3s">
                             <h3 class="box-number text-white">
@@ -681,7 +681,7 @@ About Area  3
 Cat Area Home 3
 ==============================-->
     <section class="cat-area-1 position-relative overflow-hidden space">
-        <div class="shape-mockup" data-top="0%" data-left="0%"><img src="assets/img/shape/feature-shep-home-1.png" alt="Stadum"></div>
+        <div class="shape-mockup" data-top="0%" data-left="0%"><img src="{{ asset('assets/img/shape/feature-shep-home-1.png') }}" alt="Stadum"></div>
         <div class="container th-container3">
             <div class="row justify-content-center text-center">
                 <div class="col-xl-8 col-md-8">
@@ -699,7 +699,7 @@ Cta Area
                 <div class="">
                     <div class="cat-card wow fadeInUp" data-wow-delay=".1s">
                         <div class="box-icon">
-                            <img src="assets/img/icon/cat-3-1.png" alt="Stadum">
+                            <img src="{{ asset('assets/img/icon/cat-3-1.png') }}" alt="Stadum">
                         </div>
                         <div class="card-content">
                             <h3 class="box-title"><a href="#">Science & Technology</a></h3>
@@ -710,7 +710,7 @@ Cta Area
                 <div class="">
                     <div class="cat-card wow fadeInUp" data-wow-delay=".2s">
                         <div class="box-icon">
-                            <img src="assets/img/icon/cat-3-2.png" alt="Stadum">
+                            <img src="{{ asset('assets/img/icon/cat-3-2.png') }}" alt="Stadum">
                         </div>
                         <div class="card-content">
                             <h3 class="box-title"><a href="#">Design & Arts</a></h3>
@@ -721,7 +721,7 @@ Cta Area
                 <div class="">
                     <div class="cat-card wow fadeInUp" data-wow-delay=".3s">
                         <div class="box-icon">
-                            <img src="assets/img/icon/cat-3-3.png" alt="Stadum">
+                            <img src="{{ asset('assets/img/icon/cat-3-3.png') }}" alt="Stadum">
                         </div>
                         <div class="card-content">
                             <h3 class="box-title"><a href="#">Web Development</a></h3>
@@ -732,7 +732,7 @@ Cta Area
                 <div class="">
                     <div class="cat-card wow fadeInUp" data-wow-delay=".4s">
                         <div class="box-icon">
-                            <img src="assets/img/icon/cat-3-4.png" alt="Stadum">
+                            <img src="{{ asset('assets/img/icon/cat-3-4.png') }}" alt="Stadum">
                         </div>
                         <div class="card-content">
                             <h3 class="box-title"><a href="#">Data Science</a></h3>
@@ -743,7 +743,7 @@ Cta Area
                 <div class="">
                     <div class="cat-card wow fadeInUp" data-wow-delay=".5s">
                         <div class="box-icon">
-                            <img src="assets/img/icon/cat-3-1.png" alt="Stadum">
+                            <img src="{{ asset('assets/img/icon/cat-3-1.png') }}" alt="Stadum">
                         </div>
                         <div class="card-content">
                             <h3 class="box-title"><a href="#">Video & Photography</a></h3>
@@ -754,7 +754,7 @@ Cta Area
                 <div class="">
                     <div class="cat-card wow fadeInUp" data-wow-delay=".6s">
                         <div class="box-icon">
-                            <img src="assets/img/icon/cat-3-1.png" alt="Stadum">
+                            <img src="{{ asset('assets/img/icon/cat-3-1.png') }}" alt="Stadum">
                         </div>
                         <div class="card-content">
                             <h3 class="box-title"><a href="#">Artificial Intelligence</a></h3>
@@ -765,7 +765,7 @@ Cta Area
                 <div class="">
                     <div class="cat-card wow fadeInUp" data-wow-delay=".7s">
                         <div class="box-icon">
-                            <img src="assets/img/icon/cat-3-1.png" alt="Stadum">
+                            <img src="{{ asset('assets/img/icon/cat-3-1.png') }}" alt="Stadum">
                         </div>
                         <div class="card-content">
                             <h3 class="box-title"><a href="#">Ideology</a></h3>
@@ -776,7 +776,7 @@ Cta Area
                 <div class="">
                     <div class="cat-card wow fadeInUp" data-wow-delay=".8s">
                         <div class="box-icon">
-                            <img src="assets/img/icon/cat-3-5.png" alt="Stadum">
+                            <img src="{{ asset('assets/img/icon/cat-3-5.png') }}" alt="Stadum">
                         </div>
                         <div class="card-content">
                             <h3 class="box-title"><a href="#">Mathematics</a></h3>
@@ -789,8 +789,8 @@ Cta Area
                 <a class="th-btn style-border2" href="#">Browse All Categories</a>
             </div>
         </div>
-        <div class="cat-shape shape-mockup jump" data-bottom="15%" data-left="10%"><img src="assets/img/shape/cat-3-1.png" alt="Stadum"></div>
-        <div class="shape-mockup" data-bottom="0%" data-right="0%"><img src="assets/img/shape/feature-shep-2-home-1.png" alt="Stadum"></div>
+        <div class="cat-shape shape-mockup jump" data-bottom="15%" data-left="10%"><img src="{{ asset('assets/img/shape/cat-3-1.png') }}" alt="Stadum"></div>
+        <div class="shape-mockup" data-bottom="0%" data-right="0%"><img src="{{ asset('assets/img/shape/feature-shep-2-home-1.png') }}" alt="Stadum"></div>
     </section>
     <section class="popular-course-area-1 space">
         <div class="container th-container4">
@@ -830,7 +830,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-1.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-1.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -843,13 +843,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-1.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-1.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Michel John</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -863,7 +863,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-2.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-2.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -876,13 +876,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-2.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-2.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Albert James</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -896,7 +896,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-3.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-3.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -909,13 +909,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-3.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-3.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Rebeka Smith</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -929,7 +929,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-4.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-4.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -942,13 +942,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-4.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-4.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Jenny Wilson</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -962,7 +962,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-5.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-5.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -975,13 +975,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-5.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-5.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Leslie Alexander</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -995,7 +995,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-6.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-6.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1008,13 +1008,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-6.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-6.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Maliha Doe</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1034,7 +1034,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-1.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-1.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1047,13 +1047,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-1.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-1.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Michel John</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1067,7 +1067,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-2.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-2.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1080,13 +1080,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-2.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-2.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Albert James</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1100,7 +1100,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-3.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-3.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1113,13 +1113,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-3.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-3.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Rebeka Smith</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1133,7 +1133,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-4.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-4.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1146,13 +1146,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-4.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-4.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Jenny Wilson</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1166,7 +1166,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-5.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-5.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1179,13 +1179,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-5.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-5.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Leslie Alexander</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1199,7 +1199,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-6.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-6.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1212,13 +1212,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-6.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-6.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Maliha Doe</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1238,7 +1238,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-1.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-1.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1251,13 +1251,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-1.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-1.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Michel John</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1271,7 +1271,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-2.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-2.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1284,13 +1284,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-2.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-2.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Albert James</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1304,7 +1304,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-3.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-3.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1317,13 +1317,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-3.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-3.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Rebeka Smith</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1337,7 +1337,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-4.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-4.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1350,13 +1350,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-4.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-4.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Jenny Wilson</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1370,7 +1370,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-5.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-5.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1383,13 +1383,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-5.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-5.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Leslie Alexander</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1403,7 +1403,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-6.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-6.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1416,13 +1416,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-6.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-6.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Maliha Doe</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1442,7 +1442,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-1.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-1.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1455,13 +1455,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-1.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-1.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Michel John</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1475,7 +1475,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-2.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-2.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1488,13 +1488,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-2.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-2.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Albert James</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1508,7 +1508,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-3.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-3.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1521,13 +1521,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-3.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-3.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Rebeka Smith</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1541,7 +1541,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-4.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-4.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1554,13 +1554,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-4.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-4.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Jenny Wilson</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1574,7 +1574,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-5.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-5.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1587,13 +1587,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-5.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-5.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Leslie Alexander</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1607,7 +1607,7 @@ Cta Area
                             <div class="col-xxl-4 col-lg-6 col-md-12">
                                 <div class="course-card">
                                     <div class="course-img-thumb global-img">
-                                        <img src="assets/img/popular-course/course-thumb-3-6.jpg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/popular-course/course-thumb-3-6.jpg') }}" alt="Stadum">
                                         <a href="#" class="wishlist-icon"><i class="fa-solid fa-heart"></i></a>
                                     </div>
                                     <div class="card-content">
@@ -1620,13 +1620,13 @@ Cta Area
                                             <p class="rating-text">4.9 (10k)</p>
                                         </div>
                                         <div class="blog-meta course-meta">
-                                            <a href="#"><img src="assets/img/icon/open-book-small.svg" alt="Stadum"> 12 Semesters</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/open-book-small.svg') }}" alt="Stadum"> 12 Semesters</a>
                                             <a href="#"><i class="fa-solid fa-calendar-days"></i> 4 Years</a>
-                                            <a href="#"><img src="assets/img/icon/book-read.svg" alt="Stadum">250 Seats</a>
+                                            <a href="#"><img src="{{ asset('assets/img/icon/book-read.svg') }}" alt="Stadum">250 Seats</a>
                                         </div>
                                         <div class="card-content-bottom">
                                             <div class="author">
-                                                <img src="assets/img/popular-course/course-mentor-3-6.jpg" alt="Stadum">
+                                                <img src="{{ asset('assets/img/popular-course/course-mentor-3-6.jpg') }}" alt="Stadum">
                                                 <p><a href="{{ route('program.index') }}">Maliha Doe</a></p>
                                             </div>
                                             <div class="btn-wrap">
@@ -1644,10 +1644,10 @@ Cta Area
                 <a class="th-btn th-icon" href="#">Browse All Categories</a>
             </div>
         </div>
-        <div class="popular-area-shape shape-mockup jump d-none d-xl-block" data-bottom="0%" data-left="2%"><img src="assets/img/shape/popular-3-1.png" alt="stadum"></div>
+        <div class="popular-area-shape shape-mockup jump d-none d-xl-block" data-bottom="0%" data-left="2%"><img src="{{ asset('assets/img/shape/popular-3-1.png') }}" alt="stadum"></div>
     </section>
     <section class="why-area-3 overflow-hidden position-relative ">
-        <div class="shape-mockup z-index-3 jump d-none d-xxl-block" data-left="40%" data-top="14%"><img src="assets/img/shape/cat-3-1.png" alt="Stadum"></div>
+        <div class="shape-mockup z-index-3 jump d-none d-xxl-block" data-left="40%" data-top="14%"><img src="{{ asset('assets/img/shape/cat-3-1.png') }}" alt="Stadum"></div>
         <div class="container th-container4">
             <div class="row align-items-center">
                 <div class="col-lg-5">
@@ -1679,7 +1679,7 @@ Cta Area
                 </div>
                 <div class="col-lg-7">
                     <div class="why-video-bg overflow-hidden gsap-parallax">
-                        <img src="assets/img/why/why-video3-1.jpg" alt="image">
+                        <img src="{{ asset('assets/img/why/why-video3-1.jpg') }}" alt="image">
                         <div class="why-video-btn">
                             <a href="https://www.youtube.com/watch?v=EZfLOSQ8hW8" class="video-play-btn popup-video">
                                 <i class="fa-sharp fa-solid fa-play"></i>
@@ -1689,16 +1689,16 @@ Cta Area
                 </div>
             </div>
         </div>
-        <div class="why-shape-2 shape-mockup movingX d-none d-xxl-block" data-left="30%" data-bottom="16%"><img src="assets/img/shape/why-3-1.png" alt="Stadum"></div>
+        <div class="why-shape-2 shape-mockup movingX d-none d-xxl-block" data-left="30%" data-bottom="16%"><img src="{{ asset('assets/img/shape/why-3-1.png') }}" alt="Stadum"></div>
     </section> <!--==============================
 Testimonial Area  
 ==============================-->
     <section class="overflow-hidden testi-area3 space">
         <div class="shape-mockup testi-bg-shape3-1 jump-reverse d-xl-block d-none" data-right="10%" data-top="8%">
-            <img src="assets/img/shape/shape8.png" alt="img">
+            <img src="{{ asset('assets/img/shape/shape8.png') }}" alt="img">
         </div>
         <div class="shape-mockup testi-bg-shape3-1 spin d-xl-block d-none" data-left="4%" data-top="25%">
-            <img src="assets/img/shape/instr-3-1.png" alt="img">
+            <img src="{{ asset('assets/img/shape/instr-3-1.png') }}" alt="img">
         </div>
         <div class="container th-container4 overflow-hidden">
             <div class="row justify-content-center align-items-center">
@@ -1716,7 +1716,7 @@ Testimonial Area
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="testi-card2">
-                                        <div class="box-quote"><img src="assets/img/icon/quote2.svg" alt=""></div>
+                                        <div class="box-quote"><img src="{{ asset('assets/img/icon/quote2.svg') }}" alt=""></div>
                                         <p class="box-text">At Stadum University, we prepare you to launch your career by providing a supportive, creative, and professional environment from which to learn practical skills and build a network of industry contacts. Ducamb welcomed every pain avoided but in certa mstances owing to the claims of igation that off bu will frequently occuthe</p>
                                         <div class="box-review">
                                             <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
@@ -1727,7 +1727,7 @@ Testimonial Area
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testi-card2">
-                                        <div class="box-quote"><img src="assets/img/icon/quote2.svg" alt=""></div>
+                                        <div class="box-quote"><img src="{{ asset('assets/img/icon/quote2.svg') }}" alt=""></div>
                                         <p class="box-text">At Stadum University, we prepare you to launch your career by providing a supportive, creative, and professional environment from which to learn practical skills and build a network of industry contacts. Ducamb welcomed every pain avoided but in certa mstances owing to the claims of igation that off bu will frequently occuthe</p>
                                         <div class="box-review">
                                             <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
@@ -1738,7 +1738,7 @@ Testimonial Area
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testi-card2">
-                                        <div class="box-quote"><img src="assets/img/icon/quote2.svg" alt=""></div>
+                                        <div class="box-quote"><img src="{{ asset('assets/img/icon/quote2.svg') }}" alt=""></div>
                                         <p class="box-text">At Stadum University, we prepare you to launch your career by providing a supportive, creative, and professional environment from which to learn practical skills and build a network of industry contacts. Ducamb welcomed every pain avoided but in certa mstances owing to the claims of igation that off bu will frequently occuthe</p>
                                         <div class="box-review">
                                             <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
@@ -1760,17 +1760,17 @@ Testimonial Area
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="testi-card2-img">
-                                        <img class="testi-img" src="assets/img/testimonial/testimonial_1_1.jpg" alt="img">
+                                        <img class="testi-img" src="{{ asset('assets/img/testimonial/testimonial_1_1.jpg') }}" alt="img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testi-card2-img">
-                                        <img class="testi-img" src="assets/img/testimonial/testimonial_1_2.jpg" alt="img">
+                                        <img class="testi-img" src="{{ asset('assets/img/testimonial/testimonial_1_2.jpg') }}" alt="img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testi-card2-img">
-                                        <img class="testi-img" src="assets/img/testimonial/testimonial_1_3.jpg" alt="img">
+                                        <img class="testi-img" src="{{ asset('assets/img/testimonial/testimonial_1_3.jpg') }}" alt="img">
                                     </div>
                                 </div>
                             </div>
@@ -1783,7 +1783,7 @@ Testimonial Area
 Team Area  
 ==============================-->
     <section class="team-area space" id="instr-sec">
-        <div class="instr-shape1 shape-mockup movingX d-none d-xl-block" data-right="14%" data-top="8%"><img src="assets/img/shape/cat-3-1.png" alt="Stadum"></div>
+        <div class="instr-shape1 shape-mockup movingX d-none d-xl-block" data-right="14%" data-top="8%"><img src="{{ asset('assets/img/shape/cat-3-1.png') }}" alt="Stadum"></div>
         <div class="container th-container4">
             <div class="row justify-content-between">
                 <div class="col-xxl-4 col-xl-9 col-lg-8 col-md-10">
@@ -1810,10 +1810,10 @@ Team Area
                         <div class="swiper-slide">
                             <div class="instr-card">
                                 <div class="instr-img">
-                                    <img src="assets/img/mentor/3-1.png" alt="Stadum">
+                                    <img src="{{ asset('assets/img/mentor/3-1.png') }}" alt="Stadum">
                                 </div>
                                 <div class="box-content">
-                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
+                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="{{ asset('assets/img/icon/right-icon-black.svg') }}" alt="Stadum" class="th-arrow"></a>
                                     <div class="media-body">
                                         <h3 class="box-title"><a href="{{ route('teacher.index') }}">Kristin Watson</a></h3>
                                         <span class="instr-desig">Teacher of Development</span>
@@ -1832,10 +1832,10 @@ Team Area
                         <div class="swiper-slide">
                             <div class="instr-card">
                                 <div class="instr-img">
-                                    <img src="assets/img/mentor/3-2.png" alt="Stadum">
+                                    <img src="{{ asset('assets/img/mentor/3-2.png') }}" alt="Stadum">
                                 </div>
                                 <div class="box-content">
-                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
+                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="{{ asset('assets/img/icon/right-icon-black.svg') }}" alt="Stadum" class="th-arrow"></a>
                                     <div class="media-body">
                                         <h3 class="box-title"><a href="{{ route('teacher.index') }}">Ralph Edwards</a></h3>
                                         <span class="instr-desig">Teacher of Development</span>
@@ -1854,10 +1854,10 @@ Team Area
                         <div class="swiper-slide">
                             <div class="instr-card">
                                 <div class="instr-img">
-                                    <img src="assets/img/mentor/3-3.png" alt="Stadum">
+                                    <img src="{{ asset('assets/img/mentor/3-3.png') }}" alt="Stadum">
                                 </div>
                                 <div class="box-content">
-                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
+                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="{{ asset('assets/img/icon/right-icon-black.svg') }}" alt="Stadum" class="th-arrow"></a>
                                     <div class="media-body">
                                         <h3 class="box-title"><a href="{{ route('teacher.index') }}">Jerome Bell</a></h3>
                                         <span class="instr-desig">Teacher of Development</span>
@@ -1876,10 +1876,10 @@ Team Area
                         <div class="swiper-slide">
                             <div class="instr-card">
                                 <div class="instr-img">
-                                    <img src="assets/img/mentor/3-4.png" alt="Stadum">
+                                    <img src="{{ asset('assets/img/mentor/3-4.png') }}" alt="Stadum">
                                 </div>
                                 <div class="box-content">
-                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
+                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="{{ asset('assets/img/icon/right-icon-black.svg') }}" alt="Stadum" class="th-arrow"></a>
                                     <div class="media-body">
                                         <h3 class="box-title"><a href="{{ route('teacher.index') }}">Leslie Alexander</a></h3>
                                         <span class="instr-desig">Teacher of Development</span>
@@ -1898,10 +1898,10 @@ Team Area
                         <div class="swiper-slide">
                             <div class="instr-card">
                                 <div class="instr-img">
-                                    <img src="assets/img/mentor/3-5.png" alt="Stadum">
+                                    <img src="{{ asset('assets/img/mentor/3-5.png') }}" alt="Stadum">
                                 </div>
                                 <div class="box-content">
-                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
+                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="{{ asset('assets/img/icon/right-icon-black.svg') }}" alt="Stadum" class="th-arrow"></a>
                                     <div class="media-body">
                                         <h3 class="box-title"><a href="{{ route('teacher.index') }}">Priya Ray</a></h3>
                                         <span class="instr-desig">Teacher of Development</span>
@@ -1920,10 +1920,10 @@ Team Area
                         <div class="swiper-slide">
                             <div class="instr-card">
                                 <div class="instr-img">
-                                    <img src="assets/img/mentor/3-6.png" alt="Stadum">
+                                    <img src="{{ asset('assets/img/mentor/3-6.png') }}" alt="Stadum">
                                 </div>
                                 <div class="box-content">
-                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
+                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="{{ asset('assets/img/icon/right-icon-black.svg') }}" alt="Stadum" class="th-arrow"></a>
                                     <div class="media-body">
                                         <h3 class="box-title"><a href="{{ route('teacher.index') }}">Ralph Edwards</a></h3>
                                         <span class="instr-desig">Teacher of Development</span>
@@ -1942,10 +1942,10 @@ Team Area
                         <div class="swiper-slide">
                             <div class="instr-card">
                                 <div class="instr-img">
-                                    <img src="assets/img/mentor/3-7.png" alt="Stadum">
+                                    <img src="{{ asset('assets/img/mentor/3-7.png') }}" alt="Stadum">
                                 </div>
                                 <div class="box-content">
-                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
+                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="{{ asset('assets/img/icon/right-icon-black.svg') }}" alt="Stadum" class="th-arrow"></a>
                                     <div class="media-body">
                                         <h3 class="box-title"><a href="{{ route('teacher.index') }}">Jerome Bell</a></h3>
                                         <span class="instr-desig">Teacher of Development</span>
@@ -1964,10 +1964,10 @@ Team Area
                         <div class="swiper-slide">
                             <div class="instr-card">
                                 <div class="instr-img">
-                                    <img src="assets/img/mentor/3-8.png" alt="Stadum">
+                                    <img src="{{ asset('assets/img/mentor/3-8.png') }}" alt="Stadum">
                                 </div>
                                 <div class="box-content">
-                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="assets/img/icon/right-icon-black.svg" alt="Stadum" class="th-arrow"></a>
+                                    <a href="{{ route('teacher.index') }}" class="card-icon"><img src="{{ asset('assets/img/icon/right-icon-black.svg') }}" alt="Stadum" class="th-arrow"></a>
                                     <div class="media-body">
                                         <h3 class="box-title"><a href="{{ route('teacher.index') }}">Alisa Smith</a></h3>
                                         <span class="instr-desig">Teacher of Development</span>
@@ -1987,7 +1987,7 @@ Team Area
                 </div>
             </div>
         </div>
-        <span class="instr-shape2 shape-mockup spin d-none d-xl-block" data-right="4%" data-bottom="6%"><img src="assets/img/shape/instr-3-1.png" alt="Stadum"></span>
+        <span class="instr-shape2 shape-mockup spin d-none d-xl-block" data-right="4%" data-bottom="6%"><img src="{{ asset('assets/img/shape/instr-3-1.png') }}" alt="Stadum"></span>
     </section><!--==============================
 Team Area  
 ==============================-->
@@ -2012,7 +2012,7 @@ Team Area
                         <div class="">
                             <div class="partners-card">
                                 <a href="#" class="position-absolute">
-                                    <img src="assets/img/partners/3-1.svg" alt="Stadum">
+                                    <img src="{{ asset('assets/img/partners/3-1.svg') }}" alt="Stadum">
                                 </a>
                             </div>
                         </div>
@@ -2020,7 +2020,7 @@ Team Area
                         <div class="">
                             <div class="partners-card">
                                 <a href="#" class="position-absolute">
-                                    <img src="assets/img/partners/3-2.svg" alt="Stadum">
+                                    <img src="{{ asset('assets/img/partners/3-2.svg') }}" alt="Stadum">
                                 </a>
                             </div>
                         </div>
@@ -2028,7 +2028,7 @@ Team Area
                         <div class="">
                             <div class="partners-card">
                                 <a href="#" class="position-absolute">
-                                    <img src="assets/img/partners/3-3.svg" alt="Stadum">
+                                    <img src="{{ asset('assets/img/partners/3-3.svg') }}" alt="Stadum">
                                 </a>
                             </div>
                         </div>
@@ -2036,7 +2036,7 @@ Team Area
                         <div class="">
                             <div class="partners-card">
                                 <a href="#" class="position-absolute">
-                                    <img src="assets/img/partners/3-4.svg" alt="Stadum">
+                                    <img src="{{ asset('assets/img/partners/3-4.svg') }}" alt="Stadum">
                                 </a>
                             </div>
                         </div>
@@ -2044,7 +2044,7 @@ Team Area
                         <div class="">
                             <div class="partners-card">
                                 <a href="#" class="position-absolute">
-                                    <img src="assets/img/partners/3-5.svg" alt="Stadum">
+                                    <img src="{{ asset('assets/img/partners/3-5.svg') }}" alt="Stadum">
                                 </a>
                             </div>
                         </div>
@@ -2052,7 +2052,7 @@ Team Area
                         <div class="">
                             <div class="partners-card">
                                 <a href="#" class="position-absolute">
-                                    <img src="assets/img/partners/3-6.svg" alt="Stadum">
+                                    <img src="{{ asset('assets/img/partners/3-6.svg') }}" alt="Stadum">
                                 </a>
                             </div>
                         </div>
@@ -2060,7 +2060,7 @@ Team Area
                         <div class="">
                             <div class="partners-card">
                                 <a href="#" class="position-absolute">
-                                    <img src="assets/img/partners/3-7.svg" alt="Stadum">
+                                    <img src="{{ asset('assets/img/partners/3-7.svg') }}" alt="Stadum">
                                 </a>
                             </div>
                         </div>
@@ -2068,7 +2068,7 @@ Team Area
                         <div class="">
                             <div class="partners-card">
                                 <a href="#" class="position-absolute">
-                                    <img src="assets/img/partners/3-8.svg" alt="Stadum">
+                                    <img src="{{ asset('assets/img/partners/3-8.svg') }}" alt="Stadum">
                                 </a>
                             </div>
                         </div>
@@ -2077,7 +2077,7 @@ Team Area
                 </div>
             </div>
         </div>
-        <div class="partners-shape1 shape-mockup jump d-none d-xl-block" data-right="0%" data-bottom="0%"><img src="assets/img/shape/partners-3-1.png" alt="Stadum"></div>
+        <div class="partners-shape1 shape-mockup jump d-none d-xl-block" data-right="0%" data-bottom="0%"><img src="{{ asset('assets/img/shape/partners-3-1.png') }}" alt="Stadum"></div>
     </section>
     <section class="community-area-2 overflow-hidden position-relative " id="community-sec">
         <div class="container th-container4">
@@ -2093,7 +2093,7 @@ Team Area
                         <div class="community-wrap2">
                             <div class="community-card2 wow fadeInUp" data-wow-delay=".2s">
                                 <div class="community-icon">
-                                    <img src="assets/img/icon/communiti-3-1.svg" alt="Stadum">
+                                    <img src="{{ asset('assets/img/icon/communiti-3-1.svg') }}" alt="Stadum">
                                 </div>
                                 <div class="card-content">
                                     <h3 class="box-title">
@@ -2105,7 +2105,7 @@ Team Area
 
                             <div class="community-card2 wow fadeInUp" data-wow-delay=".4s">
                                 <div class="community-icon">
-                                    <img src="assets/img/icon/communiti-3-2.svg" alt="Stadum">
+                                    <img src="{{ asset('assets/img/icon/communiti-3-2.svg') }}" alt="Stadum">
                                 </div>
                                 <div class="card-content">
                                     <h3 class="box-title">
@@ -2117,7 +2117,7 @@ Team Area
 
                             <div class="community-card2 wow fadeInUp" data-wow-delay=".6s">
                                 <div class="community-icon">
-                                    <img src="assets/img/icon/communiti-3-3.svg" alt="Stadum">
+                                    <img src="{{ asset('assets/img/icon/communiti-3-3.svg') }}" alt="Stadum">
                                 </div>
                                 <div class="card-content">
                                     <h3 class="box-title">
@@ -2129,7 +2129,7 @@ Team Area
 
                             <div class="community-card2 wow fadeInUp" data-wow-delay=".8s">
                                 <div class="community-icon">
-                                    <img src="assets/img/icon/communiti-3-4.svg" alt="Stadum">
+                                    <img src="{{ asset('assets/img/icon/communiti-3-4.svg') }}" alt="Stadum">
                                 </div>
                                 <div class="card-content">
                                     <h3 class="box-title">
@@ -2145,12 +2145,12 @@ Team Area
                 </div>
                 <div class="col-xl-6">
                     <div class="community-banner">
-                        <img src="assets/img/community/3-1.jpg" alt="image">
+                        <img src="{{ asset('assets/img/community/3-1.jpg') }}" alt="image">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="community-shape1 shape-mockup jump d-none d-xxl-block" data-left="0%" data-bottom="0%"><img src="assets/img/shape/communiti-3-1.png" alt="Stadum"></div>
+        <div class="community-shape1 shape-mockup jump d-none d-xxl-block" data-left="0%" data-bottom="0%"><img src="{{ asset('assets/img/shape/communiti-3-1.png') }}" alt="Stadum"></div>
     </section><!--==============================
 Mentorship Area Home 3
 ==============================-->
@@ -2168,7 +2168,7 @@ Mentorship Area Home 3
                 <div class="col-lg-6">
                     <div class="mentorship-card">
                         <div class="mentorship-img global-img">
-                            <img src="assets/img/mentorship/3-1.jpg" alt="Stadum">
+                            <img src="{{ asset('assets/img/mentorship/3-1.jpg') }}" alt="Stadum">
                         </div>
                         <div class="card-content">
                             <h3 class="box-title">
@@ -2185,7 +2185,7 @@ Mentorship Area Home 3
                 <div class="col-lg-6">
                     <div class="mentorship-card">
                         <div class="mentorship-img global-img">
-                            <img src="assets/img/mentorship/3-2.jpg" alt="Stadum">
+                            <img src="{{ asset('assets/img/mentorship/3-2.jpg') }}" alt="Stadum">
                         </div>
                         <div class="card-content">
                             <h3 class="box-title">
@@ -2206,32 +2206,32 @@ Mentorship Area Home 3
         <div class="container th-container4">
             <div class="banner-wrap1">
                 <div class="banner-left-img">
-                    <img src="assets/img/banner/3-2.png" alt="stadum">
+                    <img src="{{ asset('assets/img/banner/3-2.png') }}" alt="stadum">
                 </div>
                 <div class="banner-content">
                     <h2 class="box-title">Let’s Find The Right Course For You!</h2>
                     <div class="btn-wrap mt-50">
                         <a href="#">
-                            <img src="assets/img/theme-img/home-3-banner-download-1.svg" alt="Stadum">
+                            <img src="{{ asset('assets/img/theme-img/home-3-banner-download-1.svg') }}" alt="Stadum">
                         </a>
                         <a href="#">
-                            <img src="assets/img/theme-img/home-3-banner-download-2.svg" alt="Stadum">
+                            <img src="{{ asset('assets/img/theme-img/home-3-banner-download-2.svg') }}" alt="Stadum">
                         </a>
                     </div>
                 </div>
                 <div class="banner-right-img">
-                    <img src="assets/img/banner/3-3.png" alt="Stadum">
+                    <img src="{{ asset('assets/img/banner/3-3.png') }}" alt="Stadum">
                 </div>
             </div>
         </div>
-        <div class="shape-mockup d-none d-xl-block" data-bottom="0%" data-left="0%"><img src="assets/img/banner/3-1.png" alt="stadum"></div>
-        <div class="shape-mockup" data-bottom="0%" data-right="3%"><img src="assets/img/shape/banner-3-1.png" alt="stadum">
+        <div class="shape-mockup d-none d-xl-block" data-bottom="0%" data-left="0%"><img src="{{ asset('assets/img/banner/3-1.png') }}" alt="stadum"></div>
+        <div class="shape-mockup" data-bottom="0%" data-right="3%"><img src="{{ asset('assets/img/shape/banner-3-1.png') }}" alt="stadum">
         </div>
     </section> <!--==============================
 Blog Area 3
 ==============================-->
     <section class="blog-arae-3 overflow-hidden space" id="blog-sec">
-        <div class="blog-shape1 shape-mockup jump" data-top="30%" data-left="2%"><img src="assets/img/shape/instr-3-1.png" alt="Stadum"></div>
+        <div class="blog-shape1 shape-mockup jump" data-top="30%" data-left="2%"><img src="{{ asset('assets/img/shape/instr-3-1.png') }}" alt="Stadum"></div>
         <div class="container th-container4">
             <div class="row justify-content-lg-between justify-content-center align-items-center">
                 <div class="col-lg-8 col-12">
@@ -2256,7 +2256,7 @@ Blog Area 3
                                 <div class="blog-img2 position-relative">
                                     <a href="{{ route('blog.details') }}">
                                         <div class="blog-img-box2 position-relative">
-                                            <img src="assets/img/blog/blog_3_1.jpg" alt="blog image">
+                                            <img src="{{ asset('assets/img/blog/blog_3_1.jpg') }}" alt="blog image">
                                         </div>
                                     </a>
                                     <div class="blog-date">
@@ -2267,7 +2267,7 @@ Blog Area 3
                                 <div class="blog-content">
                                     <div class="blog-meta">
                                         <a class="author" href="{{ route('blog.index') }}">
-                                            <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>
+                                            <span class="author-icon"><img src="{{ asset('assets/img/blog/author.png') }}" alt="img"></span>
                                             By themeholy
                                         </a>
                                         <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
@@ -2286,7 +2286,7 @@ Blog Area 3
                                 <div class="blog-img2 position-relative">
                                     <a href="{{ route('blog.details') }}">
                                         <div class="blog-img-box2 position-relative">
-                                            <img src="assets/img/blog/blog_3_2.jpg" alt="blog image">
+                                            <img src="{{ asset('assets/img/blog/blog_3_2.jpg') }}" alt="blog image">
                                         </div>
                                     </a>
                                     <div class="blog-date">
@@ -2297,7 +2297,7 @@ Blog Area 3
                                 <div class="blog-content">
                                     <div class="blog-meta">
                                         <a class="author" href="{{ route('blog.index') }}">
-                                            <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>
+                                            <span class="author-icon"><img src="{{ asset('assets/img/blog/author.png') }}" alt="img"></span>
                                             By themeholy
                                         </a>
                                         <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
@@ -2316,7 +2316,7 @@ Blog Area 3
                                 <div class="blog-img2 position-relative">
                                     <a href="{{ route('blog.details') }}">
                                         <div class="blog-img-box2 position-relative">
-                                            <img src="assets/img/blog/blog_3_3.jpg" alt="blog image">
+                                            <img src="{{ asset('assets/img/blog/blog_3_3.jpg') }}" alt="blog image">
                                         </div>
                                     </a>
                                     <div class="blog-date">
@@ -2327,7 +2327,7 @@ Blog Area 3
                                 <div class="blog-content">
                                     <div class="blog-meta">
                                         <a class="author" href="{{ route('blog.index') }}">
-                                            <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>
+                                            <span class="author-icon"><img src="{{ asset('assets/img/blog/author.png') }}" alt="img"></span>
                                             By themeholy
                                         </a>
                                         <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
@@ -2346,7 +2346,7 @@ Blog Area 3
                                 <div class="blog-img2 position-relative">
                                     <a href="{{ route('blog.details') }}">
                                         <div class="blog-img-box2 position-relative">
-                                            <img src="assets/img/blog/blog_3_1.jpg" alt="blog image">
+                                            <img src="{{ asset('assets/img/blog/blog_3_1.jpg') }}" alt="blog image">
                                         </div>
                                     </a>
                                     <div class="blog-date">
@@ -2357,7 +2357,7 @@ Blog Area 3
                                 <div class="blog-content">
                                     <div class="blog-meta">
                                         <a class="author" href="{{ route('blog.index') }}">
-                                            <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>
+                                            <span class="author-icon"><img src="{{ asset('assets/img/blog/author.png') }}" alt="img"></span>
                                             By themeholy
                                         </a>
                                         <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
@@ -2376,7 +2376,7 @@ Blog Area 3
                                 <div class="blog-img2 position-relative">
                                     <a href="{{ route('blog.details') }}">
                                         <div class="blog-img-box2 position-relative">
-                                            <img src="assets/img/blog/blog_3_2.jpg" alt="blog image">
+                                            <img src="{{ asset('assets/img/blog/blog_3_2.jpg') }}" alt="blog image">
                                         </div>
                                     </a>
                                     <div class="blog-date">
@@ -2387,7 +2387,7 @@ Blog Area 3
                                 <div class="blog-content">
                                     <div class="blog-meta">
                                         <a class="author" href="{{ route('blog.index') }}">
-                                            <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>
+                                            <span class="author-icon"><img src="{{ asset('assets/img/blog/author.png') }}" alt="img"></span>
                                             By themeholy
                                         </a>
                                         <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
@@ -2406,7 +2406,7 @@ Blog Area 3
                                 <div class="blog-img2 position-relative">
                                     <a href="{{ route('blog.details') }}">
                                         <div class="blog-img-box2 position-relative">
-                                            <img src="assets/img/blog/blog_3_3.jpg" alt="blog image">
+                                            <img src="{{ asset('assets/img/blog/blog_3_3.jpg') }}" alt="blog image">
                                         </div>
                                     </a>
                                     <div class="blog-date">
@@ -2417,7 +2417,7 @@ Blog Area 3
                                 <div class="blog-content">
                                     <div class="blog-meta">
                                         <a class="author" href="{{ route('blog.index') }}">
-                                            <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>
+                                            <span class="author-icon"><img src="{{ asset('assets/img/blog/author.png') }}" alt="img"></span>
                                             By themeholy
                                         </a>
                                         <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
@@ -2436,7 +2436,7 @@ Blog Area 3
                                 <div class="blog-img2 position-relative">
                                     <a href="{{ route('blog.details') }}">
                                         <div class="blog-img-box2 position-relative">
-                                            <img src="assets/img/blog/blog_3_1.jpg" alt="blog image">
+                                            <img src="{{ asset('assets/img/blog/blog_3_1.jpg') }}" alt="blog image">
                                         </div>
                                     </a>
                                     <div class="blog-date">
@@ -2447,7 +2447,7 @@ Blog Area 3
                                 <div class="blog-content">
                                     <div class="blog-meta">
                                         <a class="author" href="{{ route('blog.index') }}">
-                                            <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>
+                                            <span class="author-icon"><img src="{{ asset('assets/img/blog/author.png') }}" alt="img"></span>
                                             By themeholy
                                         </a>
                                         <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
@@ -2466,7 +2466,7 @@ Blog Area 3
                                 <div class="blog-img2 position-relative">
                                     <a href="{{ route('blog.details') }}">
                                         <div class="blog-img-box2 position-relative">
-                                            <img src="assets/img/blog/blog_3_2.jpg" alt="blog image">
+                                            <img src="{{ asset('assets/img/blog/blog_3_2.jpg') }}" alt="blog image">
                                         </div>
                                     </a>
                                     <div class="blog-date">
@@ -2477,7 +2477,7 @@ Blog Area 3
                                 <div class="blog-content">
                                     <div class="blog-meta">
                                         <a class="author" href="{{ route('blog.index') }}">
-                                            <span class="author-icon"><img src="assets/img/blog/author.png" alt="img"></span>
+                                            <span class="author-icon"><img src="{{ asset('assets/img/blog/author.png') }}" alt="img"></span>
                                             By themeholy
                                         </a>
                                         <a href="{{ route('blog.index') }}"><span class="comment-icon"><i class="fa-solid fa-comments"></i></span> 0 Comment </a>
@@ -2495,7 +2495,7 @@ Blog Area 3
                 </div>
             </div>
         </div>
-        <div class="blog-shape2 shape-mockup jump" data-right="2%" data-bottom="0%"><img src="assets/img/shape/blog-3-1.png" alt="Stadum"></div>
+        <div class="blog-shape2 shape-mockup jump" data-right="2%" data-bottom="0%"><img src="{{ asset('assets/img/shape/blog-3-1.png') }}" alt="Stadum"></div>
     </section><!--==============================
 Marquee Area  
 ==============================-->
@@ -2506,7 +2506,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">CREATION</a>
                         </div>
@@ -2514,7 +2514,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/scollarship.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">DISCOVER</a>
                         </div>
@@ -2522,7 +2522,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">INNOVATE</a>
                         </div>
@@ -2530,7 +2530,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">EDUCATION</a>
                         </div>
@@ -2538,7 +2538,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/scollarship.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">CASE STUDIES</a>
                         </div>
@@ -2546,7 +2546,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">CREATION</a>
                         </div>
@@ -2554,7 +2554,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">DISCOVER</a>
                         </div>
@@ -2562,7 +2562,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/scollarship.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">INNOVATE</a>
                         </div>
@@ -2571,7 +2571,7 @@ Marquee Area
             </div>
         </div>
     </div>
-    <footer class="footer-wrapper footer-layout3" data-bg-src="assets/img/bg/footer-bg-2.png">
+    <footer class="footer-wrapper footer-layout3" data-bg-src="{{ asset('assets/img/bg/footer-bg-2.png') }}">
         <div class="container th-container4">
             <div class="widget-area">
                 <div class="row justify-content-between">
@@ -2580,7 +2580,7 @@ Marquee Area
                             <div class="th-widget-about">
                                 <div class="about-logo">
                                     <a href="{{ route('home.university') }}">
-                                        <img src="assets/img/logo2.svg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/logo2.svg') }}" alt="Stadum">
                                     </a>
                                 </div>
                                 <p class="about-text">Since 1999, when the newly minted Stadum team embraced its mandate to breathe new life into the downtrodden neighbourhood, East Village’s transformation has been nothing short of remarkable. </p>
@@ -2632,40 +2632,40 @@ Marquee Area
                             <h3 class="widget_title">Instagram</h3>
                             <div class="instagram-feeds">
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-1.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-1.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-1.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-1.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-2.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-2.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-2.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-2.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-3.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-3.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-3.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-3.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-4.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-4.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-4.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-4.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-5.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-5.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-5.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-5.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-6.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-6.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-6.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-6.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-7.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-7.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-7.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-7.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-8.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-8.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-8.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-8.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-9.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-9.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-9.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-9.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -2784,33 +2784,33 @@ modal Area
     All Js File
 ============================== -->
     <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="{{ asset('assets/js/vendor/jquery-3.7.1.min.js') }}"></script>
     <!-- Swiper Js -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
     <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
     <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="{{ asset('assets/js/jquery-ui.min.js') }}"></script>
     <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
     <!-- Wow Js -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
 
     <!-- Gsap Animation -->
-    <script src="assets/js/gsap.min.js"></script>
+    <script src="{{ asset('assets/js/gsap.min.js') }}"></script>
     <!-- ScrollTrigger -->
-    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="{{ asset('assets/js/ScrollTrigger.min.js') }}"></script>
     <!-- SplitText -->
-    <script src="assets/js/SplitText.min.js"></script>
+    <script src="{{ asset('assets/js/SplitText.min.js') }}"></script>
     <!-- Lenis Js -->
-    <script src="assets/js/lenis.min.js"></script>
+    <script src="{{ asset('assets/js/lenis.min.js') }}"></script>
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 
 </body>
 

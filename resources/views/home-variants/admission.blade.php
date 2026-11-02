@@ -14,22 +14,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicons - Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/favicons/apple-icon-57x57.png') }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/img/favicons/apple-icon-60x60.png') }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/img/favicons/apple-icon-72x72.png') }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/favicons/apple-icon-76x76.png') }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/img/favicons/apple-icon-114x114.png') }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/img/favicons/apple-icon-120x120.png') }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/img/favicons/apple-icon-144x144.png') }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/img/favicons/apple-icon-152x152.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicons/apple-icon-180x180.png') }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('assets/img/favicons/android-icon-192x192.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicons/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/img/favicons/favicon-96x96.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicons/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('assets/img/favicons/manifest.json') }}">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="{{ asset('assets/img/favicons/ms-icon-144x144.png') }}">
     <meta name="theme-color" content="#ffffff">
 
     <!--==============================
@@ -43,15 +43,15 @@
 	    All CSS File
 	============================== -->
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css') }}">
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css') }}">
     <!-- Swiper Js -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 </head>
 
@@ -72,7 +72,7 @@
     <div class="preloader ">
         <button class="th-btn preloaderCls">Cancel Preloader </button>
         <div class="preloader-inner">
-            <img src="assets/img/logo-ummi.png" alt="Universitas Muhammadiyah Sukabumi">
+            <img src="{{ asset('assets/img/logo-ummi.png') }}" alt="Universitas Muhammadiyah Sukabumi">
             <span class="loader">
                 Universitas Muhammadiyah Sukabumi
                 <span class="loading-text">Universitas Muhammadiyah Sukabumi</span>
@@ -88,7 +88,7 @@
                 <div class="th-widget-about">
                     <div class="about-logo">
                         <a href="{{ route('home.university') }}">
-                            <img src="assets/img/logo2.svg" alt="Stadum">
+                            <img src="{{ asset('assets/img/logo2.svg') }}" alt="Stadum">
                         </a>
                     </div>
                     <p class="about-text">Since 1999, when the newly minted Stadum team embraced its mandate to breathe new life into the downtrodden neighbourhood, East Village’s transformation has been nothing short of remarkable. </p>
@@ -107,7 +107,7 @@
                 <div class="recent-post-wrap">
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="{{ asset('assets/img/blog/recent-post-1-1.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title">
@@ -120,7 +120,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="{{ asset('assets/img/blog/recent-post-1-2.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="{{ route('blog.details') }}">Future Focus Preparing for Tomorrow</a></h4>
@@ -131,7 +131,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="{{ asset('assets/img/blog/recent-post-1-3.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title">
@@ -169,7 +169,7 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="{{ route('home.university') }}"><img src="assets/img/logo.svg" alt="Stadum"></a>
+                <a href="{{ route('home.university') }}"><img src="{{ asset('assets/img/logo.svg') }}" alt="Stadum"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
@@ -291,7 +291,7 @@
                                 <li><i class="fas fa-comments"></i><a href="{{ route('faq') }}">FAQ</a></li>
                                 <li>
                                     <div class="dropdown-link">
-                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false"><img src="assets/img/icon/lang.svg" alt=""> </a>
+                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false"><img src="{{ asset('assets/img/icon/lang.svg') }}" alt=""> </a>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
                                             <li>
                                                 <a href="#">German</a>
@@ -318,7 +318,7 @@
                         <div class="col-auto">
                             <div class="header-logo">
                                 <a href="{{ route('home.university') }}">
-                                    <img src="assets/img/light-white-logo.svg" alt="Stadum">
+                                    <img src="{{ asset('assets/img/light-white-logo.svg') }}" alt="Stadum">
                                 </a>
                             </div>
                         </div>
@@ -334,7 +334,7 @@
                                                         <div class="col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-university.jpg" alt="Home One">
+                                                                    <img src="{{ asset('assets/img/pages/home-university.jpg') }}" alt="Home One">
                                                                     <div class="btn-wrap">
                                                                         <a href="{{ route('home.university') }}" class="th-btn">Multipage</a>
                                                                         <a href="{{ route('home.university-onepage') }}" class="th-btn">Onepage</a>
@@ -346,7 +346,7 @@
                                                         <div class="col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-admission.jpg" alt="Home Two">
+                                                                    <img src="{{ asset('assets/img/pages/home-admission.jpg') }}" alt="Home Two">
                                                                     <div class="btn-wrap">
                                                                         <a href="{{ route('home.admission') }}" class="th-btn">Multipage</a>
                                                                         <a href="{{ route('home.admission-onepage') }}" class="th-btn">Onepage</a>
@@ -358,7 +358,7 @@
                                                         <div class="col-lg-4">
                                                             <div class="mega-menu-box">
                                                                 <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-courses.jpg" alt="Home Three">
+                                                                    <img src="{{ asset('assets/img/pages/home-courses.jpg') }}" alt="Home Three">
                                                                     <div class="btn-wrap">
                                                                         <a href="{{ route('home.courses') }}" class="th-btn">Multipage</a>
                                                                         <a href="{{ route('home.courses-onepage') }}" class="th-btn">Onepage</a>
@@ -451,7 +451,7 @@
                                 <button class="header-search searchBoxToggler">
                                     <i class="fa-regular fa-magnifying-glass"></i>
                                 </button>
-                                <a href="#" class="icon-btn sideMenuToggler d-none d-xl-block"><img src="assets/img/icon/grid.svg" alt=""></a>
+                                <a href="#" class="icon-btn sideMenuToggler d-none d-xl-block"><img src="{{ asset('assets/img/icon/grid.svg') }}" alt=""></a>
                                 <div class="header-action">
                                     <a href="{{ route('contact') }}" class="th-btn th-icon"> Apply Now</a>
                                 </div>
@@ -466,7 +466,7 @@
 Hero Area
 ==============================-->
 
-    <div class="th-hero-wrapper hero-2 position-relative" id="hero" data-bg-src="assets/img/bg/hero_bg_2_1.jpg">
+    <div class="th-hero-wrapper hero-2 position-relative" id="hero" data-bg-src="{{ asset('assets/img/bg/hero_bg_2_1.jpg') }}">
         <div class="swiper th-slider hero-slider2" id="heroSlide" data-slider-options='{"effect":"fade"}'>
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -486,7 +486,7 @@ Hero Area
                             </div>
                             <div class="col-lg-3">
                                 <div class="hero-image" data-ani="slideinup" data-ani-delay="0.4s">
-                                    <img src="assets/img/hero/hero_2_1.png" alt="">
+                                    <img src="{{ asset('assets/img/hero/hero_2_1.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -510,7 +510,7 @@ Hero Area
                             </div>
                             <div class="col-lg-3">
                                 <div class="hero-image" data-ani="slideinup" data-ani-delay="0.4s">
-                                    <img src="assets/img/hero/hero_2_2.png" alt="">
+                                    <img src="{{ asset('assets/img/hero/hero_2_2.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -534,7 +534,7 @@ Hero Area
                             </div>
                             <div class="col-lg-3">
                                 <div class="hero-image" data-ani="slideinup" data-ani-delay="0.4s">
-                                    <img src="assets/img/hero/hero_2_3.png" alt="">
+                                    <img src="{{ asset('assets/img/hero/hero_2_3.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -558,7 +558,7 @@ Hero Area
                             </div>
                             <div class="col-lg-3">
                                 <div class="hero-image" data-ani="slideinup" data-ani-delay="0.4s">
-                                    <img src="assets/img/hero/hero_2_1.png" alt="">
+                                    <img src="{{ asset('assets/img/hero/hero_2_1.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -597,7 +597,7 @@ Program Area Home 2
                             <div class="program-card">
                                 <div class="program-img">
                                     <a href="{{ route('program.details') }}">
-                                        <img src="assets/img/program/program_1_1.jpg" alt="program image">
+                                        <img src="{{ asset('assets/img/program/program_1_1.jpg') }}" alt="program image">
                                     </a>
                                 </div>
                                 <div class="program-content">
@@ -615,7 +615,7 @@ Program Area Home 2
                             <div class="program-card">
                                 <div class="program-img">
                                     <a href="{{ route('program.details') }}">
-                                        <img src="assets/img/program/program_1_2.jpg" alt="program image">
+                                        <img src="{{ asset('assets/img/program/program_1_2.jpg') }}" alt="program image">
                                     </a>
                                 </div>
                                 <div class="program-content">
@@ -633,7 +633,7 @@ Program Area Home 2
                             <div class="program-card">
                                 <div class="program-img">
                                     <a href="{{ route('program.details') }}">
-                                        <img src="assets/img/program/program_1_3.jpg" alt="program image">
+                                        <img src="{{ asset('assets/img/program/program_1_3.jpg') }}" alt="program image">
                                     </a>
                                 </div>
                                 <div class="program-content">
@@ -651,7 +651,7 @@ Program Area Home 2
                             <div class="program-card">
                                 <div class="program-img">
                                     <a href="{{ route('program.details') }}">
-                                        <img src="assets/img/program/program_1_4.jpg" alt="program image">
+                                        <img src="{{ asset('assets/img/program/program_1_4.jpg') }}" alt="program image">
                                     </a>
                                 </div>
                                 <div class="program-content">
@@ -669,7 +669,7 @@ Program Area Home 2
                             <div class="program-card">
                                 <div class="program-img">
                                     <a href="{{ route('program.details') }}">
-                                        <img src="assets/img/program/program_1_1.jpg" alt="program image">
+                                        <img src="{{ asset('assets/img/program/program_1_1.jpg') }}" alt="program image">
                                     </a>
                                 </div>
                                 <div class="program-content">
@@ -687,7 +687,7 @@ Program Area Home 2
                             <div class="program-card">
                                 <div class="program-img">
                                     <a href="{{ route('program.details') }}">
-                                        <img src="assets/img/program/program_1_2.jpg" alt="program image">
+                                        <img src="{{ asset('assets/img/program/program_1_2.jpg') }}" alt="program image">
                                     </a>
                                 </div>
                                 <div class="program-content">
@@ -705,7 +705,7 @@ Program Area Home 2
                             <div class="program-card">
                                 <div class="program-img">
                                     <a href="{{ route('program.details') }}">
-                                        <img src="assets/img/program/program_1_3.jpg" alt="program image">
+                                        <img src="{{ asset('assets/img/program/program_1_3.jpg') }}" alt="program image">
                                     </a>
                                 </div>
                                 <div class="program-content">
@@ -723,7 +723,7 @@ Program Area Home 2
                             <div class="program-card">
                                 <div class="program-img">
                                     <a href="{{ route('program.details') }}">
-                                        <img src="assets/img/program/program_1_4.jpg" alt="program image">
+                                        <img src="{{ asset('assets/img/program/program_1_4.jpg') }}" alt="program image">
                                     </a>
                                 </div>
                                 <div class="program-content">
@@ -746,18 +746,18 @@ About Area
 ==============================-->
     <section class="about2-area position-relative overflow-hidden space-bottom" id="about-sec">
         <span class="about-shape1 shape-mockup movingX" data-top="35%" data-left="4%">
-            <img src="assets/img/shape/about-2-1.png" alt="Stadum About area">
+            <img src="{{ asset('assets/img/shape/about-2-1.png') }}" alt="Stadum About area">
         </span>
         <span class="about-shape2 shape-mockup movingX" data-bottom="0%" data-right="6%">
-            <img src="assets/img/shape/about-2-2.png" alt="Stadum About area">
+            <img src="{{ asset('assets/img/shape/about-2-2.png') }}" alt="Stadum About area">
         </span>
         <div class="container">
             <div class="row gy-60 align-items-center justify-content-center">
                 <div class="col-xl-6">
                     <div class="img-box2">
-                        <img src="assets/img/about/about-thumb2-1.jpg" alt="About">
-                        <img src="assets/img/about/about-thumb2-2.jpg" alt="About">
-                        <img src="assets/img/about/about-thumb2-3.jpg" alt="About">
+                        <img src="{{ asset('assets/img/about/about-thumb2-1.jpg') }}" alt="About">
+                        <img src="{{ asset('assets/img/about/about-thumb2-2.jpg') }}" alt="About">
+                        <img src="{{ asset('assets/img/about/about-thumb2-3.jpg') }}" alt="About">
                     </div>
                 </div>
                 <div class="col-xl-6">
@@ -777,7 +777,7 @@ About Area
     </section><!--==============================
 Video Area  
 ==============================-->
-    <div class="video-area-1 position-relative overflow-hidden " data-overlay="title" data-opacity="3" data-bg-src="assets/img/video-banner/video-bg-1-1.jpg">
+    <div class="video-area-1 position-relative overflow-hidden " data-overlay="title" data-opacity="3" data-bg-src="{{ asset('assets/img/video-banner/video-bg-1-1.jpg') }}">
         <div class="video-thumb1-1 video-box-center">
             <a href="https://www.youtube.com/watch?v=EZfLOSQ8hW8" class="video-play-btn popup-video">
                 <i class="fa-sharp fa-solid fa-play"></i>
@@ -808,17 +808,17 @@ Scholar Area
                 <div class="col-xl-6">
                     <div class="scholar-right">
                         <div class="scholar-imgbox ms-xl-5 wow fadeInUp" data-wow-delay=".5s">
-                            <img src="assets/img/scholarship/scholar-1-1.png" alt="image">
+                            <img src="{{ asset('assets/img/scholarship/scholar-1-1.png') }}" alt="image">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="about-shep-2 shape-mockup d-none d-xxl-block" data-top="0%" data-left="0%">
-            <img src="assets/img/shape/shape-3.png" alt="shape">
+            <img src="{{ asset('assets/img/shape/shape-3.png') }}" alt="shape">
         </div>
         <div class="about-shep-2 shape-mockup d-none d-xxl-block" data-bottom="4%" data-left="0%">
-            <img src="assets/img/shape/shape-4.png" alt="shape">
+            <img src="{{ asset('assets/img/shape/shape-4.png') }}" alt="shape">
         </div>
     </section><!--==============================
 Alumni Area  
@@ -826,34 +826,34 @@ Alumni Area
 
     <section class="alumni-area position-relative space overflow-hidden">
         <div class="alumni-shape shape-mockup jump-reverse" data-right="2%" data-top="15%">
-            <img src="assets/img/shape/alumni-2-1.png" alt="shape">
+            <img src="{{ asset('assets/img/shape/alumni-2-1.png') }}" alt="shape">
         </div>
         <div class="container">
             <div class="row align-items-center gy-40">
                 <div class="col-xl-6">
                     <div class="alumni-imgbox">
                         <div class="alumni-img global-img">
-                            <img src="assets/img/alumni/alumni-1-1.jpg" alt="img">
+                            <img src="{{ asset('assets/img/alumni/alumni-1-1.jpg') }}" alt="img">
                         </div>
 
                         <div class="alumni-img global-img">
-                            <img src="assets/img/alumni/alumni-1-2.jpg" alt="img">
+                            <img src="{{ asset('assets/img/alumni/alumni-1-2.jpg') }}" alt="img">
                         </div>
 
                         <div class="alumni-img global-img">
-                            <img src="assets/img/alumni/alumni-1-3.jpg" alt="img">
+                            <img src="{{ asset('assets/img/alumni/alumni-1-3.jpg') }}" alt="img">
                         </div>
 
                         <div class="alumni-img global-img">
-                            <img src="assets/img/alumni/alumni-1-4.jpg" alt="img">
+                            <img src="{{ asset('assets/img/alumni/alumni-1-4.jpg') }}" alt="img">
                         </div>
 
                         <div class="alumni-img global-img">
-                            <img src="assets/img/alumni/alumni-1-5.jpg" alt="img">
+                            <img src="{{ asset('assets/img/alumni/alumni-1-5.jpg') }}" alt="img">
                         </div>
 
                         <div class="alumni-img global-img">
-                            <img src="assets/img/alumni/alumni-1-6.jpg" alt="img">
+                            <img src="{{ asset('assets/img/alumni/alumni-1-6.jpg') }}" alt="img">
                         </div>
 
                     </div>
@@ -897,7 +897,7 @@ Alumni Area
                         <div class="swiper-slide">
                             <div class="academic-card style2">
                                 <div class="academic-img">
-                                    <img src="assets/img/academic/academic1-1.jpg" alt="img">
+                                    <img src="{{ asset('assets/img/academic/academic1-1.jpg') }}" alt="img">
                                     <div class="academic-tag">
                                         <span><i class="fa-solid fa-tags"></i> Media</span>
                                     </div>
@@ -932,7 +932,7 @@ Alumni Area
                         <div class="swiper-slide">
                             <div class="academic-card style2">
                                 <div class="academic-img">
-                                    <img src="assets/img/academic/academic1-2.jpg" alt="img">
+                                    <img src="{{ asset('assets/img/academic/academic1-2.jpg') }}" alt="img">
                                     <div class="academic-tag">
                                         <span><i class="fa-solid fa-tags"></i> Science</span>
                                     </div>
@@ -967,7 +967,7 @@ Alumni Area
                         <div class="swiper-slide">
                             <div class="academic-card style2">
                                 <div class="academic-img">
-                                    <img src="assets/img/academic/academic1-3.jpg" alt="img">
+                                    <img src="{{ asset('assets/img/academic/academic1-3.jpg') }}" alt="img">
                                     <div class="academic-tag">
                                         <span><i class="fa-solid fa-tags"></i> Public</span>
                                     </div>
@@ -1002,7 +1002,7 @@ Alumni Area
                         <div class="swiper-slide">
                             <div class="academic-card style2">
                                 <div class="academic-img">
-                                    <img src="assets/img/academic/academic1-1.jpg" alt="img">
+                                    <img src="{{ asset('assets/img/academic/academic1-1.jpg') }}" alt="img">
                                     <div class="academic-tag">
                                         <span><i class="fa-solid fa-tags"></i> Education</span>
                                     </div>
@@ -1037,7 +1037,7 @@ Alumni Area
                         <div class="swiper-slide">
                             <div class="academic-card style2">
                                 <div class="academic-img">
-                                    <img src="assets/img/academic/academic1-2.jpg" alt="img">
+                                    <img src="{{ asset('assets/img/academic/academic1-2.jpg') }}" alt="img">
                                     <div class="academic-tag">
                                         <span><i class="fa-solid fa-tags"></i> Education</span>
                                     </div>
@@ -1072,7 +1072,7 @@ Alumni Area
                         <div class="swiper-slide">
                             <div class="academic-card style2">
                                 <div class="academic-img">
-                                    <img src="assets/img/academic/academic1-3.jpg" alt="img">
+                                    <img src="{{ asset('assets/img/academic/academic1-3.jpg') }}" alt="img">
                                     <div class="academic-tag">
                                         <span><i class="fa-solid fa-tags"></i> Education</span>
                                     </div>
@@ -1108,12 +1108,12 @@ Alumni Area
             </div>
         </div>
         <div class="about-shep-2 movingX shape-mockup d-none d-xxl-block" data-bottom="1%" data-left="1%">
-            <img src="assets/img/shape/shape-5.png" alt="shape">
+            <img src="{{ asset('assets/img/shape/shape-5.png') }}" alt="shape">
         </div>
     </section>
     <section class="professor-area-1 position-relative space overflow-hidden" id="professor-sec">
         <div class="shape-mockup" data-top="0%" data-left="0%">
-            <img src="assets/img/shape/shape-6.png" alt="Stadum">
+            <img src="{{ asset('assets/img/shape/shape-6.png') }}" alt="Stadum">
         </div>
         <div class="container">
             <div class="row justify-content-lg-between justify-content-center align-items-center">
@@ -1133,7 +1133,7 @@ Alumni Area
                 <div class="col-xl-6">
                     <div class="professor-card wow fadeInLeft" data-wow-delay=".2s">
                         <div class="professor-img global-img">
-                            <img src="assets/img/professor/professor-1-1.png" alt="professor image">
+                            <img src="{{ asset('assets/img/professor/professor-1-1.png') }}" alt="professor image">
                         </div>
                         <div class="professor-content">
                             <h3 class="box-title">
@@ -1165,7 +1165,7 @@ Alumni Area
                 <div class="col-xl-6">
                     <div class="professor-card wow fadeInRight" data-wow-delay=".4s">
                         <div class="professor-img global-img">
-                            <img src="assets/img/professor/professor-1-2.png" alt="professor image">
+                            <img src="{{ asset('assets/img/professor/professor-1-2.png') }}" alt="professor image">
                         </div>
                         <div class="professor-content">
                             <h3 class="box-title">
@@ -1197,7 +1197,7 @@ Alumni Area
                 <div class="col-xl-6">
                     <div class="professor-card wow fadeInLeft" data-wow-delay=".6s">
                         <div class="professor-img global-img">
-                            <img src="assets/img/professor/professor-1-3.png" alt="professor image">
+                            <img src="{{ asset('assets/img/professor/professor-1-3.png') }}" alt="professor image">
                         </div>
                         <div class="professor-content">
                             <h3 class="box-title">
@@ -1229,7 +1229,7 @@ Alumni Area
                 <div class="col-xl-6">
                     <div class="professor-card wow fadeInRight" data-wow-delay=".8s">
                         <div class="professor-img global-img">
-                            <img src="assets/img/professor/professor-1-4.png" alt="professor image">
+                            <img src="{{ asset('assets/img/professor/professor-1-4.png') }}" alt="professor image">
                         </div>
                         <div class="professor-content">
                             <h3 class="box-title">
@@ -1261,7 +1261,7 @@ Alumni Area
             </div>
         </div>
         <div class="professor-shape1 shape-mockup movingX d-none d-xl-inline-block" data-bottom="0%" data-right="2%">
-            <img src="assets/img/shape/professor-2-1.png" alt="Stadum">
+            <img src="{{ asset('assets/img/shape/professor-2-1.png') }}" alt="Stadum">
         </div>
     </section>
     <section class="campus-area-2 position-relative overflow-hidden space" id="campus-sec">
@@ -1288,10 +1288,10 @@ Campus Area Home 2
                         <div class="swiper-slide">
                             <div class="campus-card style2">
                                 <div class="box-thumb">
-                                    <img src="assets/img/campus/campus-2-1.jpg" alt="Icon">
+                                    <img src="{{ asset('assets/img/campus/campus-2-1.jpg') }}" alt="Icon">
                                 </div>
                                 <div class="campus-content">
-                                    <a href="assets/img/campus/campus-v-2-1.jpg" class="popup-image">
+                                    <a href="{{ asset('assets/img/campus/campus-v-2-1.jpg') }}" class="popup-image">
                                         <i class="fa-light fa-plus"></i>
                                     </a>
                                 </div>
@@ -1308,10 +1308,10 @@ Campus Area Home 2
                         <div class="swiper-slide">
                             <div class="campus-card style2">
                                 <div class="box-thumb">
-                                    <img src="assets/img/campus/campus-2-2.jpg" alt="Icon">
+                                    <img src="{{ asset('assets/img/campus/campus-2-2.jpg') }}" alt="Icon">
                                 </div>
                                 <div class="campus-content">
-                                    <a href="assets/img/campus/campus-v-2-2.jpg" class="popup-image">
+                                    <a href="{{ asset('assets/img/campus/campus-v-2-2.jpg') }}" class="popup-image">
                                         <i class="fa-light fa-plus"></i>
                                     </a>
                                 </div>
@@ -1328,10 +1328,10 @@ Campus Area Home 2
                         <div class="swiper-slide">
                             <div class="campus-card style2">
                                 <div class="box-thumb">
-                                    <img src="assets/img/campus/campus-2-3.jpg" alt="Icon">
+                                    <img src="{{ asset('assets/img/campus/campus-2-3.jpg') }}" alt="Icon">
                                 </div>
                                 <div class="campus-content">
-                                    <a href="assets/img/campus/campus-v-2-3.jpg" class="popup-image">
+                                    <a href="{{ asset('assets/img/campus/campus-v-2-3.jpg') }}" class="popup-image">
                                         <i class="fa-light fa-plus"></i>
                                     </a>
                                 </div>
@@ -1348,10 +1348,10 @@ Campus Area Home 2
                         <div class="swiper-slide">
                             <div class="campus-card style2">
                                 <div class="box-thumb">
-                                    <img src="assets/img/campus/campus-2-4.jpg" alt="Icon">
+                                    <img src="{{ asset('assets/img/campus/campus-2-4.jpg') }}" alt="Icon">
                                 </div>
                                 <div class="campus-content">
-                                    <a href="assets/img/campus/campus-v-2-4.jpg" class="popup-image">
+                                    <a href="{{ asset('assets/img/campus/campus-v-2-4.jpg') }}" class="popup-image">
                                         <i class="fa-light fa-plus"></i>
                                     </a>
                                 </div>
@@ -1368,10 +1368,10 @@ Campus Area Home 2
                         <div class="swiper-slide">
                             <div class="campus-card style2">
                                 <div class="box-thumb">
-                                    <img src="assets/img/campus/campus-2-1.jpg" alt="Icon">
+                                    <img src="{{ asset('assets/img/campus/campus-2-1.jpg') }}" alt="Icon">
                                 </div>
                                 <div class="campus-content">
-                                    <a href="assets/img/campus/campus-v-2-1.jpg" class="popup-image">
+                                    <a href="{{ asset('assets/img/campus/campus-v-2-1.jpg') }}" class="popup-image">
                                         <i class="fa-light fa-plus"></i>
                                     </a>
                                 </div>
@@ -1388,10 +1388,10 @@ Campus Area Home 2
                         <div class="swiper-slide">
                             <div class="campus-card style2">
                                 <div class="box-thumb">
-                                    <img src="assets/img/campus/campus-2-2.jpg" alt="Icon">
+                                    <img src="{{ asset('assets/img/campus/campus-2-2.jpg') }}" alt="Icon">
                                 </div>
                                 <div class="campus-content">
-                                    <a href="assets/img/campus/campus-v-2-2.jpg" class="popup-image">
+                                    <a href="{{ asset('assets/img/campus/campus-v-2-2.jpg') }}" class="popup-image">
                                         <i class="fa-light fa-plus"></i>
                                     </a>
                                 </div>
@@ -1408,10 +1408,10 @@ Campus Area Home 2
                         <div class="swiper-slide">
                             <div class="campus-card style2">
                                 <div class="box-thumb">
-                                    <img src="assets/img/campus/campus-2-3.jpg" alt="Icon">
+                                    <img src="{{ asset('assets/img/campus/campus-2-3.jpg') }}" alt="Icon">
                                 </div>
                                 <div class="campus-content">
-                                    <a href="assets/img/campus/campus-v-2-3.jpg" class="popup-image">
+                                    <a href="{{ asset('assets/img/campus/campus-v-2-3.jpg') }}" class="popup-image">
                                         <i class="fa-light fa-plus"></i>
                                     </a>
                                 </div>
@@ -1428,10 +1428,10 @@ Campus Area Home 2
                         <div class="swiper-slide">
                             <div class="campus-card style2">
                                 <div class="box-thumb">
-                                    <img src="assets/img/campus/campus-2-4.jpg" alt="Icon">
+                                    <img src="{{ asset('assets/img/campus/campus-2-4.jpg') }}" alt="Icon">
                                 </div>
                                 <div class="campus-content">
-                                    <a href="assets/img/campus/campus-v-2-4.jpg" class="popup-image">
+                                    <a href="{{ asset('assets/img/campus/campus-v-2-4.jpg') }}" class="popup-image">
                                         <i class="fa-light fa-plus"></i>
                                     </a>
                                 </div>
@@ -1450,10 +1450,10 @@ Campus Area Home 2
 
                 </div>
                 <button data-slider-prev="#campusSlider1" class="slider-arrow style2 slider-prev">
-                    <img src="assets/img/icon/left-icon.svg" alt="Stadum" class="th-arrow">
+                    <img src="{{ asset('assets/img/icon/left-icon.svg') }}" alt="Stadum" class="th-arrow">
                 </button>
                 <button data-slider-next="#campusSlider1" class="slider-arrow style2 slider-next">
-                    <img src="assets/img/icon/right-icon.svg" alt="Stadum" class="th-arrow">
+                    <img src="{{ asset('assets/img/icon/right-icon.svg') }}" alt="Stadum" class="th-arrow">
                 </button>
             </div>
         </div>
@@ -1478,7 +1478,7 @@ Price Area
                         <div class="card-sill-wrap">
                         </div>
                         <div class="card-icon text-center">
-                            <img src="assets/img/icon/pricing-icon-black.svg" alt="Stadum">
+                            <img src="{{ asset('assets/img/icon/pricing-icon-black.svg') }}" alt="Stadum">
                         </div>
                         <h3 class="box-title text-center">Undergraduate Programs</h3>
                         <p class="box-subtitle text-center">Tuition Fees:</p>
@@ -1504,7 +1504,7 @@ Price Area
                             <div class="card-sill"><span class="text-uppercase">Features</span></div>
                         </div>
                         <div class="card-icon text-center">
-                            <img src="assets/img/icon/pricing-icon-white.svg" alt="Stadum">
+                            <img src="{{ asset('assets/img/icon/pricing-icon-white.svg') }}" alt="Stadum">
                         </div>
                         <h3 class="box-title text-center">Graduate Programs</h3>
                         <p class="box-subtitle text-center">Tuition Fees:</p>
@@ -1529,7 +1529,7 @@ Price Area
                         <div class="card-sill-wrap">
                         </div>
                         <div class="card-icon text-center">
-                            <img src="assets/img/icon/pricing-icon-black.svg" alt="Stadum">
+                            <img src="{{ asset('assets/img/icon/pricing-icon-black.svg') }}" alt="Stadum">
                         </div>
                         <h3 class="box-title text-center">Postgraduate Programs</h3>
                         <p class="box-subtitle text-center">Tuition Fees:</p>
@@ -1560,7 +1560,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">CREATION</a>
                         </div>
@@ -1568,7 +1568,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/scollarship.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">DISCOVER</a>
                         </div>
@@ -1576,7 +1576,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">INNOVATE</a>
                         </div>
@@ -1584,7 +1584,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">EDUCATION</a>
                         </div>
@@ -1592,7 +1592,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/scollarship.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">CASE STUDIES</a>
                         </div>
@@ -1600,7 +1600,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">CREATION</a>
                         </div>
@@ -1608,7 +1608,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">DISCOVER</a>
                         </div>
@@ -1616,7 +1616,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/scollarship.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">INNOVATE</a>
                         </div>
@@ -1626,7 +1626,7 @@ Marquee Area
         </div>
     </div>
     <section class="faq-area-2 position-relative overflow-hidden space overflow-hidden" id="faq-sec">
-        <div class="faq-shape shape-mockup jump" data-bottom="0%" data-right="2%"><img src="assets/img/shape/faq-2-1.png" alt="Stadum"></div>
+        <div class="faq-shape shape-mockup jump" data-bottom="0%" data-right="2%"><img src="{{ asset('assets/img/shape/faq-2-1.png') }}" alt="Stadum"></div>
         <div class="container">
             <div class="row justify-content-lg-between justify-content-center align-items-center">
                 <div class="col-lg-8 col-12">
@@ -1793,7 +1793,7 @@ Marquee Area
     </section>
     <div class="addmission-area overflow-hidden space-top overflow-hidden">
         <div class="addmission-bg-thumb overflow-hidden gsap-parallax">
-            <img src="assets/img/bg/admission-home-2.png" alt="Stadum">
+            <img src="{{ asset('assets/img/bg/admission-home-2.png') }}" alt="Stadum">
         </div>
         <div class="container">
             <div class="title-area text-center">
@@ -1812,7 +1812,7 @@ Marquee Area
         <div class="container">
             <div class="admission-forum-inner">
                 <div class="addmission-forum-thumb overflow-hidden">
-                    <img src="assets/img/addmission/1.png" alt="Stadum">
+                    <img src="{{ asset('assets/img/addmission/1.png') }}" alt="Stadum">
                 </div>
                 <div class="addmisson-forum">
                     <div class="row justify-content-end">
@@ -1877,7 +1877,7 @@ Contact Area
 Blog Area  
 ==============================-->
     <section class="blog-area-2 overflow-hidden blog-area-2 space" id="blog-sec">
-        <div class="blog-shape shape-mockup jump d-none d-xl-block" data-bottom="0%" data-right="2%"><img src="assets/img/shape/blog-2-1.png" alt="Stadum"></div>
+        <div class="blog-shape shape-mockup jump d-none d-xl-block" data-bottom="0%" data-right="2%"><img src="{{ asset('assets/img/shape/blog-2-1.png') }}" alt="Stadum"></div>
         <div class="container">
             <div class="row justify-content-lg-between justify-content-center align-items-center">
                 <div class="col-lg-8 col-12">
@@ -1898,7 +1898,7 @@ Blog Area
                         <div class="box-content">
                             <div class="blog-meta">
                                 <a class="author" href="{{ route('blog.index') }}">
-                                    <img src="assets/img/blog/author.png" alt="img">By Themeholy
+                                    <img src="{{ asset('assets/img/blog/author.png') }}" alt="img">By Themeholy
                                 </a>
                                 <a href="{{ route('blog.index') }}"><i class="fa-solid fa-comments"></i>0 Comment</a>
                             </div>
@@ -1908,7 +1908,7 @@ Blog Area
                             </div>
                         </div>
                         <div class="blog-img">
-                            <img src="assets/img/blog/blog_2_1.jpg" alt="blog image">
+                            <img src="{{ asset('assets/img/blog/blog_2_1.jpg') }}" alt="blog image">
                             <div class="blog-date style2">
                                 <h5 class="blog-date-title">21</h5>
                                 <p class="blog-date-text">June, 25</p>
@@ -1919,7 +1919,7 @@ Blog Area
                         <div class="box-content">
                             <div class="blog-meta">
                                 <a class="author" href="{{ route('blog.index') }}">
-                                    <img src="assets/img/blog/author.png" alt="img">By Themeholy
+                                    <img src="{{ asset('assets/img/blog/author.png') }}" alt="img">By Themeholy
                                 </a>
                                 <a href="{{ route('blog.index') }}"><i class="fa-solid fa-comments"></i>0 Comment</a>
                             </div>
@@ -1929,7 +1929,7 @@ Blog Area
                             </div>
                         </div>
                         <div class="blog-img">
-                            <img src="assets/img/blog/blog_2_2.jpg" alt="blog image">
+                            <img src="{{ asset('assets/img/blog/blog_2_2.jpg') }}" alt="blog image">
                             <div class="blog-date style2">
                                 <h5 class="blog-date-title">21</h5>
                                 <p class="blog-date-text">June, 25</p>
@@ -1941,7 +1941,7 @@ Blog Area
                 <div class="col-xl-6">
                     <div class="blog-grid">
                         <div class="blog-img">
-                            <img src="assets/img/blog/blog_2_3.jpg" alt="blog image">
+                            <img src="{{ asset('assets/img/blog/blog_2_3.jpg') }}" alt="blog image">
                             <div class="blog-date style2">
                                 <h5 class="blog-date-title">21</h5>
                                 <p class="blog-date-text">June, 25</p>
@@ -1950,7 +1950,7 @@ Blog Area
                         <div class="box-content">
                             <div class="blog-meta">
                                 <a class="author" href="{{ route('blog.index') }}">
-                                    <img src="assets/img/blog/author.png" alt="img">By Themeholy
+                                    <img src="{{ asset('assets/img/blog/author.png') }}" alt="img">By Themeholy
                                 </a>
                                 <a href="{{ route('blog.index') }}"><i class="fa-solid fa-comments"></i>0 Comment</a>
                             </div>
@@ -1966,7 +1966,7 @@ Blog Area
             </div>
         </div>
     </section>
-    <footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/bg/footer-bg-2.png">
+    <footer class="footer-wrapper footer-layout1" data-bg-src="{{ asset('assets/img/bg/footer-bg-2.png') }}">
         <div class="container">
             <div class="widget-area">
                 <div class="row justify-content-between">
@@ -2023,40 +2023,40 @@ Blog Area
                             <h3 class="widget_title">Instagram</h3>
                             <div class="instagram-feeds">
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-1.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-1.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-1.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-1.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-2.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-2.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-2.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-2.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-3.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-3.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-3.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-3.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-4.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-4.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-4.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-4.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-5.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-5.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-5.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-5.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-6.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-6.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-6.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-6.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-7.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-7.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-7.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-7.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-8.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-8.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-8.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-8.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-9.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-9.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-9.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-9.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -2069,7 +2069,7 @@ Blog Area
                 <div class="row justify-content-between gy-3 align-items-center">
                     <div class="col-lg-auto">
                         <div class="footer-logo">
-                            <img src="assets/img/footer-logo.svg" alt="">
+                            <img src="{{ asset('assets/img/footer-logo.svg') }}" alt="">
                         </div>
                     </div>
                     <div class="col-md-auto">
@@ -2179,33 +2179,33 @@ modal Area
     All Js File
 ============================== -->
     <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="{{ asset('assets/js/vendor/jquery-3.7.1.min.js') }}"></script>
     <!-- Swiper Js -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
     <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
     <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="{{ asset('assets/js/jquery-ui.min.js') }}"></script>
     <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
     <!-- Wow Js -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
 
     <!-- Gsap Animation -->
-    <script src="assets/js/gsap.min.js"></script>
+    <script src="{{ asset('assets/js/gsap.min.js') }}"></script>
     <!-- ScrollTrigger -->
-    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="{{ asset('assets/js/ScrollTrigger.min.js') }}"></script>
     <!-- SplitText -->
-    <script src="assets/js/SplitText.min.js"></script>
+    <script src="{{ asset('assets/js/SplitText.min.js') }}"></script>
     <!-- Lenis Js -->
-    <script src="assets/js/lenis.min.js"></script>
+    <script src="{{ asset('assets/js/lenis.min.js') }}"></script>
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 
 </body>
 

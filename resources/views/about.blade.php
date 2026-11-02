@@ -14,22 +14,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicons - Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/favicons/apple-icon-57x57.png') }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/img/favicons/apple-icon-60x60.png') }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/img/favicons/apple-icon-72x72.png') }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/favicons/apple-icon-76x76.png') }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/img/favicons/apple-icon-114x114.png') }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/img/favicons/apple-icon-120x120.png') }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/img/favicons/apple-icon-144x144.png') }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/img/favicons/apple-icon-152x152.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicons/apple-icon-180x180.png') }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('assets/img/favicons/android-icon-192x192.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicons/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/img/favicons/favicon-96x96.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicons/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('assets/img/favicons/manifest.json') }}">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="{{ asset('assets/img/favicons/ms-icon-144x144.png') }}">
     <meta name="theme-color" content="#ffffff">
 
     <!--==============================
@@ -43,15 +43,15 @@
 	    All CSS File
 	============================== -->
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css') }}">
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css') }}">
     <!-- Swiper Js -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 </head>
 
@@ -72,7 +72,7 @@
     <div class="preloader ">
         <button class="th-btn preloaderCls">Cancel Preloader </button>
         <div class="preloader-inner">
-            <img src="assets/img/logo-ummi.png" alt="Universitas Muhammadiyah Sukabumi">
+            <img src="{{ asset('assets/img/logo-ummi.png') }}" alt="Universitas Muhammadiyah Sukabumi">
             <span class="loader">
                 Universitas Muhammadiyah Sukabumi
                 <span class="loading-text">Universitas Muhammadiyah Sukabumi</span>
@@ -88,7 +88,7 @@
                 <div class="th-widget-about">
                     <div class="about-logo">
                         <a href="{{ route('home.university') }}">
-                            <img src="assets/img/logo2.svg" alt="Stadum">
+                            <img src="{{ asset('assets/img/logo2.svg') }}" alt="Stadum">
                         </a>
                     </div>
                     <p class="about-text">Since 1999, when the newly minted Stadum team embraced its mandate to breathe new life into the downtrodden neighbourhood, East Village’s transformation has been nothing short of remarkable. </p>
@@ -107,7 +107,7 @@
                 <div class="recent-post-wrap">
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="{{ asset('assets/img/blog/recent-post-1-1.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title">
@@ -120,7 +120,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="{{ asset('assets/img/blog/recent-post-1-2.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="{{ route('blog.details') }}">Future Focus Preparing for Tomorrow</a></h4>
@@ -131,7 +131,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="{{ route('blog.details') }}"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a>
+                            <a href="{{ route('blog.details') }}"><img src="{{ asset('assets/img/blog/recent-post-1-3.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title">
@@ -165,312 +165,15 @@
     </div><!--==============================
     Mobile Menu
   ============================== -->
-    <div class="th-menu-wrapper">
-        <div class="th-menu-area text-center">
-            <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo">
-                <a href="{{ route('home.university') }}"><img src="assets/img/logo.svg" alt="Stadum"></a>
-            </div>
-            <div class="th-mobile-menu">
-                <ul>
-                    <li class="menu-item-has-children">
-                        <a href="{{ route('home.university') }}">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="{{ route('home') }}">University Home</a></li>
-                            <li><a href="{{ route('home.admission') }}">Admission Home</a></li>
-                            <li><a href="{{ route('home.courses') }}">Course Home</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="{{ route('about') }}">About Us</a></li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Programs</a>
-                        <ul class="sub-menu">
-                            <li><a href="{{ route('program.index') }}">Programs Style 1</a></li>
-                            <li><a href="{{ route('program.program-2') }}">Programs Style 2</a></li>
-                            <li><a href="{{ route('program.details') }}">Program Details</a></li>
-                            <li><a href="{{ route('program.details-sidebar') }}">Program Details With Sidebar</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Pages</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item-has-children">
-                                <a href="#">Shop</a>
-                                <ul class="sub-menu">
-                                    <li><a href="{{ route('shop.index') }}">Shop</a></li>
-                                    <li><a href="{{ route('shop.details') }}">Shop Details</a></li>
-                                    <li><a href="{{ route('shop.cart') }}">Cart Page</a></li>
-                                    <li><a href="{{ route('shop.checkout') }}">Checkout</a></li>
-                                    <li><a href="{{ route('shop.wishlist') }}">Wishlist</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="menu-item-has-children">
-                                <a href="#">Faculties</a>
-                                <ul class="sub-menu">
-                                    <li><a href="{{ route('faculty.index') }}">Faculty</a></li>
-                                    <li><a href="{{ route('faculty.details') }}">Faculty Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="{{ route('alumni') }}">Alumni Page</a></li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Researches</a>
-                                <ul class="sub-menu">
-                                    <li><a href="{{ route('research.index') }}">Research</a></li>
-                                    <li><a href="{{ route('research.details') }}">Research Details</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Teachers</a>
-                                <ul class="sub-menu">
-                                    <li><a href="{{ route('teacher.index') }}">Teacher</a></li>
-                                    <li><a href="{{ route('teacher.details') }}">Teacher Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="{{ route('campus') }}">Campus Life</a></li>
-                            <li><a href="{{ route('pricing') }}">Pricing Plan</a></li>
-                            <li><a href="{{ route('faq') }}">Faqs Page</a></li>
-                            <li><a href="{{ route('error') }}">Error Page</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Events</a>
-                        <ul class="sub-menu">
-                            <li><a href="{{ route('event.index') }}">Events Page</a></li>
-                            <li><a href="{{ route('event.details') }}">Event Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Blogs</a>
-                        <ul class="sub-menu">
-                            <li><a href="{{ route('blog.index') }}">Blog</a></li>
-                            <li><a href="{{ route('blog.details') }}">Blog Details</a></li>
-                            <li><a href="{{ route('blog.details-sidebar') }}">Blog Details With Sidebar</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="{{ route('contact') }}">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div><!--==============================
-    Header Area
-==============================-->
-    <header class="th-header header-layout2">
-        <div class="header-top">
-            <div class="container th-container4">
-                <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
-                    <div class="col-auto d-none d-lg-block">
-                        <div class="header-links">
-                            <ul class="header-left-wrap">
-                                <li>
-                                    <div class="dropdown-link">
-                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false"> Studients</a>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
-                                            <li>
-                                                <a href="#">Scrollship</a>
-                                                <a href="#">Forening</a>
-                                                <a href="#">Online</a>
-                                                <a href="#">Bysexual</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li><a href="{{ route('contact') }}">Staff</a></li>
-                                <li><a href="{{ route('alumni') }}">Alumni</a></li>
-                                <li><a href="{{ route('faculty.index') }}">Faculty</a> </li>
-                                <li><a href="{{ route('contact') }}">Community</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="header-links">
-                            <ul class="header-right-wrap">
-                                <li><i class="fa-solid fa-user"></i><a href="#login-form" class="popup-content">Login / Register</a></li>
-                                <li><i class="fas fa-comments"></i><a href="{{ route('faq') }}">FAQ</a></li>
-                                <li>
-                                    <div class="dropdown-link">
-                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false"><img src="assets/img/icon/lang.svg" alt=""> </a>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
-                                            <li>
-                                                <a href="#">German</a>
-                                                <a href="#">French</a>
-                                                <a href="#">Italian</a>
-                                                <a href="#">Latvian</a>
-                                                <a href="#">Spanish</a>
-                                                <a href="#">Greek</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sticky-wrapper">
-            <!-- Main Menu Area -->
-            <div class="menu-area">
-                <div class="container th-container4">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-auto">
-                            <div class="header-logo">
-                                <a href="{{ route('home.university') }}">
-                                    <img src="assets/img/light-white-logo.svg" alt="Stadum">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-auto d-none d-xl-block">
-                            <nav class="main-menu">
-                                <ul>
-                                    <li class="menu-item-has-children">
-                                        <a href="{{ route('home.university') }}">Home</a>
-                                        <ul class="mega-menu mega-menu-content mega-scroll">
-                                            <li>
-                                                <div class="container">
-                                                    <div class="row gy-4">
-                                                        <div class="col-lg-4">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-university.jpg" alt="Home One">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="{{ route('home.university') }}" class="th-btn">Multipage</a>
-                                                                        <a href="{{ route('home.university-onepage') }}" class="th-btn">Onepage</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="{{ route('home.university') }}">Home University</a></h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-4">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-admission.jpg" alt="Home Two">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="{{ route('home.admission') }}" class="th-btn">Multipage</a>
-                                                                        <a href="{{ route('home.admission-onepage') }}" class="th-btn">Onepage</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="{{ route('home.admission') }}">Home Admission</a></h3>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-4">
-                                                            <div class="mega-menu-box">
-                                                                <div class="mega-menu-img">
-                                                                    <img src="assets/img/pages/home-courses.jpg" alt="Home Three">
-                                                                    <div class="btn-wrap">
-                                                                        <a href="{{ route('home.courses') }}" class="th-btn">Multipage</a>
-                                                                        <a href="{{ route('home.courses-onepage') }}" class="th-btn">Onepage</a>
-                                                                    </div>
-                                                                </div>
-                                                                <h3 class="mega-menu-title"><a href="{{ route('home.courses') }}">Home Courses</a>
-                                                                </h3>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="{{ route('about') }}">About Us</a></li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Programs</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="{{ route('program.index') }}">Programs Style 1</a></li>
-                                            <li><a href="{{ route('program.program-2') }}">Programs Style 2</a></li>
-                                            <li><a href="{{ route('program.details') }}">Program Details</a></li>
-                                            <li><a href="{{ route('program.details-sidebar') }}">Program Details With Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Shop</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="{{ route('shop.index') }}">Shop</a></li>
-                                                    <li><a href="{{ route('shop.details') }}">Shop Details</a></li>
-                                                    <li><a href="{{ route('shop.cart') }}">Cart Page</a></li>
-                                                    <li><a href="{{ route('shop.checkout') }}">Checkout</a></li>
-                                                    <li><a href="{{ route('shop.wishlist') }}">Wishlist</a></li>
-                                                </ul>
-                                            </li>
-
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Faculties</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="{{ route('faculty.index') }}">Faculty</a></li>
-                                                    <li><a href="{{ route('faculty.details') }}">Faculty Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="{{ route('alumni') }}">Alumni Page</a></li>
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Researches</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="{{ route('research.index') }}">Research</a></li>
-                                                    <li><a href="{{ route('research.details') }}">Research Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children">
-                                                <a href="#">Teachers</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="{{ route('teacher.index') }}">Teacher</a></li>
-                                                    <li><a href="{{ route('teacher.details') }}">Teacher Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="{{ route('campus') }}">Campus Life</a></li>
-                                            <li><a href="{{ route('pricing') }}">Pricing Plan</a></li>
-                                            <li><a href="{{ route('faq') }}">Faqs Page</a></li>
-                                            <li><a href="{{ route('error') }}">Error Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Events</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="{{ route('event.index') }}">Events Page</a></li>
-                                            <li><a href="{{ route('event.details') }}">Event Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Blogs</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="{{ route('blog.index') }}">Blog</a></li>
-                                            <li><a href="{{ route('blog.details') }}">Blog Details</a></li>
-                                            <li><a href="{{ route('blog.details-sidebar') }}">Blog Details With Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="{{ route('contact') }}">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="col-auto">
-                            <div class="header-right">
-                                <button class="header-search searchBoxToggler">
-                                    <i class="fa-regular fa-magnifying-glass"></i>
-                                </button>
-                                <a href="#" class="icon-btn sideMenuToggler d-none d-xl-block"><img src="assets/img/icon/grid.svg" alt=""></a>
-                                <div class="header-action">
-                                    <a href="{{ route('contact') }}" class="th-btn th-icon"> Apply Now</a>
-                                </div>
-                                <button type="button" class="th-menu-toggle d-inline-block d-xl-none"><i class="far fa-bars"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header> <!--==============================
+    @include('partials.navbar') <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper position-relative " data-bg-src="assets/img/shape/breadcrumb-shep.png">
+    <div class="breadcumb-wrapper position-relative " data-bg-src="{{ asset('assets/img/shape/breadcrumb-shep.png') }}">
         <div class="breadcumb-banner">
-            <img src="assets/img/breadcrumb/breadcumb-banner.png" alt="bg-banner">
+            <img src="{{ asset('assets/img/breadcrumb/breadcumb-banner.png') }}" alt="bg-banner">
         </div>
         <div class="breadcumb-shape">
-            <img src="assets/img/shape/triangle-light.png" alt="shape" class="jump">
+            <img src="{{ asset('assets/img/shape/triangle-light.png') }}" alt="shape" class="jump">
         </div>
         <div class="container th-container4">
             <div class="row">
@@ -490,9 +193,9 @@ About Area
 ==============================-->
     <div class="about1-area position-relative overflow-hidden space overflow-hidden" id="about-sec">
         <div class="about-shep-2 shape-mockup d-none d-xxl-block" data-bottom="0%" data-right="0%">
-            <img src="assets/img/shape/feature-shep-2-home-1.png" alt="shape">
+            <img src="{{ asset('assets/img/shape/feature-shep-2-home-1.png') }}" alt="shape">
         </div>
-        <div class="about-shape-right shape-mockup jump-reverse" data-right="3%" data-top="2%"><img src="assets/img/shape/shape-7.png" alt=""></div>
+        <div class="about-shape-right shape-mockup jump-reverse" data-right="3%" data-top="2%"><img src="{{ asset('assets/img/shape/shape-7.png') }}" alt=""></div>
         <div class="container th-container4">
             <div class="about-wrap1 position-relative z-index-2">
                 <div class="row gy-60 align-items-center justify-content-center">
@@ -510,7 +213,7 @@ About Area
                             <div class="about-feature-wrapp">
                                 <div class="about-feature wow fadeInUp" data-wow-delay=".3s">
                                     <span class="box-icon">
-                                        <img src="assets/img/icon/ab-users.svg" alt="icon">
+                                        <img src="{{ asset('assets/img/icon/ab-users.svg') }}" alt="icon">
                                     </span>
                                     <div class="box-content">
                                         <h3 class="box-title">Three MBA degrees</h3>
@@ -520,7 +223,7 @@ About Area
                                 </div>
                                 <div class="about-feature wow fadeInUp" data-wow-delay=".4s">
                                     <span class="box-icon">
-                                        <img src="assets/img/icon/ab-message.svg" alt="icon">
+                                        <img src="{{ asset('assets/img/icon/ab-message.svg') }}" alt="icon">
                                     </span>
                                     <div class="box-content">
                                         <h3 class="box-title">Choose From 98+ Degrees</h3>
@@ -530,7 +233,7 @@ About Area
                                 </div>
                                 <div class="about-feature wow fadeInUp" data-wow-delay=".4s">
                                     <span class="box-icon">
-                                        <img src="assets/img/icon/library.svg" alt="icon">
+                                        <img src="{{ asset('assets/img/icon/library.svg') }}" alt="icon">
                                     </span>
                                     <div class="box-content">
                                         <h3 class="box-title">Library & Research</h3>
@@ -548,10 +251,10 @@ About Area
                         <div class="img-content position-relative">
                             <div class="img-box4">
                                 <div class="img1 reveal">
-                                    <img src="assets/img/about/about-thumb4-1.jpg" alt="Stadum">
+                                    <img src="{{ asset('assets/img/about/about-thumb4-1.jpg') }}" alt="Stadum">
                                 </div>
                                 <div class="img2 reveal">
-                                    <img src="assets/img/about/about-thumb4-2.jpg" alt="Stadum">
+                                    <img src="{{ asset('assets/img/about/about-thumb4-2.jpg') }}" alt="Stadum">
                                 </div>
                                 <div class="counter-card3 wow fadeInUp" data-wow-delay=".3s">
                                     <h3 class="box-number text-white">
@@ -561,7 +264,7 @@ About Area
                                 </div>
                             </div>
 
-                            <div class="shape-mockup jump" data-right="26%" data-top="0%"><img src="assets/img/shape/about-3-2.png" alt="Stadum"></div>
+                            <div class="shape-mockup jump" data-right="26%" data-top="0%"><img src="{{ asset('assets/img/shape/about-3-2.png') }}" alt="Stadum"></div>
                         </div>
                     </div>
                 </div>
@@ -570,7 +273,7 @@ About Area
     </div><!--==============================
 Video Area  
 ==============================-->
-    <div class="video-area-1 position-relative overflow-hidden overflow-hidden" data-overlay="title" data-opacity="3" data-bg-src="assets/img/video-banner/video-bg-1-1.jpg">
+    <div class="video-area-1 position-relative overflow-hidden overflow-hidden" data-overlay="title" data-opacity="3" data-bg-src="{{ asset('assets/img/video-banner/video-bg-1-1.jpg') }}">
         <div class="video-thumb1-1 video-box-center">
             <a href="https://www.youtube.com/watch?v=EZfLOSQ8hW8" class="video-play-btn popup-video">
                 <i class="fa-sharp fa-solid fa-play"></i>
@@ -602,7 +305,7 @@ Testimonial Area
                                         <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                         <span class="rating">(4.8)</span>
                                     </div>
-                                    <div class="quote-icon" data-mask-src="assets/img/icon/quote.svg"></div>
+                                    <div class="quote-icon" data-mask-src="{{ asset('assets/img/icon/quote.svg') }}"></div>
                                 </div>
                                 <p class="box-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative in approaches to corporate strategy data foster.</p>
                                 <div class="testi-card_profile">
@@ -611,7 +314,7 @@ Testimonial Area
                                         <p class="box-desig">Students</p>
                                     </div>
                                     <div class="testi-card-thumb">
-                                        <img class="avatar" src="assets/img/testimonial/testi_1_1.jpg" alt="img">
+                                        <img class="avatar" src="{{ asset('assets/img/testimonial/testi_1_1.jpg') }}" alt="img">
                                     </div>
                                 </div>
                             </div>
@@ -623,7 +326,7 @@ Testimonial Area
                                         <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                         <span class="rating">(4.8)</span>
                                     </div>
-                                    <div class="quote-icon" data-mask-src="assets/img/icon/quote.svg"></div>
+                                    <div class="quote-icon" data-mask-src="{{ asset('assets/img/icon/quote.svg') }}"></div>
                                 </div>
                                 <p class="box-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative in approaches to corporate strategy data foster.</p>
                                 <div class="testi-card_profile">
@@ -632,7 +335,7 @@ Testimonial Area
                                         <p class="box-desig">Students</p>
                                     </div>
                                     <div class="testi-card-thumb">
-                                        <img class="avatar" src="assets/img/testimonial/testi_1_2.jpg" alt="img">
+                                        <img class="avatar" src="{{ asset('assets/img/testimonial/testi_1_2.jpg') }}" alt="img">
                                     </div>
                                 </div>
                             </div>
@@ -644,7 +347,7 @@ Testimonial Area
                                         <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                         <span class="rating">(4.8)</span>
                                     </div>
-                                    <div class="quote-icon" data-mask-src="assets/img/icon/quote.svg"></div>
+                                    <div class="quote-icon" data-mask-src="{{ asset('assets/img/icon/quote.svg') }}"></div>
                                 </div>
                                 <p class="box-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative in approaches to corporate strategy data foster.</p>
                                 <div class="testi-card_profile">
@@ -653,7 +356,7 @@ Testimonial Area
                                         <p class="box-desig">Students</p>
                                     </div>
                                     <div class="testi-card-thumb">
-                                        <img class="avatar" src="assets/img/testimonial/testi_1_3.jpg" alt="img">
+                                        <img class="avatar" src="{{ asset('assets/img/testimonial/testi_1_3.jpg') }}" alt="img">
                                     </div>
                                 </div>
                             </div>
@@ -665,7 +368,7 @@ Testimonial Area
                                         <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                         <span class="rating">(4.8)</span>
                                     </div>
-                                    <div class="quote-icon" data-mask-src="assets/img/icon/quote.svg"></div>
+                                    <div class="quote-icon" data-mask-src="{{ asset('assets/img/icon/quote.svg') }}"></div>
                                 </div>
                                 <p class="box-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative in approaches to corporate strategy data foster.</p>
                                 <div class="testi-card_profile">
@@ -674,7 +377,7 @@ Testimonial Area
                                         <p class="box-desig">Students</p>
                                     </div>
                                     <div class="testi-card-thumb">
-                                        <img class="avatar" src="assets/img/testimonial/testi_1_1.jpg" alt="img">
+                                        <img class="avatar" src="{{ asset('assets/img/testimonial/testi_1_1.jpg') }}" alt="img">
                                     </div>
                                 </div>
                             </div>
@@ -686,7 +389,7 @@ Testimonial Area
                                         <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                         <span class="rating">(4.8)</span>
                                     </div>
-                                    <div class="quote-icon" data-mask-src="assets/img/icon/quote.svg"></div>
+                                    <div class="quote-icon" data-mask-src="{{ asset('assets/img/icon/quote.svg') }}"></div>
                                 </div>
                                 <p class="box-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative in approaches to corporate strategy data foster.</p>
                                 <div class="testi-card_profile">
@@ -695,7 +398,7 @@ Testimonial Area
                                         <p class="box-desig">Students</p>
                                     </div>
                                     <div class="testi-card-thumb">
-                                        <img class="avatar" src="assets/img/testimonial/testi_1_2.jpg" alt="img">
+                                        <img class="avatar" src="{{ asset('assets/img/testimonial/testi_1_2.jpg') }}" alt="img">
                                     </div>
                                 </div>
                             </div>
@@ -707,7 +410,7 @@ Testimonial Area
                                         <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                         <span class="rating">(4.8)</span>
                                     </div>
-                                    <div class="quote-icon" data-mask-src="assets/img/icon/quote.svg"></div>
+                                    <div class="quote-icon" data-mask-src="{{ asset('assets/img/icon/quote.svg') }}"></div>
                                 </div>
                                 <p class="box-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative in approaches to corporate strategy data foster.</p>
                                 <div class="testi-card_profile">
@@ -716,7 +419,7 @@ Testimonial Area
                                         <p class="box-desig">Students</p>
                                     </div>
                                     <div class="testi-card-thumb">
-                                        <img class="avatar" src="assets/img/testimonial/testi_1_3.jpg" alt="img">
+                                        <img class="avatar" src="{{ asset('assets/img/testimonial/testi_1_3.jpg') }}" alt="img">
                                     </div>
                                 </div>
                             </div>
@@ -727,7 +430,7 @@ Testimonial Area
             </div>
         </div>
         <div class="shape-mockup movingX d-xl-block d-none" data-left="4%" data-bottom="0%">
-            <img src="assets/img/shape/shape-8.png" alt="img">
+            <img src="{{ asset('assets/img/shape/shape-8.png') }}" alt="img">
         </div>
         <div class="shape-mockup shape-ripple d-xl-block d-none" data-right="0%" data-top="0%">
             <div class="ripple-shape">
@@ -744,7 +447,7 @@ Testimonial Area
             <div class="counter-wrap1">
                 <div class="counter-card wow fadeInUp" data-wow-delay=".2s">
                     <div class="box-icon">
-                        <img src="assets/img/icon/counter-icon1-1.svg" alt="icon">
+                        <img src="{{ asset('assets/img/icon/counter-icon1-1.svg') }}" alt="icon">
                     </div>
                     <div class="media-body">
                         <h3 class="box-number"><span class="counter-number">157</span>+</h3>
@@ -754,7 +457,7 @@ Testimonial Area
                 <div class="divider"></div>
                 <div class="counter-card wow fadeInUp" data-wow-delay=".4s">
                     <div class="box-icon">
-                        <img src="assets/img/icon/counter-icon1-2.svg" alt="icon">
+                        <img src="{{ asset('assets/img/icon/counter-icon1-2.svg') }}" alt="icon">
                     </div>
                     <div class="media-body">
                         <h3 class="box-number"><span class="counter-number">18,250</span></h3>
@@ -764,7 +467,7 @@ Testimonial Area
                 <div class="divider"></div>
                 <div class="counter-card wow fadeInUp" data-wow-delay=".6s">
                     <div class="box-icon">
-                        <img src="assets/img/icon/counter-icon1-3.svg" alt="icon">
+                        <img src="{{ asset('assets/img/icon/counter-icon1-3.svg') }}" alt="icon">
                     </div>
                     <div class="media-body">
                         <h3 class="box-number"><span class="counter-number">48</span>k</h3>
@@ -774,7 +477,7 @@ Testimonial Area
                 <div class="divider"></div>
                 <div class="counter-card wow fadeInUp" data-wow-delay=".7s">
                     <div class="box-icon">
-                        <img src="assets/img/icon/counter-icon1-4.svg" alt="icon">
+                        <img src="{{ asset('assets/img/icon/counter-icon1-4.svg') }}" alt="icon">
                     </div>
                     <div class="media-body">
                         <h3 class="box-number"><span class="counter-number">155</span>k</h3>
@@ -787,7 +490,7 @@ Testimonial Area
     </div>
     <section class="professor-area-1 position-relative space overflow-hidden" id="professor-sec">
         <div class="shape-mockup" data-top="0%" data-left="0%">
-            <img src="assets/img/shape/shape-6.png" alt="Stadum">
+            <img src="{{ asset('assets/img/shape/shape-6.png') }}" alt="Stadum">
         </div>
         <div class="container">
             <div class="row justify-content-lg-between justify-content-center align-items-center">
@@ -807,7 +510,7 @@ Testimonial Area
                 <div class="col-xl-6">
                     <div class="professor-card wow fadeInLeft" data-wow-delay=".2s">
                         <div class="professor-img global-img">
-                            <img src="assets/img/professor/professor-1-1.png" alt="professor image">
+                            <img src="{{ asset('assets/img/professor/professor-1-1.png') }}" alt="professor image">
                         </div>
                         <div class="professor-content">
                             <h3 class="box-title">
@@ -839,7 +542,7 @@ Testimonial Area
                 <div class="col-xl-6">
                     <div class="professor-card wow fadeInRight" data-wow-delay=".4s">
                         <div class="professor-img global-img">
-                            <img src="assets/img/professor/professor-1-2.png" alt="professor image">
+                            <img src="{{ asset('assets/img/professor/professor-1-2.png') }}" alt="professor image">
                         </div>
                         <div class="professor-content">
                             <h3 class="box-title">
@@ -871,7 +574,7 @@ Testimonial Area
                 <div class="col-xl-6">
                     <div class="professor-card wow fadeInLeft" data-wow-delay=".6s">
                         <div class="professor-img global-img">
-                            <img src="assets/img/professor/professor-1-3.png" alt="professor image">
+                            <img src="{{ asset('assets/img/professor/professor-1-3.png') }}" alt="professor image">
                         </div>
                         <div class="professor-content">
                             <h3 class="box-title">
@@ -903,7 +606,7 @@ Testimonial Area
                 <div class="col-xl-6">
                     <div class="professor-card wow fadeInRight" data-wow-delay=".8s">
                         <div class="professor-img global-img">
-                            <img src="assets/img/professor/professor-1-4.png" alt="professor image">
+                            <img src="{{ asset('assets/img/professor/professor-1-4.png') }}" alt="professor image">
                         </div>
                         <div class="professor-content">
                             <h3 class="box-title">
@@ -935,7 +638,7 @@ Testimonial Area
             </div>
         </div>
         <div class="professor-shape1 shape-mockup movingX d-none d-xl-inline-block" data-bottom="0%" data-right="2%">
-            <img src="assets/img/shape/professor-2-1.png" alt="Stadum">
+            <img src="{{ asset('assets/img/shape/professor-2-1.png') }}" alt="Stadum">
         </div>
     </section>
     <section class="campus-area-2 position-relative overflow-hidden space" id="campus-sec">
@@ -962,10 +665,10 @@ Campus Area Home 2
                         <div class="swiper-slide">
                             <div class="campus-card style2">
                                 <div class="box-thumb">
-                                    <img src="assets/img/campus/campus-2-1.jpg" alt="Icon">
+                                    <img src="{{ asset('assets/img/campus/campus-2-1.jpg') }}" alt="Icon">
                                 </div>
                                 <div class="campus-content">
-                                    <a href="assets/img/campus/campus-v-2-1.jpg" class="popup-image">
+                                    <a href="{{ asset('assets/img/campus/campus-v-2-1.jpg') }}" class="popup-image">
                                         <i class="fa-light fa-plus"></i>
                                     </a>
                                 </div>
@@ -982,10 +685,10 @@ Campus Area Home 2
                         <div class="swiper-slide">
                             <div class="campus-card style2">
                                 <div class="box-thumb">
-                                    <img src="assets/img/campus/campus-2-2.jpg" alt="Icon">
+                                    <img src="{{ asset('assets/img/campus/campus-2-2.jpg') }}" alt="Icon">
                                 </div>
                                 <div class="campus-content">
-                                    <a href="assets/img/campus/campus-v-2-2.jpg" class="popup-image">
+                                    <a href="{{ asset('assets/img/campus/campus-v-2-2.jpg') }}" class="popup-image">
                                         <i class="fa-light fa-plus"></i>
                                     </a>
                                 </div>
@@ -1002,10 +705,10 @@ Campus Area Home 2
                         <div class="swiper-slide">
                             <div class="campus-card style2">
                                 <div class="box-thumb">
-                                    <img src="assets/img/campus/campus-2-3.jpg" alt="Icon">
+                                    <img src="{{ asset('assets/img/campus/campus-2-3.jpg') }}" alt="Icon">
                                 </div>
                                 <div class="campus-content">
-                                    <a href="assets/img/campus/campus-v-2-3.jpg" class="popup-image">
+                                    <a href="{{ asset('assets/img/campus/campus-v-2-3.jpg') }}" class="popup-image">
                                         <i class="fa-light fa-plus"></i>
                                     </a>
                                 </div>
@@ -1022,10 +725,10 @@ Campus Area Home 2
                         <div class="swiper-slide">
                             <div class="campus-card style2">
                                 <div class="box-thumb">
-                                    <img src="assets/img/campus/campus-2-4.jpg" alt="Icon">
+                                    <img src="{{ asset('assets/img/campus/campus-2-4.jpg') }}" alt="Icon">
                                 </div>
                                 <div class="campus-content">
-                                    <a href="assets/img/campus/campus-v-2-4.jpg" class="popup-image">
+                                    <a href="{{ asset('assets/img/campus/campus-v-2-4.jpg') }}" class="popup-image">
                                         <i class="fa-light fa-plus"></i>
                                     </a>
                                 </div>
@@ -1042,10 +745,10 @@ Campus Area Home 2
                         <div class="swiper-slide">
                             <div class="campus-card style2">
                                 <div class="box-thumb">
-                                    <img src="assets/img/campus/campus-2-1.jpg" alt="Icon">
+                                    <img src="{{ asset('assets/img/campus/campus-2-1.jpg') }}" alt="Icon">
                                 </div>
                                 <div class="campus-content">
-                                    <a href="assets/img/campus/campus-v-2-1.jpg" class="popup-image">
+                                    <a href="{{ asset('assets/img/campus/campus-v-2-1.jpg') }}" class="popup-image">
                                         <i class="fa-light fa-plus"></i>
                                     </a>
                                 </div>
@@ -1062,10 +765,10 @@ Campus Area Home 2
                         <div class="swiper-slide">
                             <div class="campus-card style2">
                                 <div class="box-thumb">
-                                    <img src="assets/img/campus/campus-2-2.jpg" alt="Icon">
+                                    <img src="{{ asset('assets/img/campus/campus-2-2.jpg') }}" alt="Icon">
                                 </div>
                                 <div class="campus-content">
-                                    <a href="assets/img/campus/campus-v-2-2.jpg" class="popup-image">
+                                    <a href="{{ asset('assets/img/campus/campus-v-2-2.jpg') }}" class="popup-image">
                                         <i class="fa-light fa-plus"></i>
                                     </a>
                                 </div>
@@ -1082,10 +785,10 @@ Campus Area Home 2
                         <div class="swiper-slide">
                             <div class="campus-card style2">
                                 <div class="box-thumb">
-                                    <img src="assets/img/campus/campus-2-3.jpg" alt="Icon">
+                                    <img src="{{ asset('assets/img/campus/campus-2-3.jpg') }}" alt="Icon">
                                 </div>
                                 <div class="campus-content">
-                                    <a href="assets/img/campus/campus-v-2-3.jpg" class="popup-image">
+                                    <a href="{{ asset('assets/img/campus/campus-v-2-3.jpg') }}" class="popup-image">
                                         <i class="fa-light fa-plus"></i>
                                     </a>
                                 </div>
@@ -1102,10 +805,10 @@ Campus Area Home 2
                         <div class="swiper-slide">
                             <div class="campus-card style2">
                                 <div class="box-thumb">
-                                    <img src="assets/img/campus/campus-2-4.jpg" alt="Icon">
+                                    <img src="{{ asset('assets/img/campus/campus-2-4.jpg') }}" alt="Icon">
                                 </div>
                                 <div class="campus-content">
-                                    <a href="assets/img/campus/campus-v-2-4.jpg" class="popup-image">
+                                    <a href="{{ asset('assets/img/campus/campus-v-2-4.jpg') }}" class="popup-image">
                                         <i class="fa-light fa-plus"></i>
                                     </a>
                                 </div>
@@ -1124,10 +827,10 @@ Campus Area Home 2
 
                 </div>
                 <button data-slider-prev="#campusSlider1" class="slider-arrow style2 slider-prev">
-                    <img src="assets/img/icon/left-icon.svg" alt="Stadum" class="th-arrow">
+                    <img src="{{ asset('assets/img/icon/left-icon.svg') }}" alt="Stadum" class="th-arrow">
                 </button>
                 <button data-slider-next="#campusSlider1" class="slider-arrow style2 slider-next">
-                    <img src="assets/img/icon/right-icon.svg" alt="Stadum" class="th-arrow">
+                    <img src="{{ asset('assets/img/icon/right-icon.svg') }}" alt="Stadum" class="th-arrow">
                 </button>
             </div>
         </div>
@@ -1142,27 +845,27 @@ Alumni Area
                 <div class="col-xl-6">
                     <div class="alumni-imgbox">
                         <div class="alumni-img global-img">
-                            <img src="assets/img/alumni/alumni-1-1.jpg" alt="img">
+                            <img src="{{ asset('assets/img/alumni/alumni-1-1.jpg') }}" alt="img">
                         </div>
 
                         <div class="alumni-img global-img">
-                            <img src="assets/img/alumni/alumni-1-2.jpg" alt="img">
+                            <img src="{{ asset('assets/img/alumni/alumni-1-2.jpg') }}" alt="img">
                         </div>
 
                         <div class="alumni-img global-img">
-                            <img src="assets/img/alumni/alumni-1-3.jpg" alt="img">
+                            <img src="{{ asset('assets/img/alumni/alumni-1-3.jpg') }}" alt="img">
                         </div>
 
                         <div class="alumni-img global-img">
-                            <img src="assets/img/alumni/alumni-1-4.jpg" alt="img">
+                            <img src="{{ asset('assets/img/alumni/alumni-1-4.jpg') }}" alt="img">
                         </div>
 
                         <div class="alumni-img global-img">
-                            <img src="assets/img/alumni/alumni-1-5.jpg" alt="img">
+                            <img src="{{ asset('assets/img/alumni/alumni-1-5.jpg') }}" alt="img">
                         </div>
 
                         <div class="alumni-img global-img">
-                            <img src="assets/img/alumni/alumni-1-6.jpg" alt="img">
+                            <img src="{{ asset('assets/img/alumni/alumni-1-6.jpg') }}" alt="img">
                         </div>
 
 
@@ -1194,7 +897,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">CREATION</a>
                         </div>
@@ -1202,7 +905,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/scollarship.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">DISCOVER</a>
                         </div>
@@ -1210,7 +913,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">INNOVATE</a>
                         </div>
@@ -1218,7 +921,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">EDUCATION</a>
                         </div>
@@ -1226,7 +929,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/scollarship.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">CASE STUDIES</a>
                         </div>
@@ -1234,7 +937,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">CREATION</a>
                         </div>
@@ -1242,7 +945,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/open-book.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/open-book.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">DISCOVER</a>
                         </div>
@@ -1250,7 +953,7 @@ Marquee Area
                     <div class="swiper-slide">
                         <div class="marquee-card">
                             <div class="color-masking">
-                                <img src="assets/img/icon/scollarship.svg" alt="icon">
+                                <img src="{{ asset('assets/img/icon/scollarship.svg') }}" alt="icon">
                             </div>
                             <a target="_blank" href="#">INNOVATE</a>
                         </div>
@@ -1282,7 +985,7 @@ Blog Area
                         <div class="box-content">
                             <div class="blog-meta">
                                 <a class="author" href="{{ route('blog.index') }}">
-                                    <img src="assets/img/blog/author.png" alt="img">By Themeholy
+                                    <img src="{{ asset('assets/img/blog/author.png') }}" alt="img">By Themeholy
                                 </a>
                                 <a href="{{ route('blog.index') }}"><i class="fa-solid fa-comments"></i>0 Comment</a>
                             </div>
@@ -1292,7 +995,7 @@ Blog Area
                             </div>
                         </div>
                         <div class="blog-img">
-                            <img src="assets/img/blog/blog_2_1.jpg" alt="blog image">
+                            <img src="{{ asset('assets/img/blog/blog_2_1.jpg') }}" alt="blog image">
                             <div class="blog-date style2">
                                 <h5 class="blog-date-title">21</h5>
                                 <p class="blog-date-text">June, 25</p>
@@ -1303,7 +1006,7 @@ Blog Area
                         <div class="box-content">
                             <div class="blog-meta">
                                 <a class="author" href="{{ route('blog.index') }}">
-                                    <img src="assets/img/blog/author.png" alt="img">By Themeholy
+                                    <img src="{{ asset('assets/img/blog/author.png') }}" alt="img">By Themeholy
                                 </a>
                                 <a href="{{ route('blog.index') }}"><i class="fa-solid fa-comments"></i>0 Comment</a>
                             </div>
@@ -1313,7 +1016,7 @@ Blog Area
                             </div>
                         </div>
                         <div class="blog-img">
-                            <img src="assets/img/blog/blog_2_2.jpg" alt="blog image">
+                            <img src="{{ asset('assets/img/blog/blog_2_2.jpg') }}" alt="blog image">
                             <div class="blog-date style2">
                                 <h5 class="blog-date-title">21</h5>
                                 <p class="blog-date-text">June, 25</p>
@@ -1325,7 +1028,7 @@ Blog Area
                 <div class="col-xl-6">
                     <div class="blog-grid">
                         <div class="blog-img">
-                            <img src="assets/img/blog/blog_2_3.jpg" alt="blog image">
+                            <img src="{{ asset('assets/img/blog/blog_2_3.jpg') }}" alt="blog image">
                             <div class="blog-date style2">
                                 <h5 class="blog-date-title">21</h5>
                                 <p class="blog-date-text">June, 25</p>
@@ -1334,7 +1037,7 @@ Blog Area
                         <div class="box-content">
                             <div class="blog-meta">
                                 <a class="author" href="{{ route('blog.index') }}">
-                                    <img src="assets/img/blog/author.png" alt="img">By Themeholy
+                                    <img src="{{ asset('assets/img/blog/author.png') }}" alt="img">By Themeholy
                                 </a>
                                 <a href="{{ route('blog.index') }}"><i class="fa-solid fa-comments"></i>0 Comment</a>
                             </div>
@@ -1350,7 +1053,7 @@ Blog Area
             </div>
         </div>
     </section>
-    <footer class="footer-wrapper footer-layout3" data-bg-src="assets/img/bg/footer-bg-2.png">
+    <footer class="footer-wrapper footer-layout3" data-bg-src="{{ asset('assets/img/bg/footer-bg-2.png') }}">
         <div class="container th-container4">
             <div class="widget-area">
                 <div class="row justify-content-between">
@@ -1359,7 +1062,7 @@ Blog Area
                             <div class="th-widget-about">
                                 <div class="about-logo">
                                     <a href="{{ route('home.university') }}">
-                                        <img src="assets/img/logo2.svg" alt="Stadum">
+                                        <img src="{{ asset('assets/img/logo2.svg') }}" alt="Stadum">
                                     </a>
                                 </div>
                                 <p class="about-text">Since 1999, when the newly minted Stadum team embraced its mandate to breathe new life into the downtrodden neighbourhood, East Village’s transformation has been nothing short of remarkable. </p>
@@ -1411,40 +1114,40 @@ Blog Area
                             <h3 class="widget_title">Instagram</h3>
                             <div class="instagram-feeds">
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-1.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-1.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-1.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-1.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-2.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-2.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-2.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-2.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-3.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-3.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-3.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-3.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-4.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-4.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-4.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-4.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-5.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-5.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-5.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-5.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-6.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-6.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-6.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-6.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-7.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-7.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-7.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-7.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-8.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-8.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-8.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-8.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="insta-thumb">
-                                    <img src="assets/img/widget/insta-feed-1-9.jpg" alt="Image">
-                                    <a href="assets/img/widget/insta-feed-1-9.jpg" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
+                                    <img src="{{ asset('assets/img/widget/insta-feed-1-9.jpg') }}" alt="Image">
+                                    <a href="{{ asset('assets/img/widget/insta-feed-1-9.jpg') }}" class="insta-btn popup-image"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -1563,33 +1266,33 @@ modal Area
     All Js File
 ============================== -->
     <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="{{ asset('assets/js/vendor/jquery-3.7.1.min.js') }}"></script>
     <!-- Swiper Js -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
     <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
     <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="{{ asset('assets/js/jquery-ui.min.js') }}"></script>
     <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
     <!-- Wow Js -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
 
     <!-- Gsap Animation -->
-    <script src="assets/js/gsap.min.js"></script>
+    <script src="{{ asset('assets/js/gsap.min.js') }}"></script>
     <!-- ScrollTrigger -->
-    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="{{ asset('assets/js/ScrollTrigger.min.js') }}"></script>
     <!-- SplitText -->
-    <script src="assets/js/SplitText.min.js"></script>
+    <script src="{{ asset('assets/js/SplitText.min.js') }}"></script>
     <!-- Lenis Js -->
-    <script src="assets/js/lenis.min.js"></script>
+    <script src="{{ asset('assets/js/lenis.min.js') }}"></script>
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 
 </body>
 
